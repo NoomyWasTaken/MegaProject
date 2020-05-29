@@ -15,9 +15,10 @@ main {
 
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 78vh;
 }
 
 #wrapper {
-    padding-bottom: 2.5rem;
+    box-shadow: 0 0 0 black;
+    margin: -10px auto;
 }
