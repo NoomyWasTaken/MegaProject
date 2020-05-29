@@ -67,3 +67,22 @@ div {
     padding: 10px 50px;
     font-size: 20px;
 }
+
+#AdoptionDonationWrapper {
+    display: flex;
+    margin: 0 auto;
+}
+
+#adoption {
+    width: 40%;
+    background-color: black;
+}
+
+#donation {
+    width: 40%;
+    background-color: black;
+}
+
+#AdoptionDonationWrapper img {
+    width: 100%;
+}

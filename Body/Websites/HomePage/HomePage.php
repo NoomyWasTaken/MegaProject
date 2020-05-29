@@ -44,14 +44,15 @@
             </script>
 
             <img id="bone" src="../../../Images/Bone1Fix4.png" alt="Quote">
+            <div id="AdoptionDonationWrapper">
+                <a><div id="adoption">
+                        <img src="../../../Images/cycle10.png">
+                </div></a>
 
-           <a><div id="adoption">
-
-            </div></a>
-
-            <a><div id="donation">
-
-            </div></a>
+                <a><div id="donation">
+                        <img src="../../../Images/cycle10.png">
+                </div></a>
+            </div>
         </main>
     </div>
 <?php
