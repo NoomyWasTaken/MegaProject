@@ -38,7 +38,7 @@
                 setTimeout(carousel, 5000);
             }
         </script>
-<h1>hello</h1>
+
         <img id="bone" src="../../Images/Bone1Fix4.png" alt="Quote">
 
         <aside>
