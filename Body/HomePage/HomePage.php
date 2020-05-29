@@ -4,6 +4,7 @@
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="HomePage.css">
     <link rel="stylesheet" type="text/css" href="../Header/header.css">
+    <link rel="stylesheet" type="text/css" href="../Footer/footer.css">
     <?php
     $pageTitle = 'Home Page';
     include('../Header/header.php'); ?>
@@ -45,7 +46,7 @@
 
         </aside>
     </main>
-    <footer>
-    </footer>
+<?php
+include ('../Footer/footer.php'); ?>
 </body>
 </html>
