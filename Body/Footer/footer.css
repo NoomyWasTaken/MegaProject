@@ -1,6 +1,6 @@
 footer {
     background-image: url("../../Images/footer_background.png");
-    background-size: 40%;
+    background-size: 100%;
     background-position: center;
     position: absolute;
     bottom: 0;
@@ -20,11 +20,6 @@ footer img {
     width: 50px;
     height: 40px;
     padding: 5px;
-}
-
-#Facebook {
-    height: 40px;
-    width: 80px;
 }
 
 footer div {

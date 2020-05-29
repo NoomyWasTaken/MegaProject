@@ -45,9 +45,13 @@
 
             <img id="bone" src="../../../Images/Bone1Fix4.png" alt="Quote">
 
-            <aside>
+           <a><div id="adoption">
 
-            </aside>
+            </div></a>
+
+            <a><div id="donation">
+
+            </div></a>
         </main>
     </div>
 <?php
