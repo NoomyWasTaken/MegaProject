@@ -7,8 +7,17 @@ main {
     /*background-color: #905617;*/
     background-image: url("../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
     width: 90%;
-    margin: -10px auto;
+    margin: -10px auto 0px auto;
     justify-content: space-between;
     padding: 30px 0px 30px 0px;
     box-shadow: 0px 0px 10px black;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#wrapper {
+    padding-bottom: 2.5rem;
 }
