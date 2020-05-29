@@ -1,10 +1,6 @@
-body {
-    background-color: #EFE4B0;
-}
-
 main {
     /*background-color: #905617;*/
-    background-image: url("../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
+    background-image: url("../../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
     width: 90%;
     margin: -10px auto;
     justify-content: space-between;
@@ -19,7 +15,7 @@ div {
 .imgcycle1 {
     display: flex;
     border-radius: 10px;
-    background-image: url("../../Images/background_nature.png");
+    background-image: url("../../../Images/background_nature.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 70%;
