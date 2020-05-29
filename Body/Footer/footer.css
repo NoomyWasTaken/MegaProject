@@ -19,7 +19,12 @@ footer {
 footer img {
     width: 50px;
     height: 40px;
-    padding-left: 5px;
+    padding: 5px;
+}
+
+#Facebook {
+    height: 40px;
+    width: 80px;
 }
 
 footer div {
