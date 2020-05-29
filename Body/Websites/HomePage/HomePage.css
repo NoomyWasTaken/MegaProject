@@ -1,3 +1,7 @@
+#page-container {
+    z-index: -1;
+}
+
 main {
     /*background-color: #905617;*/
     background-image: url("../../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
