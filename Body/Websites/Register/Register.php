@@ -30,7 +30,7 @@
 			</div>
 			<div>
 				<input type="submit" value="Log in" />
-				<a href="http://localhost/Salon/azemina/registration.php">Register</a>
+				<a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php">Register</a>
 			</div>
 		</form><!-- form -->
 
