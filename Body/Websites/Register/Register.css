@@ -1,5 +1,11 @@
-.container {
+#BigDiv {
     display: flex;
+    justify-content: space-between;
+}
+
+.SignIn {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 #content {

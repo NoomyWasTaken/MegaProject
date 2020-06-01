@@ -19,24 +19,44 @@
 	}
 	 ?>
 <main>
-	<div class="container">
-	<section id="content">
-		<form method="POST" action="login.php">
-			<h1>Login Form</h1>
-			<div>
-				<input type="text" placeholder="Username" id="username" name="username" />
-			</div>
-			<div>
-				<input type="password" placeholder="Password" name="password" id="password" />
-			</div>
-			<div>
-				<input type="submit" value="Log in" />
-				<a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php">Register</a>
-			</div>
-		</form><!-- form -->
+    <div id="BigDiv"></div>
+	    <div class="SignIn">
+	        <section id="content">
+		        <form method="POST" action="login.php">
+			        <h1>Login Form</h1>
+			        <div>
+				        <input type="text" placeholder="Username" id="username" name="username" />
+			        </div>
+			        <div>
+				        <input type="password" placeholder="Password" name="password" id="password" />
+			        </div>
+			        <div>
+				        <input type="submit" value="Log in" />
+				        <a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php">Register</a>
+			        </div>
+		        </form><!-- form -->
 
-	</section><!-- content -->
-</div><!-- container -->
+	        </section><!-- content -->
+        </div><!-- container -->
+    <div class="SignIn">
+        <section id="content">
+            <form method="POST" action="login.php">
+                <h1>Login Form</h1>
+                <div>
+                    <input type="text" placeholder="Username" id="username" name="username" />
+                </div>
+                <div>
+                    <input type="password" placeholder="Password" name="password" id="password" />
+                </div>
+                <div>
+                    <input type="submit" value="Log in" />
+                    <a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php">Register</a>
+                </div>
+            </form><!-- form -->
+
+        </section><!-- content -->
+    </div><!-- container -->
+    </div>
 </main>
     <?php
     include('../../Footer/footer.php'); ?>
