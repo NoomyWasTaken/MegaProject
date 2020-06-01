@@ -43,6 +43,7 @@ if (isset($_SESSION['msg'])) {
     </section><!-- content -->
     </div><!-- container -->
     </div>
+    <img src="../../../Images/20370149.webp" alt="advert">
 </main>
 <?php
 include('../../Footer/footer.php'); ?>

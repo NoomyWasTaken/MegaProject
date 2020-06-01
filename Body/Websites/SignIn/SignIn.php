@@ -43,6 +43,9 @@
         </section><!-- content -->
     </div><!-- container -->
     </div>
+<!--    <aside id="adverts">-->
+        <img src="../../../Images/20370149.webp" alt="advert">
+<!--    </aside>-->
 </main>
     <?php
     include('../../Footer/footer.php'); ?>
