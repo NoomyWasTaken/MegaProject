@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../../Header/header.css">
 	<link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
 	<link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
-	<link rel="stylesheet" type="text/css" href="Register.css">
+	<link rel="stylesheet" type="text/css" href="SignIn.css">
 
     <?php
     $pageTitle = 'Sign up';
@@ -22,7 +22,7 @@
     <div id="BigDiv"></div>
 	    <div class="SignIn">
 	        <section id="content">
-		        <form method="POST" action="login.php">
+		        <form method="POST" action="SignIn.php">
 			        <h1>Sign In</h1>
 			        <div>
 				        <input type="text" placeholder="Username" id="username" name="username" />
