@@ -23,7 +23,7 @@ if (isset($_SESSION['msg'])) {
     <div class="SignUp">
         <section id="content">
             <form method="POST" action="SignUp.php">
-                <h1>Sign Up</h1>
+                <h1>Sign-Up</h1>
                 <div>
                     <input type="text" placeholder="Username" id="username" name="username" />
                 </div>
