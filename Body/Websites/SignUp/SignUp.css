@@ -41,3 +41,16 @@ form {
 #adverts {
     float: right;
 }
+
+.Input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Input p {
+    margin: 0;
+}
+
+.Input2 {
+    margin-bottom: 5px;
+}
