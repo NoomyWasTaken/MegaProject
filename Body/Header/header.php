@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="header.css">
 <header>
     <div class="yes">
-        <img id="logo" src="../../../Images/logo-test2.png" alt="logo" style="height: 200px;">
+        <a href="http://localhost/yes/Body/Websites/HomePage/HomePage.php"><img id="logo" src="../../../Images/logo-test2.png" alt="logo" style="height: 200px;"></a>
         <br>
         <nav>
             <div class="dropdown">
