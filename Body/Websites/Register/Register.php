@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="../../Header/header.css">
 	<link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
 	<link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
+	<link rel="stylesheet" type="text/css" href="Register.css">
 
     <?php
     $pageTitle = 'Sign up';
@@ -17,7 +18,7 @@
 		unset($_SESSION['msg']);
 	}
 	 ?>
-
+<main>
 	<div class="container">
 	<section id="content">
 		<form method="POST" action="login.php">
@@ -36,6 +37,7 @@
 
 	</section><!-- content -->
 </div><!-- container -->
+</main>
     <?php
     include('../../Footer/footer.php'); ?>
 </body>
