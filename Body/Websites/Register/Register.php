@@ -2,8 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="register.css">
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="../../Header/header.css">
+	<link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
+	<link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
+
+    <?php
+    $pageTitle = 'Sign up';
+    include('../../Header/header.php'); ?>
 <body>
 	<?php
 	if (isset($_SESSION['msg'])) {
@@ -30,5 +36,7 @@
 
 	</section><!-- content -->
 </div><!-- container -->
+    <?php
+    include('../../Footer/footer.php'); ?>
 </body>
 </html>
