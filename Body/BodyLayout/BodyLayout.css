@@ -14,9 +14,12 @@ main {
 
 #page-container {
     position: relative;
+    min-height: 100vh;
+    box-shadow: 0 0 0 black;
 }
 
 #wrapper {
     box-shadow: 0 0 0 black;
     margin: -10px auto;
+    min-height: 2.5rem;
 }

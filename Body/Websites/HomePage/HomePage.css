@@ -70,17 +70,14 @@ div {
 
 #AdoptionDonationWrapper {
     display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0 black;
+}
+
+.AdoptionDonation {
+    width: 40%;
+    display: inline-block;
     margin: 0 auto;
-}
-
-#adoption {
-    width: 40%;
-    background-color: black;
-}
-
-#donation {
-    width: 40%;
-    background-color: black;
 }
 
 #AdoptionDonationWrapper img {
