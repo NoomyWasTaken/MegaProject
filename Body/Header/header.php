@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="header.css">
 <header>
     <div class="yes">
-        <a href="http://localhost/yes/Body/Websites/HomePage/HomePage.php"><img id="logo" src="../../../Images/logo-test2.png" alt="logo" style="height: 200px;"></a>
+        <a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php"><img id="logo" src="../../../Images/logo-test2.png" alt="logo" style="height: 200px;"></a>
         <br>
         <nav>
             <div class="dropdown">
@@ -18,7 +18,7 @@
             <a href="#">Adopt</a>
             <a href="#">About Us</a>
             <a href="#">Contact</a>
-            <a href="http://localhost/MegaProjectFix/Body/Websites/Register/Register.php">Sign-up</a>
+            <a href="http://localhost/MegaProject/Body/Websites/Register/Register.php">Sign-up</a>
         </nav>
     </div>
 </header>
