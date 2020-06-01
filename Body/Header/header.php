@@ -18,6 +18,7 @@
             <a href="#">Adopt</a>
             <a href="#">About Us</a>
             <a href="#">Contact</a>
+            <a href="http://localhost/MegaProject/Body/Websites/SignIn/SignIn.php">Sign-in</a>
             <a href="http://localhost/MegaProject/Body/Websites/SignUp/SignUp.php">Sign-up</a>
         </nav>
     </div>
