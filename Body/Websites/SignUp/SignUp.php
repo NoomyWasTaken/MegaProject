@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../../Header/header.css">
     <link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
-    <link rel="stylesheet" type="text/css" href="SignIn.css">
+    <link rel="stylesheet" type="text/css" href="SignUp.css">
 
     <?php
     $pageTitle = 'Sign up';
