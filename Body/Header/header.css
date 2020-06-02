@@ -1,3 +1,7 @@
+html {
+    overflow: overlay;
+}
+
 header {
     background-image: url("../../Images/grey_wood.jpg");
     width: 100%;
