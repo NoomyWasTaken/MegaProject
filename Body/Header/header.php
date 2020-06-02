@@ -8,11 +8,13 @@
             <div class="dropdown">
                 <a id="dropbtn" href="#">Animals</a>
                 <div class="dropdown-content">
-                    <a href="#">Link 1</a>
+                    <a href="#">Dogs</a>
                     <br>
-                    <a href="#">Link 2</a>
+                    <a href="#">Cats</a>
                     <br>
-                    <a href="#">Link 3</a>
+                    <a href="#">Birds</a>
+                    <br>
+                    <a href="#">Other</a>
                 </div>
             </div>
             <a href="http://localhost/MegaProject/Body/Websites/Adopt/Adopt.php">Adopt</a>
