@@ -1,90 +1,202 @@
-html {
-    overflow: overlay;
-}
-
 header {
-    background-image: url("../../Images/grey_wood.jpg");
-    width: 100%;
-    text-align: center;
-    box-shadow: 0px 0px 10px black;
+    margin-top: 25px;
+}
+
+.bone {
     position: relative;
-    display: inline-block;
-    z-index: 999;
+    width: 600px;
+}
+.s1, .s2, .s3, .s4{
+    background-image: url("../../Images/grey_wood.jpg");
+    box-shadow: 0 0 0 black;
+    height: 250px;
+    width: 250px;
+    border: 5px solid rgb(71, 71, 71);
+    border-radius: 200px;
+    position: absolute;
+}
+.s1{
+    left: -200px;
+}
+.s2{
+    right: -200px;
+}
+.s3{
+    top: 205px;
+    left: -200px;
+}
+.s4{
+    right: -200px;
+    top: 205px;
+}
+.centerbone{
+    background-image: url("../../Images/grey_wood.jpg");
+    box-shadow: 0 0 0 black;
+    height: 300px;
+    width: 188px;
+    border: 5px solid rgb(71, 71, 71);
+    position: absolute;
+    left: 45px;
+    top: 78px;
+    border-width: 5px 160px 5px 160px;
+
+}
+.clean{
+    background-image: url("../../Images/grey_wood.jpg");
+    box-shadow: 0 0 0 black;
+    width: 700px;
+    height: 100%;
+    position: absolute;
+    left: -250px;
 }
 
-img {
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15px;
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 0 0 black;
+}
+.logo img{
+    margin-top: 40px;
+    margin-left: 65px;
+    width: 100%;
 }
 
-nav {
-    overflow: hidden;
-    text-align: center;
-    display: inline-block;
+#structure{
+    display: flex;
+    justify-content: center;
 }
 
-.dropdown {
-    float: left;
-    overflow: hidden;
+.container {
+    display: inline-block;
+    cursor: pointer;
     box-shadow: 0 0 0 black;
 }
 
-nav a {
-    text-decoration: none;
-    font-family: Impact;
-    font-weight: lighter;
-    color: #DBC22F;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-    font-size: 35px;
-    letter-spacing: 1px;
-    padding: 10px 15px 10px 15px;
-    margin: 10px 10px 10px 10px;
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(71, 71, 71);
+    margin: 6px 0;
+    transition: 0.4s;
+    box-shadow: 0 0 0 black;
 }
 
-nav a:hover, .dropdown a:hover {
-    background-image: url("../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
-    border-radius: 45px;
-    color: lightskyblue;
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    margin-left: 330px;
+}
+/*
+*/
+.dropdown {
+    display: inline-block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
+    background-color: rgba(102, 48, 15, 0.61);;
+    min-width: 504px;
+    margin-left:-238px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
     z-index: 1;
-    line-height: 50px;
-    margin-left: 5px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 5px black;
-    padding-top: 3px;
 }
 
 .dropdown-content a {
-    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+
 }
 
-.dropdown-content a:hover {
-    background: #cc5500;
+h2{
+    text-align: center;
+    margin-left: 10px;
+    color: aliceblue;
 }
 
-.dropdown:hover .dropdown-content {
+.bone_btn a:hover {
+    color: #b1561a;
+    font-weight: bold;
+}
+
+.show {
     display: block;
-    background-image: url("../../Images/light-brown-kraft-paper-texture-background_8087-1877.jpg");
 }
 
-.yes {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 75%;
-    padding: 10px 0px 0px 0px;
-    box-shadow: 0px 0px 0px black;
-    display: inline-block;
+.bone_btn div {
+    box-shadow: 0 0 0 black;
+}
+
+.bone_btn{
+    margin: 50px;
+    position: relative;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+}
+.c1, .c2, .c3, .c4{
+    background:#fff;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position:absolute;
+}
+.c1{
+    left: 0;
+    top: 0;
+}
+.c2{
+    right: 0;
+    top: 0;
+}
+.c3{
+    left: 0;
+    bottom: 0;
+}
+.c4{
+    bottom: 0;
+    right: 0;
+}
+.b1 {
+    background:#fff;
+    height: 30px;
+    width: 120px;
+    position:absolute;
+    left: 15px;
+    top: 15px;
+}
+.b2 {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
 }
