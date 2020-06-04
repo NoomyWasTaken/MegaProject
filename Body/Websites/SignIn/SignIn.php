@@ -17,7 +17,7 @@
 	}
 	 ?>
     <?php
-    $pageTitle = 'Sign up';
+    $pageTitle = 'Sign In';
     include('../../Header/header.php'); ?>
 <main>
 	    <div class="SignIn">
