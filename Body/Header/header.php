@@ -1,5 +1,6 @@
 <title><?php echo $pageTitle; ?></title>
 <link rel="stylesheet" type="text/css" href="header.css">
+<link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
 <header>
     <div id="structure">
         <div class="bone">
@@ -80,7 +81,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#Contact">Contact</a>
+                                                <a href="http://localhost/MegaProject/Body/Websites/Contact/Contact.php">Contact</a>
                                             </div>
                                         </div>
                                     </button>

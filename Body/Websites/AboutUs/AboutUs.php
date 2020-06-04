@@ -12,7 +12,9 @@
 $pageTitle = 'About Us';
 include('../../Header/header.php'); ?>
 <main>
+    <div id="About Us">
 
+    </div>
 </main>
 <?php include('../../Footer/footer.php'); ?>
 </body>
