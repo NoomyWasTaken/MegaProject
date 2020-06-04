@@ -20,13 +20,12 @@
     $pageTitle = 'Sign up';
     include('../../Header/header.php'); ?>
 <main>
-    <div id="BigDiv"></div>
 	    <div class="SignIn">
 	        <section id="content">
 		        <form method="POST" action="SignIn.php">
 			        <h1>Sign-In</h1>
                     <div class="Input">
-                        <p>Username lmao:</p>
+                        <p>Username:</p>
                         <input class="Input2" type="text" placeholder="Username" id="username" name="username" />
                     </div>
                     <div class="Input">
@@ -36,15 +35,10 @@
 			        <div>
 				        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" />
 			        </div>
-		        </form><!-- form -->
+		        </form>
 
-	        </section><!-- content -->
-        </div><!-- container -->
-            </form><!-- form -->
-
-        </section><!-- content -->
-    </div><!-- container -->
-    </div>
+	        </section>
+        </div>
 </main>
     <?php
     include('../../Footer/footer.php'); ?>
