@@ -17,10 +17,14 @@
                     </div>
 
                     <div class="dropdown">
+
                         <div class="container" onclick="myFunction(this)">
+
+                            <button class="menubtn">
                             <div class="bar1"></div>
                             <div class="bar2"></div>
                             <div class="bar3"></div>
+                            </button>
 
                             <div id="myDropdown" class="dropdown-content">
 
@@ -117,7 +121,7 @@
                         }
 
                         window.onclick = function(event) {
-                            if (!event.target.matches('.container')) {
+                            if (!event.target.matches('.container .menubtn')) {
                                 var dropdowns = document.getElementsByClassName("dropdown-content");
                                 var i;
                                 for (i = 0; i < dropdowns.length; i++) {
