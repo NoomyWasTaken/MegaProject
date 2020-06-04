@@ -26,10 +26,9 @@
 
                                 <h2>Home Page</h2>
                                 <hr>
-
+                                <div class="vl"></div>
                                 <section>
                                 <button class="bone_btn">
-
                                     <div class="c1"></div>
                                     <div class="c2"></div>
                                     <div class="c3"></div>
@@ -40,8 +39,6 @@
                                         </div>
                                     </div>
                                 </button>
-
-                                    <div class="vl"></div>
 
                                 <button class="bone_btn">
                                     <div class="c1"></div>
