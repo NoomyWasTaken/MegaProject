@@ -233,3 +233,7 @@ section {
     text-align: center;
     box-shadow: 0 0 0 black;
 }
+
+.logo a {
+    display: contents;
+}
