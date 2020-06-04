@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="footer.css">
 <footer>
-    <p>Copyright &copy; 2020 PAWS</p>
+    <p>Copyright &copy;
+        <script> document.write(new Date().getFullYear());</script> PAWS</p>
     <div id="socialmedia">
         <a href="https://www.facebook.com/" target="_blank"><img src="../../../Images/fbicon.png" alt="fbicon"></a>
         <a href="https://www.twitter.com/explore" target="_blank"><img src="../../../Images/twittericon.png" alt="twtricon"></a>
