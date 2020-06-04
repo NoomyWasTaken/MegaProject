@@ -127,6 +127,12 @@ button{
     z-index: 1;
 }
 
+.whitedogbone{
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .dropdown-content a {
     color: #000000;
     text-decoration: none;
@@ -229,8 +235,8 @@ h2{
 section {
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
     padding-bottom: 25px;
 }
 

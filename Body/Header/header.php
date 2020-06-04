@@ -33,6 +33,7 @@
                                 </h2>
                                 <hr>
                                 <div class="vl"></div>
+                                <div class="whitedogbone">
                                 <section>
                                     <button class="bone_btn">
                                         <div class="c1"></div>
@@ -110,7 +111,7 @@
                                         </div>
                                     </button>
                                 </section>
-
+                                </div>
                             </div>
 
                         </div>
