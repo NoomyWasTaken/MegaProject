@@ -4,7 +4,9 @@ header {
 
 .bone {
     position: relative;
+    top: 20px;
     width: 600px;
+    z-index: 9999;
 }
 .s1, .s2, .s3, .s4{
     background-image: url("../../Images/grey_wood.jpg");
@@ -39,7 +41,6 @@ header {
     left: -54px;
     top: 78px;
     border-width: 5px 260px 5px 210px;
-
 }
 .clean{
     background-image: url("../../Images/grey_wood.jpg");
@@ -57,6 +58,7 @@ header {
     width: 50%;
     box-shadow: 0 0 0 black;
 }
+
 .logo img{
     margin-top: 40px;
     margin-left: 140px;
@@ -88,7 +90,9 @@ header {
     transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+    opacity: 0;
+}
 
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
@@ -107,8 +111,6 @@ button{
     background: none;
 }
 
-/*
-*/
 .dropdown {
     display: inline-block;
 }
@@ -116,7 +118,7 @@ button{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(158, 141, 126, 0.8);;
+    background-color: rgba(158, 141, 126, 0.8);
     min-width: 704px;
     margin-left:-338px;
     overflow: auto;
@@ -129,8 +131,6 @@ button{
     text-decoration: none;
     display: flex;
     justify-content: center;
-
-
 }
 
 h2{
@@ -152,7 +152,7 @@ h2{
     box-shadow: 0 0 0 black;
 }
 
-.bone_btn{
+.bone_btn {
     margin: 50px;
     position: relative;
     width: 150px;
@@ -164,7 +164,8 @@ h2{
     justify-content: center;
     font-size: small;
 }
-.c1, .c2, .c3, .c4{
+
+.c1, .c2, .c3, .c4 {
     background:#fff;
     height: 30px;
     width: 30px;
@@ -172,30 +173,36 @@ h2{
     border-radius: 50%;
     position:absolute;
 }
-.c1{
+
+.c1 {
     left: 0;
     top: 0;
 }
-.c2{
+
+.c2 {
     right: 0;
     top: 0;
 }
-.c3{
+
+.c3 {
     left: 0;
     bottom: 0;
 }
-.c4{
+
+.c4 {
     bottom: 0;
     right: 0;
 }
+
 .b1 {
-    background:#fff;
+    background: #fff;
     height: 30px;
     width: 120px;
-    position:absolute;
+    position: absolute;
     left: 15px;
     top: 15px;
 }
+
 .b2 {
     position: absolute;
     left: 15px;
@@ -208,7 +215,7 @@ h2{
     text-align: center;
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between;
     margin-left: 25px;

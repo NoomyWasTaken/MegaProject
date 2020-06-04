@@ -16,13 +16,10 @@
 		unset($_SESSION['msg']);
 	}
 	 ?>
-
     <?php
     $pageTitle = 'Sign up';
     include('../../Header/header.php'); ?>
 <main>
-
-
     <div id="BigDiv"></div>
 	    <div class="SignIn">
 	        <section id="content">
@@ -48,9 +45,6 @@
         </section><!-- content -->
     </div><!-- container -->
     </div>
-<!--    <aside id="adverts">-->
-        <img src="../../../Images/20370149.webp" alt="advert">
-<!--    </aside>-->
 </main>
     <?php
     include('../../Footer/footer.php'); ?>
