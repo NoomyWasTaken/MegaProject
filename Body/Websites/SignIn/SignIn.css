@@ -2,11 +2,6 @@ main {
     display: flex;
 }
 
-#BigDiv {
-    display: flex;
-    justify-content: space-between;
-}
-
 .SignIn {
     display: contents;
     margin: 0 auto;
@@ -14,7 +9,7 @@ main {
 
 #content {
     margin: 0 auto;
-    margin-top: 500px;
+    margin-top: 550px;
     background-image: url("../../../Images/background_nature.png");
     display: flex;
     border-radius: 10px;
@@ -24,6 +19,7 @@ main {
 }
 
 h1 {
+    text-align: center;
     text-shadow:
             -1px -1px 0 #000,
             1px -1px 0 #000,
@@ -33,6 +29,7 @@ h1 {
     color: #DBC22F;
     letter-spacing: 5px;
     font-size: 32pt;
+    padding: 10px;
 }
 
 form {
@@ -50,6 +47,7 @@ form {
 
 .Input p {
     margin: 0;
+    padding-right: 5px;
 }
 
 .Input2 {

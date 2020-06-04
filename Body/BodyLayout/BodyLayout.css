@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-}
-
 body {
     background-image: url("../../Images/light_brown_wood.jpg");
     margin: 0 auto;
+    width: 100%;
     min-height: 100vh;
     position: relative;
     padding-bottom: 90px;
@@ -26,6 +23,5 @@ main {
 
 #wrapper {
     box-shadow: 0 0 0 black;
-    margin: -10px auto;
     min-height: 2.5rem;
 }
