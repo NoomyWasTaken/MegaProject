@@ -49,11 +49,11 @@ include('../../Header/header.php'); ?>
 
             <div id="AdoptionDonationWrapper">
                 <div class="AdoptionDonation">
-                    <a><img src="../../../Images/donatewhite.png"></a>
+                    <a><img src="../../../Images/donatered.png"></a>
                 </div>
 
-                <div class="AdoptionDonation">
-                    <a><img src="../../../Images/donatewhite.png"></a>
+                <div class="Donation">
+                    <a href="#"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
                 </div>
             </div>
         </main>

@@ -72,13 +72,23 @@ div {
     box-shadow: 0 0 0 black;
 }
 
-.AdoptionDonation {
+.Donation  {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
     box-shadow: 0 0 0 black;
+
+}
+
+.AdoptionDonation  {
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    box-shadow: 0 0 0 black;
+
 }
 
 #AdoptionDonationWrapper img {
     width: 100%;
 }
+
