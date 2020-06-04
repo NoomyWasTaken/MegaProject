@@ -21,9 +21,9 @@
                         <div class="container" onclick="myFunction(this)">
 
                             <button class="menubtn">
-                            <div class="bar1"></div>
-                            <div class="bar2"></div>
-                            <div class="bar3"></div>
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
                             </button>
 
                             <div id="myDropdown" class="dropdown-content">
@@ -32,81 +32,81 @@
                                 <hr>
                                 <div class="vl"></div>
                                 <section>
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#Animals">Animals</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#Animals">Animals</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
 
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#Adopt">Adopt</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#Adopt">Adopt</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
                                 </section>
 
                                 <section>
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#About Us">About Us</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#About Us">About Us</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
 
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#Contact">Contact</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#Contact">Contact</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
                                 </section>
 
                                 <section>
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#Sign-in">Sign-in</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#Sign-in">Sign-in</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
 
-                                <button class="bone_btn">
-                                    <div class="c1"></div>
-                                    <div class="c2"></div>
-                                    <div class="c3"></div>
-                                    <div class="c4"></div>
-                                    <div class="b1">
-                                        <div class="b2">
-                                            <a href="#Sign-up">Sign-up</a>
+                                    <button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="#Sign-up">Sign-up</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </button>
+                                    </button>
                                 </section>
 
                             </div>
