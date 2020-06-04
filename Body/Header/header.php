@@ -65,7 +65,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#About Us">About Us</a>
+                                                <a href="#About Us">bout Us</a>
                                             </div>
                                         </div>
                                     </button>
