@@ -49,7 +49,7 @@ include('../../Header/header.php'); ?>
 
             <div id="AdoptionDonationWrapper">
                 <div class="AdoptionDonation">
-                    <a><img src="../../../Images/donatered.png"></a>
+                    <a></a>
                 </div>
 
                 <div class="Donation">
