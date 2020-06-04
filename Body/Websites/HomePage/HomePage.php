@@ -49,11 +49,11 @@ include('../../Header/header.php'); ?>
 
             <div id="AdoptionDonationWrapper">
                 <div class="AdoptionDonation">
-                    <a><img src="../../../Images/cycle10.png"></a>
+                    <a><img src="../../../Images/donatewhite.png"></a>
                 </div>
 
                 <div class="AdoptionDonation">
-                    <a><img src="../../../Images/cycle10.png"></a>
+                    <a><img src="../../../Images/donatewhite.png"></a>
                 </div>
             </div>
         </main>
