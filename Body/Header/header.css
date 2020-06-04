@@ -153,7 +153,6 @@ h2{
 }
 
 .bone_btn {
-    margin: 50px;
     position: relative;
     width: 150px;
     height: 60px;
@@ -218,13 +217,14 @@ h2{
 section {
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 25px;
 }
 
 .vl{
     border-right: 1px solid white;
-    height: 393px;
+    height: 50%;
     display: inline-block;
     margin-top: 45px;
     margin-bottom: 0px;
