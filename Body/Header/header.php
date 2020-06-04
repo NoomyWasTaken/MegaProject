@@ -28,7 +28,9 @@
 
                             <div id="myDropdown" class="dropdown-content">
 
-                                <h2>Home Page</h2>
+                                <h2>
+                                    <script>document.write(document.title)</script>
+                                </h2>
                                 <hr>
                                 <div class="vl"></div>
                                 <section>
