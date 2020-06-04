@@ -8,9 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
 	<link rel="stylesheet" type="text/css" href="SignIn.css">
 
-    <?php
-    $pageTitle = 'Sign up';
-    include('../../Header/header.php'); ?>
+
 <body>
 	<?php
 	if (isset($_SESSION['msg'])) {
@@ -18,7 +16,13 @@
 		unset($_SESSION['msg']);
 	}
 	 ?>
+
+    <?php
+    $pageTitle = 'Sign up';
+    include('../../Header/header.php'); ?>
 <main>
+
+
     <div id="BigDiv"></div>
 	    <div class="SignIn">
 	        <section id="content">

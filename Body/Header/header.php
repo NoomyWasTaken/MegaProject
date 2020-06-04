@@ -91,7 +91,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#Sign-in">Sign-in</a>
+                                                <a href="/../MegaProject/Body/Websites/SignIn/SignIn.php">Sign-in</a>
                                             </div>
                                         </div>
                                     </button>
@@ -103,7 +103,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#Sign-up">Sign-up</a>
+                                                <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php">Sign-up</a>
                                             </div>
                                         </div>
                                     </button>
