@@ -13,7 +13,7 @@
                 <div class="clean">
 
                     <div class="logo">
-                        <img src="../../../Images/logo-test2.png" alt="logo" style="width: 200px">
+                        <a href="#HomePage"> <img src="../../../Images/logo-test2.png" alt="logo" style="width: 200px"> </a>
                     </div>
 
                     <div class="dropdown">
