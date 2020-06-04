@@ -27,6 +27,7 @@
                                 <h2>Home Page</h2>
                                 <hr>
 
+                                <section>
                                 <button class="bone_btn">
 
                                     <div class="c1"></div>
@@ -40,6 +41,8 @@
                                     </div>
                                 </button>
 
+                                    <div class="vl"></div>
+
                                 <button class="bone_btn">
                                     <div class="c1"></div>
                                     <div class="c2"></div>
@@ -51,7 +54,9 @@
                                         </div>
                                     </div>
                                 </button>
+                                </section>
 
+                                <section>
                                 <button class="bone_btn">
                                     <div class="c1"></div>
                                     <div class="c2"></div>
@@ -64,6 +69,20 @@
                                     </div>
                                 </button>
 
+                                <button class="bone_btn">
+                                    <div class="c1"></div>
+                                    <div class="c2"></div>
+                                    <div class="c3"></div>
+                                    <div class="c4"></div>
+                                    <div class="b1">
+                                        <div class="b2">
+                                            <a href="#Contact">Contact</a>
+                                        </div>
+                                    </div>
+                                </button>
+                                </section>
+
+                                <section>
                                 <button class="bone_btn">
                                     <div class="c1"></div>
                                     <div class="c2"></div>
@@ -87,6 +106,7 @@
                                         </div>
                                     </div>
                                 </button>
+                                </section>
 
                             </div>
 

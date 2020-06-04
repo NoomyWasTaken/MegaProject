@@ -16,38 +16,38 @@ header {
     position: absolute;
 }
 .s1{
-    left: -200px;
+    left: -300px;
 }
 .s2{
-    right: -200px;
+    right: -300px;
 }
 .s3{
     top: 205px;
-    left: -200px;
+    left: -300px;
 }
 .s4{
-    right: -200px;
+    right: -300px;
     top: 205px;
 }
 .centerbone{
     background-image: url("../../Images/grey_wood.jpg");
     box-shadow: 0 0 0 black;
     height: 300px;
-    width: 188px;
+    width: 238px;
     border: 5px solid rgb(71, 71, 71);
     position: absolute;
-    left: 45px;
+    left: -54px;
     top: 78px;
-    border-width: 5px 160px 5px 160px;
+    border-width: 5px 260px 5px 210px;
 
 }
 .clean{
     background-image: url("../../Images/grey_wood.jpg");
     box-shadow: 0 0 0 black;
-    width: 700px;
+    width: 1000px;
     height: 100%;
     position: absolute;
-    left: -250px;
+    left: -350px;
 }
 
 .logo{
@@ -59,7 +59,7 @@ header {
 }
 .logo img{
     margin-top: 40px;
-    margin-left: 65px;
+    margin-left: 140px;
     width: 100%;
 }
 
@@ -98,7 +98,7 @@ header {
 .container {
     position: absolute;
     bottom: 0;
-    margin-left: 330px;
+    margin-left: 480px;
 }
 /*
 */
@@ -109,9 +109,9 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(102, 48, 15, 0.61);;
-    min-width: 504px;
-    margin-left:-238px;
+    background-color: rgba(158, 141, 126, 0.8);;
+    min-width: 704px;
+    margin-left:-338px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
     z-index: 1;
@@ -128,13 +128,13 @@ header {
 
 h2{
     text-align: center;
-    margin-left: 10px;
+    margin-left: 5px;
     color: aliceblue;
 }
 
 .bone_btn a:hover {
     color: #b1561a;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .show {
@@ -155,7 +155,7 @@ h2{
     border: none;
     display: flex;
     justify-content: center;
-    margin-left: 180px;
+    font-size: small;
 }
 .c1, .c2, .c3, .c4{
     background:#fff;
@@ -199,4 +199,23 @@ h2{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.vl{
+    border-right: 3px solid rgba(255, 255, 255, 0.6);
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
 }
