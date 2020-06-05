@@ -80,6 +80,10 @@ div {
 
 }
 
+.Donation_Adoption a {
+    display: contents;
+}
+
 .NewsWindow  {
     width: 25%;
     display: inline-block;
