@@ -70,7 +70,7 @@ div {
     margin: 10px auto;
     box-shadow: 0 0 0 black;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .Donation_Adoption img {

@@ -70,8 +70,8 @@ include('../../Header/header.php'); ?>
             </div>
 
             <div class="Donation_Adoption">
-                <a href="#"> <img  src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
-                <a href="#"> <img id="Adopt" src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                <a href="#"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
+                <a href="#"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
             </div>
 
         </main>
