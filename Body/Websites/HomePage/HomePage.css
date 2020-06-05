@@ -72,7 +72,7 @@ div {
     box-shadow: 0 0 0 black;
 }
 
-.Donation_Adoption {
+.TwoWindow {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
@@ -80,11 +80,25 @@ div {
 
 }
 
+.Donation_Adoption {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0 0 0 black;
+    justify-content: space-between;
+
+}
+
+.Donation_Adoption img {
+    width: 100%;
+
+}
+
 .Donation_Adoption a {
     display: contents;
 }
 
-.NewsWindow  {
+.BigWindow  {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
