@@ -41,8 +41,7 @@ div {
     margin: 20px auto;
     box-shadow: 0 0 0 black;
     height: 400px;
-    background-color: azure;
-    border-radius: 44%;
+
 
 }
 
@@ -66,7 +65,7 @@ div {
 }
 
 .Donation_Adoption {
-    width: 80%;
+    width: 70%;
     display: flex;
     margin: 10px auto;
     box-shadow: 0 0 0 black;
@@ -75,9 +74,9 @@ div {
 }
 
 .Donation_Adoption img {
-    background-color: azure;
-    width: 100%;
-    border-radius: 25%;
+    width: 35%;
+    height: 20%;
+
 }
 
 .Donation_Adoption a {
