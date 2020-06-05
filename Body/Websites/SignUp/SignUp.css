@@ -14,6 +14,7 @@ main {
 
 #content {
     margin: 0 auto;
+    margin-top: 550px;
     background-image: url("../../../Images/background_nature.png");
     display: flex;
     border-radius: 10px;
@@ -28,10 +29,11 @@ h1 {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-    font-family: Impact;
-    color: #DBC22F;
+    font-family: "Comic Sans MS";
+    color: #d45f10;
     letter-spacing: 5px;
     font-size: 32pt;
+    text-align: center;
 }
 
 form {

@@ -66,13 +66,13 @@ div {
     font-size: 20px;
 }
 
-#AdoptionDonationWrapper {
+#NewsWindow {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 0 black;
 }
 
-.Donation  {
+.Donation_Adoption {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
@@ -80,7 +80,7 @@ div {
 
 }
 
-.AdoptionDonation  {
+.NewsWindow  {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
@@ -89,7 +89,7 @@ div {
 
 }
 
-#AdoptionDonationWrapper img {
+#NewsWindow img {
     width: 100%;
 }
 

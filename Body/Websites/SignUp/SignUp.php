@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sign In</title>
+    <title>Sign-Up</title>
     <link rel="stylesheet" type="text/css" href="../../Header/header.css">
     <link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
@@ -34,15 +34,22 @@ if (isset($_SESSION['msg'])) {
                 </div>
                 <div class="Input">
                     <p>First Name:</p>
-                    <input class="Input2" type="text" placeholder="Password" name="firstname" id="fname" />
+                    <input class="Input2" type="text" placeholder="First Name" name="firstname" id="fname" />
                 </div>
                 <div class="Input">
                     <p>Last Name:</p>
                     <input class="Input2" type="text" placeholder="Last Name" name="lastname" id="lname" />
                 </div>
                 <div class="Input">
-                    <p>Gender:</p>
-                    <input class="Input2" type="text" placeholder="Gender" name="gender" id="gender" />
+
+                    <label class="Input2" for="Gender" placeholder="Gender">Gender:</label>
+                    <select name="Gender" id="gender">
+                        <option value="             ">             </option>
+                        <option value="Male">  Male  </option>
+                        <option value="saab">  Female  </option>
+                        <option value="Other">  Other  </option>
+                    </select>
+
                 </div>
                 <div class="Input">
                     <p>Date Of Birth:</p>
@@ -69,10 +76,7 @@ if (isset($_SESSION['msg'])) {
     </div><!-- container -->
     </form><!-- form -->
 
-    </section><!-- content -->
-    </div><!-- container -->
-    </div>
-    <img src="../../../Images/20370149.webp" alt="advert">
+
 </main>
 <?php
 include('../../Footer/footer.php'); ?>

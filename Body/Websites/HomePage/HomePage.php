@@ -47,13 +47,15 @@ include('../../Header/header.php'); ?>
             <img  src="../../../Images/DogWithQuote.png" alt="Quote">
              </div>
 
-            <div id="AdoptionDonationWrapper">
-                <div class="AdoptionDonation">
+            <div id="NewsWindow">
+                <div class="NewsWindow">
                     <a></a>
                 </div>
 
-                <div class="Donation">
-                    <a href="#"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                <div class="Donation_Adoption">
+                    <a href="#"> <img  src='../../../Images/adoptionblack.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/adoptionblack.png';" /> </a>
+                    <a href="#"> <img id="Adopt" src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+
                 </div>
             </div>
         </main>
