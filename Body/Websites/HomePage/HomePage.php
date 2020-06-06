@@ -71,7 +71,19 @@ include('../../Header/header.php'); ?>
 
             <div class="Donation_Adoption">
                 <a href="#"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
-                <a href="#"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton"
+                   onclick="window.open('https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton',
+                         'newwindow',
+                         'width=500,height=470');
+              return false;"
+                > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+<!--                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
+<!--                    <input type="hidden" name="cmd" value="_s-xclick">-->
+<!--                    <input type="hidden" name="hosted_button_id" value="AUN7X7VDVPC5A">-->
+<!--                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">-->
+<!--                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
+<!--                </form>-->
+
             </div>
 
         </main>
