@@ -44,7 +44,7 @@
 
     <div class="vlfoot"></div>
 
-    <a href="/../MegaProject/Body/Websites/HomePage/HomePage.php"> <div class="logofoot"><img src="/../MegaProject/Images/logo-test2.png" alt="logo" style="width: 200px"> </div> </a>
+    <a href="#top"> <div class="logofoot"><img src="/../MegaProject/Images/logo-test2.png" alt="logo" style="width: 200px"> </div> </a>
 
     <div class="rightfoot">
 
