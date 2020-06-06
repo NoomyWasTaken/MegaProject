@@ -1,41 +1,91 @@
+body{
+    margin: 0 ;
+}
+
 footer {
-    background-image: url("../../Images/footer_background.png");
-    background-size: 100%;
-    background-position: center;
+
     position: absolute;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px 0px 5px black;
-    align-items: center;
-}
-
-footer img {
-    height: 50px;
-    width: 60px;
-    margin-top: 3px;
-    padding-left: 3px;
-}
-
-footer div {
-    float: right;
+    height: 378px;
     display: flex;
-    /*width: 18%;*/
-    box-shadow: 0 0 0 0;
+    justify-content: space-between;
+    background-image: url("/../MegaProject/Images/nina.png") ;
+    box-shadow: 0 0 0 black;
+
 }
 
-footer p {
-    font-family: Verdana;
-    font-size: 32px;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-    color: #d45f10;
-    padding-left: 10px;
+.sm img{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.rightfoot{
+    margin-top: 40px;
+
+}
+
+.leftfoot{
+    margin-top: 20px;
+    width: 43%;
+    margin-left: 5px;
+
+}
+
+.organ{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.organ img{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
     float: left;
-    margin: 0;
-    padding-top: 8px;
-    font-weight: bold;
+    margin-left: 30px;
+
 }
 
+.vlfoot{
+    border-right: 3px solid rgba(255, 255, 255, 0.6);
+    height: 270px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -100px;
+    margin-bottom: 78px;
+
+
+}
+
+.rightfoot h4{
+    margin-top: 100px;
+    padding: 30px;
+    background-color: rgba(151, 207, 91, 0.57);
+    border-radius: 50px 0 0 50px;
+
+}
+
+.logofoot {
+    display: inline-block;
+    margin-right: 0 ;
+}
+
+.logofoot img{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.leftfoot h4{
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+.sm{
+    margin-top: 25px;
+}
+
+span{
+    margin-right: 15px;
+}

@@ -43,7 +43,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#Animals">Animals</a>
+                                                <a href="/../MegaProject/Body/Websites/Animals/Animals.php">Animals</a>
                                             </div>
                                         </div>
                                     </button>
@@ -55,7 +55,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#Adopt">Adopt</a>
+                                                <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php">Adopt</a>
                                             </div>
                                         </div>
                                     </button>
@@ -69,7 +69,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="#About Us">About Us</a>
+                                                <a href="/../MegaProject/Body/Websites/AboutUs/AboutUs.php">About Us</a>
                                             </div>
                                         </div>
                                     </button>

@@ -70,7 +70,7 @@ include('../../Header/header.php'); ?>
             </div>
 
             <div class="Donation_Adoption">
-                <a href="#"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
+                <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
                 <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton"
                    onclick="window.open('https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton',
                          'newwindow',
@@ -87,9 +87,11 @@ include('../../Header/header.php'); ?>
             </div>
 
         </main>
+
     </div>
     <div style="clear: both"></div>
 </div>
+
 <?php
 include('../../Footer/footer.php'); ?>
 </body>

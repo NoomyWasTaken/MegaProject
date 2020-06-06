@@ -1,4 +1,4 @@
-div {
+#page-container {
     box-shadow: 0px 0px 5px black;
 }
 
@@ -116,3 +116,4 @@ div {
     font-family: Verdana;
     font-size: 12pt;
 }
+
