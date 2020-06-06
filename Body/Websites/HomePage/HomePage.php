@@ -71,12 +71,19 @@ include('../../Header/header.php'); ?>
 
             <div class="Donation_Adoption">
                 <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
-                <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton"
-                   onclick="window.open('https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton',
+                <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ=="
+                   onclick="window.open('//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==',
                          'newwindow',
                          'width=500,height=470');
               return false;"
                 > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+<!--                <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=7fc2c48a0aad5&mfid=1591401347799_7fc2c48a0aad5#/checkout/openButton"-->
+<!--                   onclick="window.open('https://www.paypal.com/webapps/shoppingcart?flowlogging_id=37a6c6fce93ce&mfid=1591463404579_37a6c6fce93ce#/checkout/openButton',-->
+<!--                         'newwindow',-->
+<!--                         'width=500,height=470');-->
+<!--              return false;"-->
+<!--                > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>-->
+<!--                <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ=="><img src="//widgets.justgiving.com/Button?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==" /></a>-->
 <!--                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
 <!--                    <input type="hidden" name="cmd" value="_s-xclick">-->
 <!--                    <input type="hidden" name="hosted_button_id" value="AUN7X7VDVPC5A">-->
