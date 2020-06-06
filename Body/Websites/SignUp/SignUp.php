@@ -42,7 +42,7 @@ if (isset($_SESSION['msg'])) {
                 </div>
                 <div class="Input">
 
-                    <label class="Input2" for="Gender" placeholder="Gender">Gender:</label>
+                    <label class="Input2" for="Gender">Gender:</label>
                     <select name="Gender" id="gender">
                         <option value="             ">             </option>
                         <option value="Male">  Male  </option>
