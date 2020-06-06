@@ -15,22 +15,19 @@
 
     <div class="leftfoot">
 
-        <div class="phone">
-            <h4>phone: </h4>
-            <span> <i><u> +92 215302177</u>/ <u> +92 41-48638</u>/ <u> 36870454</u>/ <u> +92483767474</u></i></span>
+        <div class="LeftSide">
+            <h4>Phone:</h4>
+            <span> <i><u> +92 215302177</u></i></span>
         </div>
 
-        <div class="location">
-            <h4>location: </h4>
-            <span> <i>PAWS(kashmir)<u>Al Gudaro Bakala Market kashmir Bazar Block 10, kashmir,12200</u>/</i></span>
-            <span> <i>PAWS(Punjab)<u>SIE, Punjab, Sialkot, 200010</u>/</i> </span>
-            <span> <i>PAWS(Sargodha)<u>SAl Munir Market Saddar Bazar Block 8,4 Sargodha,200011</u>/</i> </span>
-            <span> <i>PAWS(Islamabad HQ)<u>Jehlum Rd 5, 44000 Islamabad, Pakistan</u></i> </span>
+        <div class="LeftSide">
+            <h4>Location: </h4>
+            <span> <i>PAWS(Islamabad HQ)<u> Jehlum Rd 5, 44000 Islamabad, Pakistan</u></i> </span>
         </div>
 
-        <div class="email">
-            <h4>email: </h4>
-            <i><u>contact@pawsadopt.org</u></i> </span>
+        <div class="LeftSide">
+            <h4>E-mail: </h4>
+           <span><i><u>contact@pawsadopt.org</u></i></span>
 
         </div>
 
@@ -57,7 +54,7 @@
             <img src="/../MegaProject/Images/reddog.png" alt="A.R.T&PAWS" >
             <img src="/../MegaProject/Images/fon.png" alt="Friends of nature">
         </div>
-        <h4> &copy;<script>document.write(new Date().getFullYear())</script>, pakistani Animal Welfare society (PAWS)</h4>
+        <h4> &copy;<script>document.write(new Date().getFullYear())</script>, Pakistani Animal Welfare Society (PAWS)</h4>
     </div>
 
 </footer>

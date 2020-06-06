@@ -26,7 +26,7 @@ footer {
 }
 
 .leftfoot{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 43%;
     margin-left: 5px;
 
@@ -38,12 +38,12 @@ footer {
 }
 
 .organ img{
-    width: 70px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
     float: left;
     margin-left: 30px;
-
+    margin-top: -20px;
 }
 
 .vlfoot{
@@ -63,7 +63,7 @@ footer {
     padding: 30px;
     background-color: rgba(151, 207, 91, 0.57);
     border-radius: 50px 0 0 50px;
-
+    font-size: 18pt;
 }
 
 .logofoot {
@@ -80,6 +80,12 @@ footer {
 .leftfoot h4{
     display: inline-block;
     margin-bottom: -15px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.leftfoot span {
+    font-size: 14pt;
 }
 
 .sm{
@@ -88,4 +94,8 @@ footer {
 
 span{
     margin-right: 15px;
+}
+
+.LeftSide {
+    margin-top: -15px;
 }
