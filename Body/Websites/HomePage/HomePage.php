@@ -59,8 +59,11 @@ include('../../Header/header.php'); ?>
                 </div>
 
                 <div class="TwoWindow">
-                    <div>
-                        <img src="">
+                    <div id="AdoptWindow">
+                        <h2>Looking to adopt?</h2>
+                        <br>
+                        <p>Help find the animals we have a new home today!</p>
+                        <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
                     </div>
 
                     <div>
