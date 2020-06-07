@@ -54,7 +54,7 @@ include('../../Header/header.php'); ?>
                         <br>
                         <h2>Award winning organization</h2>
                         <br>
-                        <p>"It was an immense honor receiving the award, one that we still can not believe we got. We just did what we thought was right, and we loved doing it too, but we never expected to get a reward from renowned veterinarian Dr. Javad Akram, and then have the opportunity to show our cause and hard-work in New York's Time Magazine. We've proven to the world that even our humble country Pakistan cares dearly about the well-being of animals and to find them a new home." - Co-Founder of PAWS, Neuman Al-Khalil</p>
+                        <p>"It was an immense honor receiving the award, one that we still can not believe we got. We just did what we thought was right, and we loved doing it too, but we never expected to get a reward from renowned veterinarian Dr. Javad Akram, and then have the opportunity to show our cause and hard-work in New York's Time Magazine. We've proven to the world that even our humble country Pakistan cares dearly about the well-being of all animals and to find them a new home." - Co-Founder of PAWS, Neuman Al-Khalil</p>
                     </div>
                 </div>
 
