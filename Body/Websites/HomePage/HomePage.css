@@ -87,7 +87,7 @@
 }
 
 .BigWindow  {
-    width: 30%;
+    width: 40%;
     display: inline-block;
     margin: 0 auto;
     box-shadow: 0 0 0 black;
@@ -118,7 +118,7 @@
     text-align: justify;
     padding: 10px;
     font-family: Verdana;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 #AdoptWindow {
