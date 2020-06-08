@@ -90,6 +90,8 @@ include('../../Header/header.php'); ?>
                     </div>
                 </div>
             </div>
+            <br><br>
+            <hr>
         </main>
     </div>
     <div style="clear: both"></div>
