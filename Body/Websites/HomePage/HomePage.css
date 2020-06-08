@@ -202,4 +202,32 @@
 
 #hrline {
     margin: 25px;
+    border: 0 none;
+    background-color: white;
+    color: white;
+    height: 2px;
+}
+
+.UnderLine {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.UnderLine h1 {
+    font-size: 30pt;
+    text-align: left;
+    font-family: 'Griffy', cursive;
+    margin-bottom: -15px;
+}
+
+.UnderLine p {
+    font-family: Verdana;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.UnderLine a {
+    text-decoration: none;
+    color: darkred;
 }
