@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="../../Header/header.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
     <link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <?php
@@ -70,6 +72,26 @@ include('../../Header/header.php'); ?>
 
                     </div>
                 </div>
+
+                <div class="TwoWindow">
+                    <div id="DonateWindow">
+                        <h2>Looking to adopt?</h2>
+                        <br>
+                        <p>Help find the animals we have a new home today!</p>
+                        <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ=="
+                           onclick="window.open('//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==',
+                         'newwindow',
+                         'width=500,height=470');
+              return false;"
+                        > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
+
+
             </div>
 
             <div class="Donation_Adoption">

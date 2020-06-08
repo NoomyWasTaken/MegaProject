@@ -57,6 +57,9 @@
     height: 100%;
 }
 
+
+
+
 .TwoWindow {
     width: 30%;
     height: 60%;
@@ -121,11 +124,13 @@
 }
 
 #AdoptWindow {
-    background-color: azure;
+    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
     display: inline-block;
     width: 100%;
     box-shadow: 0 0 5px black;
     border-radius: 10px;
+
+
 }
 
 #AdoptWindow img {
@@ -143,7 +148,7 @@
 
 #AdoptWindow h2 {
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Griffy', cursive;
     font-size: 20pt;
 }
 
@@ -153,3 +158,40 @@
     font-size: 16pt;
     margin-top: -30px;
 }
+
+#DonateWindow {
+    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+
+
+}
+
+#DonateWindow img {
+    width: 60%;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -150px;
+    margin-top: -30px;
+}
+
+#DonateWindow a {
+    display: contents;
+}
+
+#DonateWindow h2 {
+    text-align: center;
+    font-family: 'Griffy', cursive;
+    font-size: 20pt;
+}
+
+#DonateWindow p {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16pt;
+    margin-top: -30px;
+}
+
