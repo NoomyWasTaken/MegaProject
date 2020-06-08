@@ -68,7 +68,7 @@ include('../../Header/header.php'); ?>
                         <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
                     </div>
 
-                    <div id="TotalAdopt">
+                    <div class="Totals">
                         <h2>Total number of adoptions so far: </h2>
                     </div>
 
@@ -80,8 +80,12 @@ include('../../Header/header.php'); ?>
                            onclick="window.open('//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==',
                          'newwindow',
                          'width=500,height=470');
-              return false;"
+                          return false;"
                         > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                    </div>
+
+                    <div class="Totals">
+                        <h2>All donations so far: </h2>
                     </div>
                 </div>
             </div>

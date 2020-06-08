@@ -155,7 +155,7 @@
     margin-top: -30px;
 }
 
-#TotalAdopt {
+.Totals {
     background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
     text-align: left;
     margin-top: 150px;
