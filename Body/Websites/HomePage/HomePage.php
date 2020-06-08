@@ -91,6 +91,8 @@ include('../../Header/header.php'); ?>
                     </div>
                 </div>
             </div>
+            <br><br>
+            <hr id="hrline">
         </main>
     </div>
     <div style="clear: both"></div>
