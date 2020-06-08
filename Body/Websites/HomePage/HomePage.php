@@ -70,8 +70,9 @@ include('../../Header/header.php'); ?>
 
                     <div class="Totals">
                         <h2>Total number of adoptions so far: </h2>
-                    </div>
 
+                    </div>
+                    <br><br>
                     <div id="DonateWindow">
                         <h2>Donate today!</h2>
                         <br>
