@@ -68,6 +68,10 @@ include('../../Header/header.php'); ?>
                         <a href="/../MegaProject/Body/Websites/Adopt/Adopt.php"> <img src='../../../Images/AdoptionBlackNew.png' onmouseover="this.src='../../../Images/adoptionred.png';" onmouseout="this.src='../../../Images/AdoptionBlackNew.png';" /> </a>
                     </div>
 
+                    <div id="TotalAdopt">
+                        <h2>Total number of adoptions so far: </h2>
+                    </div>
+
                     <div id="DonateWindow">
                         <h2>Donate today!</h2>
                         <br>
@@ -77,13 +81,9 @@ include('../../Header/header.php'); ?>
                          'newwindow',
                          'width=500,height=470');
               return false;"
-                            > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
-                        </div>
+                        > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
                     </div>
                 </div>
-
-
-
             </div>
         </main>
     </div>
