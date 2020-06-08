@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sign In</title>
+    <title>Adopt</title>
     <link rel="stylesheet" type="text/css" href="../../Header/header.css">
     <link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
