@@ -220,6 +220,7 @@
     text-align: left;
     font-family: 'Griffy', cursive;
     margin-bottom: -15px;
+
 }
 
 .UnderLine p {
@@ -230,5 +231,10 @@
 
 .UnderLine a {
     text-decoration: none;
-    color: darkred;
+    color: #ff0000;
+}
+
+.hrtxt {
+    margin-left: 40%;
+    margin-right: 40%;
 }

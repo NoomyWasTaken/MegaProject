@@ -99,16 +99,20 @@ include('../../Header/header.php'); ?>
                 <br>
                 <p>The animals under our care are all well-behaved and lovely animals, waiting for a new owner to adopt them. All of the animals we have were previously homeless, starving and had nowhere to go. Many were also injured from people who found it fitting to harm them, rather then extend a helping hand. With a little bit of courage, you too can help an animal today!</p>
             </div>
+            <hr class="hrtxt">
             <div class="UnderLine">
                 <h1>Why not buy instead?</h1>
                 <br>
                 <p>Many animals every year are euthanized. Some shelters simply cannot support all of the animals they have, and have to put them to rest. By adopting, you are not just getting a new friend, you are saving a life. A life that will love you and want to cuddle with you forever. </p>
             </div>
+            <hr class="hrtxt">
             <div class="UnderLine">
                 <h1>I've never owned a pet, what should I do?</h1>
                 <br>
                 <p>Don't worry. Plenty of people have yet to ever experience what it means to take care of a pet. It is a responsibility, but an earnest one and a fulfilling one. Our caretakers can show you some of the ropes at your nearest shelter! If you want to find out more about what animal would suit you, click <a href="/../MegaProject/Body/Websites/Animals/Animals.php"> HERE </a> to find out more!</p>
             </div>
+            <hr id="hrline">
+
         </main>
     </div>
     <div style="clear: both"></div>
