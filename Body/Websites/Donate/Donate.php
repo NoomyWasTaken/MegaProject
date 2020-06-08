@@ -28,12 +28,13 @@ include('../../Header/header.php'); ?>
                 <div class="Input">
                     <label class="Input2" for="Option">Method:</label>
                     <select onchange="method(this);">
+                        <option id="none" value="">             </option>
                         <option id="mc" value="mastercard">  Mastercard  </option>
                         <option id="v" value="visa">  Visa  </option>
                         <option id="ae" value="americanexpress">  American Express  </option>
                     </select>
                 </div>
-                <div id="ifSelectedMC" style="display: block">
+                <div id="ifSelectedMC" style="display: none">
                     <p>Card Number:</p>
                     <input class="Input2" type="number" placeholder="XXXX XXXX XXXX XXXX" id="cnum" name="cnum" />
                 </div>
@@ -61,7 +62,7 @@ include('../../Header/header.php'); ?>
                     alert("check");
                     document.getElementById("ifSelectedMC").style.display = "none";
                     document.getElementById("ifSelectedV").style.display = "block";
-                    document.getElementById("ifSelectedAE").style.display = "none";            }
+                    document.getElementById("ifSelectedAE").style.display = "none";
                 } else if (that.value == "americanexpress") {
                     alert("check");
                     document.getElementById("ifSelectedMC").style.display = "none";

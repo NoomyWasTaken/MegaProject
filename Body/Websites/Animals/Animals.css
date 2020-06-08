@@ -1,0 +1,32 @@
+#navigation {
+    background-image: url("../../../Images/light_brown_wood.jpg");
+    position: fixed;
+    /*top: 10px;*/
+    width: 300px;
+    display: block;
+    float: left;
+}
+
+#navigation h2 {
+    cursor: pointer;
+}
+
+#doggy, #catty, #birdy, #rody, #othy {
+    width: 100%;
+}
+
+#doggy1, #catty1, #birdy1, #rody1, #othy1 {
+    width: 65%;
+    float: right;
+}
+
+#doggy1 img, #catty1 img, #birdy1 img, #rody1 img, #othy1 img {
+    width: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 500px;
+    display: flex;
+    width: 90%;
+}
