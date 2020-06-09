@@ -80,14 +80,15 @@ include('../../Header/header.php'); ?>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
         </div>
 
-        <div class="muhamed" data-aos="fade-down-right"
-                             data-aos-easing="linear"
-                             data-aos-duration="2000">
+        <div class="muhamed">
+            <div data-aos="fade-down-right"
+                 data-aos-easing="linear"
+                 data-aos-duration="2000">
             <img src="/../MegaProject/Images/muhamed.jpg" alt="muhamed">
             <h2>Muhamed Khatib</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
         </div>
-
+    </div>
         <hr id="AUhr">
 
         <h1 id="ABh1B">Our Partners</h1>
