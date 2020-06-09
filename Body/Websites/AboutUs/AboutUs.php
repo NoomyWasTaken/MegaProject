@@ -43,7 +43,7 @@ include('../../Header/header.php'); ?>
          <section>
              <div data-aos="fade-down-right"
                   data-aos-easing="linear"
-                  data-aos-duration="2000">
+                  data-aos-duration="1500">
         <img src="/../MegaProject/Images/walking%20a%20giraffe.jpg" alt="a man walking a giraffe">
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
              </div>
@@ -52,7 +52,7 @@ include('../../Header/header.php'); ?>
             <section>
                 <div data-aos="fade-down-left"
                      data-aos-easing="linear"
-                     data-aos-duration="2000">
+                     data-aos-duration="1500">
                 <img src="/../MegaProject/Images/perizubebrate.jpg" alt="dog getting teeth cleaned">
                 <p>Nullam non tincidunt est. Ut in tempor augue. Morbi ornare auctor nisi et vehicula. Curabitur nunc lacus, elementum sed tortor sit amet, rhoncus hendrerit ex. Sed rutrum sapien vel mi euismod, id lacinia tortor dictum. Sed varius mattis diam, quis tincidunt erat sollicitudin et. Cras nec maximus elit. Nunc porttitor at neque eu congue. Suspendisse et leo sed ligula blandit rutrum. Sed faucibus malesuada nisi, vitae maximus ligula feugiat quis. Nullam varius risus quis tellus ultrices blandit. In convallis vel tellus ac suscipit.</p>
                 </div>
@@ -66,7 +66,7 @@ include('../../Header/header.php'); ?>
 
         <div class="denim" data-aos="fade-down-right"
                            data-aos-easing="linear"
-                           data-aos-duration="2000">
+                           data-aos-duration="1500">
             <img src="/../MegaProject/Images/demmy.jpeg" alt="denim">
             <h2>Denim Hasan-Basic</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
@@ -74,7 +74,7 @@ include('../../Header/header.php'); ?>
 
         <div class="neumen" data-aos="fade-down-left"
                             data-aos-easing="linear"
-                            data-aos-duration="2000">
+                            data-aos-duration="1500">
             <img src="/../MegaProject/Images/noomy.jpeg" alt="neumen">
             <h2>Neumen AL-Khalil</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
@@ -83,7 +83,7 @@ include('../../Header/header.php'); ?>
         <div class="muhamed">
             <div data-aos="fade-down-right"
                  data-aos-easing="linear"
-                 data-aos-duration="2000">
+                 data-aos-duration="1500">
             <img src="/../MegaProject/Images/muhamed.jpg" alt="muhamed">
             <h2>Muhamed Khatib</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
@@ -97,7 +97,7 @@ include('../../Header/header.php'); ?>
             <div class="TwoLeft" >
             <div class="Sponsors" data-aos="fade-down-left"
                                   data-aos-easing="linear"
-                                  data-aos-duration="2000">
+                                  data-aos-duration="1500">
                 <img src="/../MegaProject/Images/wwf.png">
                 <h2>World Wildlife Found</h2>
                 <hr id="hrorg">
@@ -106,7 +106,7 @@ include('../../Header/header.php'); ?>
             
             <div class="Sponsors" data-aos="fade-down-left"
                                   data-aos-easing="linear"
-                                  data-aos-duration="2000">
+                                  data-aos-duration="1500">
                 <img src="/../MegaProject/Images/p4u.png">
                 <h2>Pets4Us</h2>
                 <hr id="hrorg">
@@ -117,7 +117,7 @@ include('../../Header/header.php'); ?>
         <div class="TwoRight" >
             <div class="Sponsors" data-aos="fade-down-right"
                                   data-aos-easing="linear"
-                                  data-aos-duration="2000">
+                                  data-aos-duration="1500">
                 <img src="/../MegaProject/Images/reddog.png">
                 <h2>A.R.T & Paws</h2>
                 <hr id="hrorg">
@@ -126,7 +126,7 @@ include('../../Header/header.php'); ?>
             
             <div class="Sponsors" data-aos="fade-down-right"
                                   data-aos-easing="linear"
-                                  data-aos-duration="2000">
+                                  data-aos-duration="1500">
                 <img src="/../MegaProject/Images/fon.png">
                 <h2>Friends of Nature</h2>
                 <hr id="hrorg">
