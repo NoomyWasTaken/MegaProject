@@ -22,61 +22,90 @@ if (isset($_SESSION['msg'])) {
     <div id="BigDiv"></div>
     <div class="SignUp">
         <section id="content">
+            <h1>Sign-Up</h1>
             <form method="POST" action="SignUp.php">
-                <h1>Sign-Up</h1>
-                <div class="Input">
-                    <p>Username:</p>
-                    <input class="Input2" type="text" placeholder="Username" id="username" name="username" />
-                </div>
-                <div class="Input">
-                    <p>Password:</p>
-                    <input class="Input2" type="password" placeholder="Password" name="password" id="password" />
-                </div>
-                <div class="Input">
-                    <p>First Name:</p>
-                    <input class="Input2" type="text" placeholder="First Name" name="firstname" id="fname" />
-                </div>
-                <div class="Input">
-                    <p>Last Name:</p>
-                    <input class="Input2" type="text" placeholder="Last Name" name="lastname" id="lname" />
-                </div>
-                <div class="Input">
 
-                    <label class="Input2" for="Gender">Gender:</label>
-                    <select name="Gender" id="gender">
-                        <option value="             ">             </option>
-                        <option value="Male">  Male  </option>
-                        <option value="saab">  Female  </option>
-                        <option value="Other">  Other  </option>
-                    </select>
+                <div class="leftform">
+
+                    <h3>Login details</h3><br>
+                    <p>
+                        <label class="floatLabel" for="Username">Username</label>
+                        <input  type="text" id="Username" name="Username" />
+                    </p>
+                    <p>
+                        <label class="floatLabel" for="e-mail">E-mail</label>
+                        <input  type="text" id="e-mail" name="e-mail" />
+                    </p>
+                    <p>
+                        <label class="floatLabel" for="Password">Password</label>
+                        <input  type="password" name="Password" id="Password" />
+                    </p>
+                    <p>
+                        <label class="floatLabel" for="conf_password">Confirm Password</label>
+                        <input  type="password" name="confirm password" id="conf_password" />
+                    </p>
 
                 </div>
-                <div class="Input">
-                    <p>Date Of Birth:</p>
-                    <input class="Input2" type="date" placeholder="Date Of Birth" name="dob" id="dob" />
-                </div>
-                <div class="Input">
-                    <p>Address:</p>
-                    <input class="Input2" type="text" placeholder="Address" name="address" id="address" />
-                </div>
-                <div class="Input">
-                    <p>Phone:</p>
-                    <input class="Input2" type="number" placeholder="Phone" name="phone" id="phone" />
-                </div>
-                <div class="Input">
-                    <p>Email:</p>
-                    <input class="Input2" type="text" placeholder="Email" name="email" id="email" />
-                </div>
-                <div>
-                    <input style="float: right; font-size: 14pt" type="submit" value="Sign up" />
-                </div>
-            </form><!-- form -->
 
-        </section><!-- content -->
-    </div><!-- container -->
-    </form><!-- form -->
+                <div class="rightform">
+                    <h3 id="rfh">Account details</h3>
+                    <br>
+                    <div class="rfdiv">
+                        <p>
+                            <label class="floatLabel" for="FirstName">First Name</label>
+                            <input  type="text" id="FirstName" name="First Name" />
+                        </p>
+                        <p>
+                            <label class="floatLabel" for="LastName">Last Name</label>
+                            <input  type="text" id="LastName" name="Last Name" />
+                        </p>
+                    </div>
+                    <div class="rfdiv">
+                        <p>
+                            <label class="floatLabel" id="yes" for="Gender">Gender</label>
+                            <select name="Gender" id="gender">
+                                <option value="    ">        </option>
+                                <option value="Male">  Male  </option>
+                                <option value="female">  Female  </option>
+                                <option value="Other">  Other  </option>
+                            </select>
+                        </p>
+                        <p>
+                            <label class="floatLabel" for="DOB">Date of Birth</label>
+                            <input  type="date" placeholder="dd/mm/yyyy" id="DOB" name="DOB" style="padding: 21.0285px 10.400px" />
+                        </p>
+                    </div>
+                    <p>
+                        <label class="floatLabel" for="Phone">Phone</label>
+                        <input  type="text" placeholder="XXX-XXX-XXXX" id="Phone" name="Phone" />
+                    </p>
+                    <div class="rfdiv">
+                        <p>
+                            <label class="floatLabel" for="Country">Country</label>
+                            <input  type="text" id="Country" name="Country" />
+                        </p>
+                        <p>
+                            <label class="floatLabel" for="City">City</label>
+                            <input  type="text" id="City" name="City" />
+                        </p>
+                    </div>
+                    <div class="rfdiv">
+                        <p>
+                            <label class="floatLabel" for="Address">Address</label>
+                            <input  type="text" id="Address" name="Address" />
+                        </p>
+                        <p>
+                            <label class="floatLabel" for="ZIP">ZIP</label>
+                            <input  type="text" id="ZIP" name="ZIP" />
+                        </p>
+                    </div>
+                </div>
+                <div class="vl"></div>
 
-
+            </form>
+        </section>
+    </div>
+    </div>
 </main>
 <?php
 include('../../Footer/footer.php'); ?>
