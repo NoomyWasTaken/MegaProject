@@ -175,48 +175,16 @@ font-size: 250%;
     font-size: 12.5pt;
 
 }
-.org{
-    margin-bottom: 550px;
-}
-.rightorg section{
-    display: inline-block;
-    float: right;
 
-}
-
-.rightorg section img{
-    display: block;
-    margin: 0 auto;
-}
-
-.leftorg section{
-    display: inline-block;
-    float: left;
-
-}
-
-.leftorg h2{
-
-
-    letter-spacing: 1px;
-    font-family: 'Griffy', cursive;
-}
-
-
-
-.rightorg h2{
-
-    letter-spacing: 1px;
-    font-family: 'Griffy', cursive;
-}
 
 .Sponsors {
-    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
+    background-image:linear-gradient(to bottom right,#d4e4e8, #b9ccd0,#d4e4e8) ;
     display: inline-block;
     width: 100%;
     box-shadow: 0 0 5px black;
     border-radius: 10px;
     margin-top: 5px;
+    margin-bottom: 75px;
 }
 
 .Sponsors img {
@@ -224,6 +192,7 @@ font-size: 250%;
     position: relative;
     display: flex;
     margin: 0 auto;
+    margin-top: 15px;
 }
 
 .Sponsors a {
@@ -234,14 +203,11 @@ font-size: 250%;
     text-align: center;
     font-family: 'Griffy', cursive;
     font-size: 20pt;
+    letter-spacing: 2px;
+    margin-top: 30px;
 }
 
-.Sponsors p {
-    text-align: center;
-    font-family: Verdana;
-    font-size: 16pt;
-    margin-top: -30px;
-}
+
 
 .TwoLeft {
     width: 30%;
@@ -249,6 +215,7 @@ font-size: 250%;
     display: inline-block;
     margin: 0 auto;
     box-shadow: 0 0 0 black;
+    margin-left: 25px;
 
 }
 
@@ -258,6 +225,7 @@ font-size: 250%;
     display: inline-block;
     margin: 0 auto;
     box-shadow: 0 0 0 black;
+    margin-right: 25px;
 
 }
 
@@ -266,6 +234,17 @@ font-size: 250%;
     justify-content: space-between;
     box-shadow: 0 0 0 black;
     height: 100%;
+    margin-bottom: -50px;
+    margin-top: -50px;
 }
 
+#BigContainer p {
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 12.5pt;
+    padding:  0 15px 0 15px;
+}
 
+#hrorg{
+    margin:  0 75px 0 75px;
+}

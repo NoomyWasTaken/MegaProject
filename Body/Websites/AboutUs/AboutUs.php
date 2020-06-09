@@ -76,24 +76,32 @@ include('../../Header/header.php'); ?>
             <div class="TwoLeft">
             <div class="Sponsors">
                 <img src="/../MegaProject/Images/wwf.png">
-                <h2>WWF</h2>
+                <h2>World Wildlife Found</h2>
+                <hr id="hrorg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. </p>
             </div>
             
             <div class="Sponsors">
                 <img src="/../MegaProject/Images/p4u.png">
                 <h2>Pets4Us</h2>
+                <hr id="hrorg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. </p>
             </div>
         </div>
 
         <div class="TwoRight">
             <div class="Sponsors">
                 <img src="/../MegaProject/Images/reddog.png">
-                <h2>Art&Paws</h2>
+                <h2>A.R.T & Paws</h2>
+                <hr id="hrorg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. </p>
             </div>
             
             <div class="Sponsors">
                 <img src="/../MegaProject/Images/fon.png">
                 <h2>Friends of Nature</h2>
+                <hr id="hrorg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. </p>
             </div>
         </div>
         </div>

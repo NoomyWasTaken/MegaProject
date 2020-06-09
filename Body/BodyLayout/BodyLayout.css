@@ -20,6 +20,7 @@ main {
     justify-content: space-between;
     padding: 1px 0px 30px 0px;
     margin-bottom: 22%;
+    border-radius: 15px;
 }
 
 #page-container {
