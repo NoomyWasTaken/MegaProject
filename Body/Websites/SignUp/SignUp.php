@@ -44,7 +44,21 @@ if (isset($_SESSION['msg'])) {
                         <label class="floatLabel" for="conf_password">Confirm Password</label>
                         <input  type="password" name="confirm password" id="conf_password" />
                     </p>
-
+                    <div class="whitedogbone">
+                        <section>
+                            <button class="bone_btn">
+                                <div class="c1"></div>
+                                <div class="c2"></div>
+                                <div class="c3"></div>
+                                <div class="c4"></div>
+                                <div class="b1">
+                                    <div class="b2">
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" />
+                                    </div>
+                                </div>
+                            </button>
+                        </section>
+                    </div>
                 </div>
 
                 <div class="rightform">
@@ -100,7 +114,7 @@ if (isset($_SESSION['msg'])) {
                         </p>
                     </div>
                 </div>
-                <div class="vl"></div>
+                <div class="vl69"></div>
 
             </form>
         </section>
