@@ -175,15 +175,18 @@ font-size: 250%;
     font-size: 12.5pt;
 
 }
-
 .org{
     margin-bottom: 550px;
 }
-
-.righttorg section{
+.rightorg section{
     display: inline-block;
-    float: left;
+    float: right;
 
+}
+
+.rightorg section img{
+    display: block;
+    margin: 0 auto;
 }
 
 .leftorg section{
@@ -202,6 +205,7 @@ font-size: 250%;
 
 
 .rightorg h2{
+
     letter-spacing: 1px;
     font-family: 'Griffy', cursive;
 }
