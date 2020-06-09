@@ -141,6 +141,10 @@ form input[type="submit"] {
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fec151', endColorstr='#fee79a',GradientType=0);*/
 }
 
+#boooone{
+    margin: 0 auto;
+}
+
 form input[type="submit"]:hover {
     color: #b1561a;
     font-weight: bolder;
