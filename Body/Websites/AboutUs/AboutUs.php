@@ -72,41 +72,32 @@ include('../../Header/header.php'); ?>
 
         <h1 id="ABh1B">Our Partners</h1>
 
-        <div class="org">
-
-        <div class="leftorg">
-            <section>
-            <img src="/../MegaProject/Images/wwf.png" alt="WWF">
+        <div id="BigContainer">
+            <div class="TwoLeft">
+            <div class="Sponsors">
+                <img src="/../MegaProject/Images/wwf.png">
                 <h2>WWF</h2>
-                <p></p>
-            </section>
-
-            <section>
-            <img src="/../MegaProject/Images/p4u.png" alt="Pets4Us" >
+            </div>
+            
+            <div class="Sponsors">
+                <img src="/../MegaProject/Images/p4u.png">
                 <h2>Pets4Us</h2>
-                <p></p>
-            </section>
+            </div>
         </div>
 
-            <br>
-
-        <div class="rightorg">
-            <section>
-            <img src="/../MegaProject/Images/reddog.png" alt="A.R.T&PAWS" >
-                <h2>A.R.T&PAWS</h2>
-                <p></p>
-
-            </section>
-
-            <section>
-            <img src="/../MegaProject/Images/fon.png" alt="Friends of nature">
+        <div class="TwoRight">
+            <div class="Sponsors">
+                <img src="/../MegaProject/Images/reddog.png">
+                <h2>Art&Paws</h2>
+            </div>
+            
+            <div class="Sponsors">
+                <img src="/../MegaProject/Images/fon.png">
                 <h2>Friends of Nature</h2>
-                <p></p>
-            </section>
+            </div>
         </div>
-
         </div>
-
+    </div>
 
 
     </div>
