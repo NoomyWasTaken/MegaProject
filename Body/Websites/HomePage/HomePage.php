@@ -56,7 +56,8 @@ include('../../Header/header.php'); ?>
                         <br>
                         <h2>Award winning organization</h2>
                         <br>
-                        <p>"It was an immense honor receiving the award, one that we still can not believe we got. We just did what we thought was right, and we loved doing it too, but we never expected to get a reward from renowned veterinarian Dr. Javad Akram, and then have the opportunity to show our cause and hard-work in New York's Time Magazine. We've proven to the world that even our humble country Pakistan cares dearly about the well-being of all animals and to find them a new home." - Co-Founder of PAWS, Neuman Al-Khalil</p>
+                        <p>"It was an immense honor receiving the award, one that we still can not believe we got. We just did what we thought was right, and we loved doing it too, but we never expected to get a reward from renowned veterinarian Dr. Javad Akram, and then have the opportunity to show our cause and hard-work in New York's Time Magazine. We've proven to the world that even our humble country Pakistan cares dearly about the well-being of all animals and to find them a new home." - Co-Founder of PAWS, Neuman Alkhalil</p>
+                        <p>PAWs was awarded the Certificate of Animal Appreciation in 2016 for their diligence and care towards the local animal life in Pakistan. In their first year of operation, they were able to successfully save over 1000 animals and find them new lives in Pakistan. They continue to show a head-strong determination for their goal of saving animals, while also presenting their country of Pakistan in a whole new light unto the world.   </p>
                     </div>
                 </div>
 
@@ -69,7 +70,7 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>Total number of adoptions so far: </h2>
+                        <h2>All adoptions so far: </h2>
 
                     </div>
                     <br><br>
@@ -90,6 +91,28 @@ include('../../Header/header.php'); ?>
                     </div>
                 </div>
             </div>
+            <br><br>
+            <hr id="hrline">
+
+            <div class="UnderLine">
+                <h1>Why Adopt?</h1>
+                <br>
+                <p>The animals under our care are all well-behaved and lovely animals, waiting for a new owner to adopt them. All of the animals we have were previously homeless, starving and had nowhere to go. Many were also injured from people who found it fitting to harm them, rather then extend a helping hand. With a little bit of courage, you too can help an animal today!</p>
+            </div>
+            <hr class="hrtxt">
+            <div class="UnderLine">
+                <h1>Why not buy instead?</h1>
+                <br>
+                <p>Many animals every year are euthanized. Some shelters simply cannot support all of the animals they have, and have to put them to rest. By adopting, you are not just getting a new friend, you are saving a life. A life that will love you and want to cuddle with you forever. </p>
+            </div>
+            <hr class="hrtxt">
+            <div class="UnderLine">
+                <h1>I've never owned a pet, what should I do?</h1>
+                <br>
+                <p>Don't worry. Plenty of people have yet to ever experience what it means to take care of a pet. It is a responsibility, but an earnest one and a fulfilling one. Our caretakers can show you some of the ropes at your nearest shelter! If you want to find out more about what animal would suit you, click <a href="/../MegaProject/Body/Websites/Animals/Animals.php"> HERE </a> to find out more!</p>
+            </div>
+            <hr id="hrline">
+
         </main>
     </div>
     <div style="clear: both"></div>

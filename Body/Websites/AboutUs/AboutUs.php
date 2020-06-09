@@ -14,6 +14,10 @@ include('../../Header/header.php'); ?>
 <main>
     <div id="About Us">
 
+        <div class="ourfamily">
+        <img src="/../MegaProject/Images/ourFamily.jpg" alt="our family">
+        </div>
+
     </div>
 </main>
 <?php include('../../Footer/footer.php'); ?>
