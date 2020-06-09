@@ -34,6 +34,7 @@ include('../../Header/header.php'); ?>
         <div class="ourfamily2">
 
          <section>
+
         <img src="/../MegaProject/Images/walking%20a%20giraffe.jpg" alt="a man walking a giraffe">
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum maximus quam nulla, vel faucibus lorem ultrices nec. Mauris finibus tortor ligula. Fusce faucibus nulla vitae risus elementum, ac lacinia nibh maximus. Integer faucibus quam ut scelerisque pulvinar. Donec pharetra nibh eget commodo accumsan. Donec at nisl nec justo condimentum rutrum. Aliquam lacinia, neque et varius fringilla, ex felis dignissim diam, vel fermentum dui massa sed nulla. Fusce congue orci at urna vulputate euismod.</p>
          </section>
