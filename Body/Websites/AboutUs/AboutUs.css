@@ -75,13 +75,13 @@ font-size: 250%;
     display: flex;
     justify-content: center;
     color: aliceblue;
-    font-size: 250%;
+    font-size: 62pt;
     text-shadow:
             -1px -1px 0 #000,
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-    font-family: "Comic Sans MS";
+    font-family: 'Griffy', cursive;
     margin-bottom: 100px;
 }
 
@@ -175,40 +175,7 @@ font-size: 250%;
     font-size: 12.5pt;
 
 }
-.org{
-    margin-bottom: 550px;
-}
-.rightorg section{
-    display: inline-block;
-    float: right;
 
-}
-
-.rightorg section img{
-    display: block;
-    margin: 0 auto;
-}
-
-.leftorg section{
-    display: inline-block;
-    float: left;
-
-}
-
-.leftorg h2{
-
-
-    letter-spacing: 1px;
-    font-family: 'Griffy', cursive;
-}
-
-
-
-.rightorg h2{
-
-    letter-spacing: 1px;
-    font-family: 'Griffy', cursive;
-}
 
 .Sponsors {
     background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
@@ -216,7 +183,7 @@ font-size: 250%;
     width: 100%;
     box-shadow: 0 0 5px black;
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 
 .Sponsors img {
@@ -224,6 +191,7 @@ font-size: 250%;
     position: relative;
     display: flex;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .Sponsors a {
@@ -233,7 +201,7 @@ font-size: 250%;
 .Sponsors h2 {
     text-align: center;
     font-family: 'Griffy', cursive;
-    font-size: 20pt;
+    font-size: 46pt;
 }
 
 .Sponsors p {
