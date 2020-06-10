@@ -20,6 +20,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 0 40px;
+
 }
 
 #content h1 {
@@ -35,6 +36,7 @@ main {
     text-align: center;
     width: 100%;
     height: min-content;
+
 }
 
 .leftform {
@@ -172,8 +174,9 @@ form label.floatLabel {
 }
 
 .vl69 {
+    margin-top: 100px;
     border-right: 1px solid black;
-    height: 595px;
+    height: 550px;
     display: inline-block;
     position: absolute;
     top: 690px;

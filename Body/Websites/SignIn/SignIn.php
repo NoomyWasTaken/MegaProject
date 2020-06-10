@@ -25,16 +25,35 @@
 		        <form method="POST" action="SignIn.php">
 			        <h1>Sign-In</h1>
                     <div class="Input">
-                        <p>Username:</p>
-                        <input class="Input2" type="text" placeholder="Username" id="username" name="username" />
-                    </div>
+                        <p>
+                            <label class="floatLabel" for="Username">Username</label>
+                            <input  type="text" id="Username" name="Username" />
+                        </p>                    </div>
                     <div class="Input">
-                        <p>Password:</p>
-                        <input class="Input2" type="password" placeholder="Password" name="password" id="password" />
+                        <p>
+                            <label class="floatLabel" for="Password">Password</label>
+                            <input  type="password" name="Password" id="Password" />
+                        </p>
                     </div>
-			        <div>
-				        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" />
-			        </div>
+
+			        <div class="whitedogbone">
+                        <section>
+                            <button class="bone_btn" id="boooone2">
+                                <div class="c1"></div>
+                                <div class="c2"></div>
+                                <div class="c3"></div>
+                                <div class="c4"></div>
+                                <div class="b1">
+                                    <div class="b2">
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" />
+                                    </div>
+                                </div>
+                            </button>
+                        </section>
+                    </div>
+
+                    <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php" id="subtn">Sing up</a>
+
 		        </form>
 
 	        </section>
