@@ -81,7 +81,7 @@
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="http://localhost/MegaProject/Body/Websites/Contact/Contact.php">Contact</a>
+                                                <a href="/../MegaProject/Body/Websites/Contact/Contact.php">Contact</a>
                                             </div>
                                         </div>
                                     </button>
