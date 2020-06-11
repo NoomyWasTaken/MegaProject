@@ -22,7 +22,13 @@ $pageTitle = 'About Us';
 include('../../Header/header.php'); ?>
 <main>
     <div id="AboutUs">
+
+        <div data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
+
             <h1 id="ABh1">Our organization</h1>
+        </div>
 
         <div class="ourfamily"
              data-aos="fade-down"
@@ -33,6 +39,7 @@ include('../../Header/header.php'); ?>
             <h1>Our Family</h1>
             <p>We started out as 3 good friends, and after deciding together to work on something life-changing, we eventually became brothers. But just us 3 weren't enough to keep the entire thing going. We found good people, willing to dedicate their lives to helping animals and people alike. Today, our family is 100 people strong and still growing with each moment. Some of them have been there at the very start, some have come later, but that doesn't matter as all of us are a part of one big animal loving family. With 4 shelters built up, we live a distance away from each other, but we trust every single member of our family and know that they're doing the best they can to provide for all the homeless animals they can find. Just how homeless animals need to find a good family, we strive to provide our members with the same feeling, so that they know they aren't alone on this quest and that their friends have their back.</p>
         </div>
+
 
         <div class="ourfamily2">
 
