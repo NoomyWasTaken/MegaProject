@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high')
+$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
 $query = oci_parse($conn, 'select * from animal where is_adopted = 1');
 ?>
