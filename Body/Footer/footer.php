@@ -33,11 +33,11 @@
 
         <div class="sm">
 
-            <img src="/../MegaProject/Images/SM/linkedinicon.png" alt="linkedin">
-            <img src="/../MegaProject/Images/SM/instaicon.png" alt="instagram">
-            <img src="/../MegaProject/Images/SM/twittericon.png" alt="twitter">
-            <img src="/../MegaProject/Images/SM/fbicon.png" alt="facebook">
-            <img src="/../MegaProject/Images/SM/tiktokicon.png" alt="tiktok">
+            <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><img src="/../MegaProject/Images/SM/linkedinicon.png" alt="linkedin"></a>
+            <a href="https://www.instagram.com/paws_ssst/"><img src="/../MegaProject/Images/SM/instaicon.png" alt="instagram"></a>
+            <a href="https://twitter.com/paws_society"><img src="/../MegaProject/Images/SM/twittericon.png" alt="twitter"></a>
+            <a href="https://www.facebook.com/PAWS-Pakistani-Animal-Welfare-Society-104783964609386"><img src="/../MegaProject/Images/SM/fbicon.png" alt="facebook"></a>
+            <a href="https://www.tiktok.com/@paws_pakistan?lang=en"><img src="/../MegaProject/Images/SM/tiktokicon.png" alt="tiktok"></a>
 
         </div>
     </div>

@@ -46,7 +46,7 @@ if (isset($_SESSION['msg'])) {
                     </p>
                     <div class="whitedogbone">
                         <section>
-                            <button class="bone_btn">
+                            <button class="bone_btn" id="boooone">
                                 <div class="c1"></div>
                                 <div class="c2"></div>
                                 <div class="c3"></div>

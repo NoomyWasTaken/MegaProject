@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 40px;
+
 }
 
 #content h1 {
@@ -31,6 +32,7 @@
     text-align: center;
     width: 100%;
     height: min-content;
+
 }
 
 .leftform {
@@ -137,6 +139,10 @@ form input[type="submit"] {
     /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fec151', endColorstr='#fee79a',GradientType=0);*/
 }
 
+#boooone{
+    margin: 0 auto;
+}
+
 form input[type="submit"]:hover {
     color: #b1561a;
     font-weight: bolder;
@@ -164,8 +170,9 @@ form label.floatLabel {
 }
 
 .vl69 {
+    margin-top: 100px;
     border-right: 1px solid black;
-    height: 595px;
+    height: 550px;
     display: inline-block;
     position: absolute;
     top: 690px;
