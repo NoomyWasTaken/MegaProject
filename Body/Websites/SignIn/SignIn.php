@@ -52,7 +52,7 @@
                         </section>
                     </div>
 
-                    <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php" id="subtn">Sing up</a>
+                    <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php" id="subtn">Sign Up</a>
 
 		        </form>
 
