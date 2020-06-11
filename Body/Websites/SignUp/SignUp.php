@@ -17,18 +17,12 @@ $query = oci_parse($conn, 'select * from animal where is_adopted = 1');
     $pageTitle = 'Sign up';
     include('../../Header/header.php'); ?>
 <body>
-<?php
-if (isset($_SESSION['msg'])) {
-    echo $_SESSION['msg'];
-    unset($_SESSION['msg']);
-}
-?>
 <main>
     <div id="BigDiv"></div>
     <div class="SignUp">
         <section id="content">
             <h1>Sign-Up</h1>
-            <?php while($row = mysqli_fetch_assoc($query)): ?>
+            <?php while($row = oci_fetch_assoc($query)): ?>
                 <tr>
                     <td><?= $row['animal_id'] ?></td>
                     <td><?= $row['aname'] ?></td>
