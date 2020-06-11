@@ -65,7 +65,7 @@ include('../../Header/header.php'); ?>
                            data-aos-duration="1500">
             <img src="/../MegaProject/Images/demmy.jpeg" alt="denim">
             <h2>Denim Hasanbasic</h2>
-            <p>"I just wanted to make the world a little bit better then before." - Denim Hasanbasic, 2016. One of the founders of PAWs, Denim Hasanbasic finished his masters degree in CSIS in BiH, but realising it wasn't his calling, decided to see with his close friends about creating an animal shelter in Pakistan, knowing that many animals need help there. Today, he acts as the primary face for the organization, travelling abroad often, sharing the lessons he learned and the struggles that he's learned through saving as many animals as he can.</p>
+            <p>"I just wanted to make the world a little bit better then before." - Denim Hasanbasic, 2016. One of the founders of PAWS, Denim Hasanbasic finished his masters degree in CSIS in BiH, but realising it wasn't his calling, decided to see with his close friends about creating an animal shelter in Pakistan, knowing that many animals need help there. Today, he acts as the primary face for the organization, travelling abroad often, sharing the lessons he learned and the struggles that he's learned through saving as many animals as he can.</p>
         </div>
 
         <div class="neumen" data-aos="fade-down-left"
@@ -73,7 +73,7 @@ include('../../Header/header.php'); ?>
                             data-aos-duration="1500">
             <img src="/../MegaProject/Images/noomy.jpeg" alt="neumen">
             <h2>Neumen Al-Khalil</h2>
-            <p>"It just felt like something I had to do, as if it was entirely natural." - Neuman Al-Khalil, 2017. One of the founders of PAWs, Neuman Al-Khalil also went and finished his degree in CSIS in BiH, but mastered in India. As a lover of animals, when the idea of creating an animal shelter came about, he was instantly on board with it. Using his expertise in data management and databases, his skill was critical to making sure PAWs had a functioning system to keep track of every animal they saved, or about to save. Today, he acts as head manager to all of the shelters, making sure everything flows as smooth as possible. </p>
+            <p>"It just felt like something I had to do, as if it was entirely natural." - Neuman Al-Khalil, 2017. One of the founders of PAWS, Neuman Al-Khalil also went and finished his degree in CSIS in BiH, but mastered in India. As a lover of animals, when the idea of creating an animal shelter came about, he was instantly on board with it. Using his expertise in data management and databases, his skill was critical to making sure PAWS had a functioning system to keep track of every animal they saved, or about to save. Today, he acts as head manager to all of the shelters, making sure everything flows as smooth as possible. </p>
         </div>
 
         <div class="muhamed">
@@ -82,7 +82,7 @@ include('../../Header/header.php'); ?>
                  data-aos-duration="1500">
             <img src="/../MegaProject/Images/muhamed.jpg" alt="muhamed">
             <h2>Muhamed Khatib</h2>
-            <p>"Somebody had to put forward a hand, so that they put forward their paw." - Muhamed Khatib, 2016. One of the founders of PAWs, Muhamed Khatib finished his degree at SSST for CSIS. During his student years, he volunteered in many activities that revolved around animals and learned a great deal in how to handle them. He has been recognized by many professionals around the world as a great caretaker that exudes a friendly aura towards all animals. Today, he acts as a caretaker at our main shelter, and a trainer for new volunteers. </p>
+            <p>"Somebody had to put forward a hand, so that they put forward their paw." - Muhamed Khatib, 2016. One of the founders of PAWS, Muhamed Khatib finished his degree at SSST for CSIS. During his student years, he volunteered in many activities that revolved around animals and learned a great deal in how to handle them. He has been recognized by many professionals around the world as a great caretaker that exudes a friendly aura towards all animals. Today, he acts as a caretaker at our main shelter, and a trainer for new volunteers. </p>
         </div>
     </div>
         <hr id="AUhr">
