@@ -28,9 +28,13 @@ if (isset($_SESSION['msg'])) {
     <div class="SignUp">
         <section id="content">
             <h1>Sign-Up</h1>
-            <?php
-            echo $query;
-            ?>
+            <?php while($row = mysqli_fetch_assoc($query)): ?>
+                <tr>
+                    <td><?= $row['animal_id'] ?></td>
+                    <td><?= $row['aname'] ?></td>
+                    <td><?= $row['age'] ?></td>
+                </tr>
+            <?php endwhile; ?>
             <form method="POST" action="SignUp.php">
 
                 <div class="leftform">
