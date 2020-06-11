@@ -14,7 +14,7 @@
                 <div class="clean">
 
                     <div class="logo">
-                        <a href="http://localhost/MegaProject/Body/Websites/HomePage/HomePage.php"> <img src="../../../Images/logo-test2.png" alt="logo" style="width: 200px"> </a>
+                        <a href="/../MegaProject/Body/Websites/HomePage/HomePage.php"> <img src="../../../Images/logo-test2.png" alt="logo" style="width: 200px"> </a>
                     </div>
 
                     <div class="dropdown">
