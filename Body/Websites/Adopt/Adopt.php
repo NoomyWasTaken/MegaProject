@@ -8,13 +8,28 @@
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
     <link rel="stylesheet" type="text/css" href="Adopt.css">
 
-    <?php
-    $pageTitle = 'Adopt';
-    include('../../Header/header.php'); ?>
+
 <body>
+
+<?php
+$pageTitle = 'Adopt';
+include('../../Header/header.php'); ?>
+
 <main>
 
+    <div>
+
+    <div>
+        <img src="" alt="">
+        <h2></h2>
+        <p></p>
+    </div>
+
+    </div>
+
 </main>
+
 <?php include('../../Footer/footer.php'); ?>
+
 </body>
 </html>
