@@ -1,4 +1,9 @@
-<?php?>
+<?php
+session_start();
+$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high')
+
+$query = oci_query($conn, 'select * from animal where is_adopted = 1');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,6 +28,9 @@ if (isset($_SESSION['msg'])) {
     <div class="SignUp">
         <section id="content">
             <h1>Sign-Up</h1>
+            <?php
+            echo $query;
+            ?>
             <form method="POST" action="SignUp.php">
 
                 <div class="leftform">
