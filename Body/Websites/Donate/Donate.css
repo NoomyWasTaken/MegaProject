@@ -52,8 +52,5 @@ form {
 
 #amount {
     display: flex;
-}
-
-#amount input{
-    float: right;
+    justify-content: space-between;
 }
