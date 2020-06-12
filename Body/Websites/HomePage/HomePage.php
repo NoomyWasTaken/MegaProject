@@ -83,7 +83,7 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far:
                             <?php
-                            $item = oci_fetch_all($stid);
+                            $item = oci_fetch_array($stid);
                                 print $item;
                             ?>
                         </h2>
