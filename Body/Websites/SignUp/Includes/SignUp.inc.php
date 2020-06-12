@@ -50,7 +50,7 @@ if (isset($_POST['signup-submit'])) {
             exit();
         }
         else {
-            $sql1 = 'INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (:uname, :fname, :lname, :dob, :gender, :phone, :address, :email, :uname, :password, :country, :city, :zip)';
+            $sql1 = 'INSERT INTO users (fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (:fname, :lname, :dob, :gender, :phone, :address, :email, :uname, :password, :country, :city, :zip)';
             $insert = oci_parse($conn, $sql1);
 
             oci_bind_by_name($insert, ':uname', $username);
