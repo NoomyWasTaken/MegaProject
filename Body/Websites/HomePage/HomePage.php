@@ -4,7 +4,7 @@ $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
 $query = 'SELECT COUNT(*) AS total FROM animal WHERE is_adopted = 1;';
 $stid = oci_parse($conn, $query);
-$r = oci_execute($stid);
+oci_execute($stid);
 ?>
 
 <!DOCTYPE html>
@@ -81,8 +81,8 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far: </h2>
                         <?php
-                            $pls=array('select * from animal where is_adopted = 1;');
-                            echo count($pls);
+                            $yes = oci_fetch_assoc($stid);
+                            echo $yes;
                         ?>
                     </div>
                     <br><br>
