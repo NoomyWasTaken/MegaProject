@@ -6,6 +6,11 @@ $query = 'select count(*) as num_of_adopted from animal where is_adopted = 1';
 $stid = oci_parse($conn, $query);
 $r = oci_execute($stid);
 $row = oci_fetch_assoc($stid);
+
+$query2 = 'select sum(d_amount) as donation_amount from donation';
+$stid2 = oci_parse($conn, $query2);
+$r2 = oci_execute($stid2);
+$row2 = oci_fetch_assoc($stid2);
 ?>
 
 <!DOCTYPE html>
@@ -89,16 +94,14 @@ include('../../Header/header.php'); ?>
                         <h2>Donate today!</h2>
                         <br>
                         <p>Any donation is appreciated!</p>
-                        <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ=="
-                           onclick="window.open('//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==',
-                         'newwindow',
-                         'width=500,height=470');
-                          return false;"
-                        > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                        <a href="/../MegaProject/Body/Websites/Donate/Donate.php"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
                     </div>
 
                     <div class="Totals">
-                        <h2>All donations so far: </h2>
+                        <h2>All donations so far:
+                            <?php echo ($row2['DONATION_AMOUNT']) ?>
+                            $
+                        </h2>
                     </div>
                 </div>
             </div>

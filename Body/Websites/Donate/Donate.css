@@ -49,3 +49,8 @@ form {
 .Input2 {
     margin-bottom: 5px;
 }
+
+#amount {
+    display: flex;
+    justify-content: space-between;
+}

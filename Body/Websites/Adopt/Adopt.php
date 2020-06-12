@@ -16,17 +16,9 @@ $pageTitle = 'Adopt';
 include('../../Header/header.php'); ?>
 
 <main>
-
-    <div>
-
-    <div>
-        <img src="" alt="">
-        <h2></h2>
-        <p></p>
-    </div>
+    <div id="BigWrapper">
 
     </div>
-
 </main>
 
 <?php include('../../Footer/footer.php'); ?>
