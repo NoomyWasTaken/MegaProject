@@ -1,4 +1,30 @@
-<?php?>
+<?php
+session_start();
+if ($_POST) {
+    $conn = oci_connect("phphol", "welcome", "//localhost/orcl");
+    if (!$conn) {
+        $m = oci_error();
+        echo $m['message'], "\n";
+        exit;
+    }
+$hashed=hash('sha256', $password);
+
+$query = i_query($conn, "select * from users where user_name = '{$username}' and password = '{$hashed}'");
+
+$row = mysqli_fetch_assoc($query);
+
+if ($row) {
+$_SESSION['users_id'] = $row['id'];
+$_SESSION['username'] = $row['username'];
+
+
+header('Location: ../HomePage/HomePage.php');
+exit();
+} else {
+$_SESSION['msg'] = 'Incorrect username and/or password';
+}
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>

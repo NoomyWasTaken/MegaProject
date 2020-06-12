@@ -2,7 +2,9 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = oci_parse($conn, 'select * from animal where is_adopted = 1');
+$query = 'select * from animal where is_adopted = 1';
+$stid = oci_parse($conn, $query);
+$r = oci_execute($stid);
 ?>
 <!DOCTYPE html>
 <html>
