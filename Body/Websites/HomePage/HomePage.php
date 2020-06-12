@@ -80,8 +80,9 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All adoptions so far: </h2>
+                        <h2>All adoptions so far:
                         <?php echo $row['NUM_OF_ADOPTED'] ?>
+                        </h2>
                     </div>
                     <br><br>
                     <div id="DonateWindow">
