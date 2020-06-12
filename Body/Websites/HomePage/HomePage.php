@@ -83,17 +83,9 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far:
                             <?php
-                                while ($row = oci_fetch_array($stid, OCI_RETURN_NULLS+OCI_ASSOC)) {
-                                    foreach ($row as $item) {
-                                    print ($item !== null ? htmlentities($item, ENT_QUOTES) : '&nbsp');
-                                    }
-                                }
+                                $item = oci_fetch_assoc($r);
+                                echo $item;
                             ?>
-
-<!--                            --><?php
-//                                $item = oci_fetch_assoc($stid);
-//                                echo $item;
-//                            ?>
                         </h2>
 
                     </div>
