@@ -39,14 +39,14 @@
                     </p>
                     <div class="whitedogbone">
                         <section>
-                            <button class="bone_btn" id="boooone" name="signup-submit">
+                            <button class="bone_btn" id="boooone">
                                 <div class="c1"></div>
                                 <div class="c2"></div>
                                 <div class="c3"></div>
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" name="signup-submit" />
                                     </div>
                                 </div>
                             </button>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" id="yes" for="gender">Gender</label>
+                            <label class="floatLabel" id="gender" for="gender">Gender</label>
                             <select name="gender" id="gender">
                                 <option value="    ">        </option>
                                 <option value="Male">  Male  </option>
