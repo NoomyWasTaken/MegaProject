@@ -69,7 +69,7 @@
                     </div>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" id="gender" for="gender">Gender</label>
+                            <label class="floatLabel" id="yes" for="gender">Gender</label>
                             <select name="gender" id="gender">
                                 <option value="    ">        </option>
                                 <option value="Male">  Male  </option>
