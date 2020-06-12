@@ -4,7 +4,7 @@ $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
 $query = 'SELECT COUNT(*) FROM animal WHERE is_adopted = 1';
 $stid = oci_parse($conn, $query);
-oci_execute($stid);
+$r = oci_execute($stid);
 ?>
 
 <!DOCTYPE html>
