@@ -82,7 +82,7 @@ include('../../Header/header.php'); ?>
                         <h2>All adoptions so far:
                             <?php
                                 while ($row = oci_fetch_assoc($stid)) {
-                                    echo $row['is_adopted'];
+                                    echo $row;
                                 }
                             ?>
                         </h2>
