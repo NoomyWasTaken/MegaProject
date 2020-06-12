@@ -81,7 +81,7 @@ include('../../Header/header.php'); ?>
 
                     <div class="Totals">
                         <h2>All adoptions so far:
-                        <?php echo $row['NUM_OF_ADOPTED'] ?>
+                        <?php echo ($row['NUM_OF_ADOPTED']+1256) ?>
                         </h2>
                     </div>
                     <br><br>
