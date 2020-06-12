@@ -80,12 +80,10 @@ include('../../Header/header.php'); ?>
 
                     <div class="Totals">
                         <h2>All adoptions so far: </h2>
-                            <?php
-                                $data = oci_fetch_assoc($query);
-//                                echo $data['total'];
-                            print '<h2>'.($data !== null ? htmlentities($data, ENT_QUOTES) : '&nbsp').'</h2>';
-                            ?>
-
+                        <?php
+                            $pls=array('select * from animal where is_adopted = 1;');
+                            echo count($pls);
+                        ?>
                     </div>
                     <br><br>
                     <div id="DonateWindow">
