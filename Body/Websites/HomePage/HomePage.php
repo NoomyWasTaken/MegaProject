@@ -79,12 +79,12 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All adoptions so far:
+                        <h2>All adoptions so far: </h2>
                             <?php
                                 $data = oci_fetch_assoc($query);
-                                echo $data['total'];
+//                                echo $data['total'];
+                            print '<h2>'.($data !== null ? htmlentities($data, ENT_QUOTES) : '&nbsp').'</h2>';
                             ?>
-                        </h2>
 
                     </div>
                     <br><br>
