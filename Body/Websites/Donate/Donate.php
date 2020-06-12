@@ -35,7 +35,7 @@ include('../../Header/header.php'); ?>
                     </select>
                 </div>
                 <p id="Amount">
-                    <label class="floatLabel" for="amount">Amount</label>
+                    <label class="floatLabel" for="amount">Amount: </label>
                     <input  type="text" id="amount" name="amount" />
                 </p>
             </form>
