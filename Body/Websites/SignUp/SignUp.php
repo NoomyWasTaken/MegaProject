@@ -1,10 +1,72 @@
 <?php
-session_start();
-$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
+$fname = $lname = $email = $gender = $phone = $dob = $city = $country = $zip = $address = $password = $passwordconfirm = $username = "";
 
-$query = 'select * from animal where is_adopted = 1';
-$stid = oci_parse($conn, $query);
-$r = oci_execute($stid);
+$errors = array();
+
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    if (empty($_POST["fname"])) {
+        if(isset($errors['fname'])) echo $errors['fname'] ;
+        $errors['fname'] = "Name is required";
+    } else {
+        $fname = test_input($_POST["fname"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/",$fname)) {
+            $errors['fname'] = "Only letters and white space allowed";
+        }
+    }
+    if (empty($_POST["username"])) {
+        $errors['username'] = "username is required";
+    }
+
+
+
+    if (empty($_POST["e-mail"])) {
+        $errors['e-mail'] = "Email is required";
+    } else {
+        $email = test_input($_POST["e-mail"]);
+        // check if e-mail address is well-formed
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $errors['e-mail']= "Invalid e-mail format";
+        }
+    }
+    if (empty($_POST["password"])) {
+        $password = "";
+    } else if (empty($_POST["conf_password"])) {
+        $passwordconfirm = "";
+    } else {
+        $password = test_input($_POST["password"]);
+    }
+    if ($passwordconfirm != $password) {
+        $errors['conf_password'] = "Not identical passwords";
+    }
+
+    if (empty($_POST["lname"])) {
+        $errors['lname'] = "Last name is required";
+    } else {
+        $lname = test_input($_POST["lname"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/",$lname)) {
+            $errors['lname'] = "Only letters and white spaces are allowed";
+        }
+    }
+
+    if (empty($_POST["phone"])) {
+        $errors['phone'] = "Phone is required";
+    }
+    else{
+        $phone=test_input($_POST["phone"]);
+    }
+
+    if (empty($_POST["dob"])) {
+        $dob = "";
+    } else {
+        $dob = test_input($_POST["dob"]);
+    }
+
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,33 +86,29 @@ $r = oci_execute($stid);
     <div class="SignUp">
         <section id="content">
             <h1>Sign-Up</h1>
-            <?php while($row = oci_fetch_assoc($query)): ?>
-                <tr>
-                    <td><?= $row['animal_id'] ?></td>
-                    <td><?= $row['aname'] ?></td>
-                    <td><?= $row['age'] ?></td>
-                </tr>
-            <?php endwhile; ?>
-            <form method="POST" action="SignUp.php">
+            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
                 <div class="leftform">
 
                     <h3>Login details</h3><br>
                     <p>
-                        <label class="floatLabel" for="Username">Username</label>
-                        <input  type="text" id="Username" name="Username" />
+                        <label class="floatLabel" for="username">Username</label>
+                        <input  type="text" id="username" name="username" />
+                        <?php  if(isset($errors['username'])) echo $errors['username'] ?>
                     </p>
                     <p>
                         <label class="floatLabel" for="e-mail">E-mail</label>
                         <input  type="text" id="e-mail" name="e-mail" />
+                        <?php  if(isset($errors['e-mail'])) echo $errors['e-mail'] ?>
                     </p>
                     <p>
-                        <label class="floatLabel" for="Password">Password</label>
-                        <input  type="password" name="Password" id="Password" />
+                        <label class="floatLabel" for="password">Password</label>
+                        <input  type="password" name="password" id="password" />
                     </p>
                     <p>
                         <label class="floatLabel" for="conf_password">Confirm Password</label>
-                        <input  type="password" name="confirm password" id="conf_password" />
+                        <input  type="password" name="conf_password" id="conf_password" />
+                        <?php if(isset($errors['conf_password'])) echo $errors['conf_password'] ?>
                     </p>
                     <div class="whitedogbone">
                         <section>
@@ -74,18 +132,20 @@ $r = oci_execute($stid);
                     <br>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" for="FirstName">First Name</label>
-                            <input  type="text" id="FirstName" name="First Name" />
+                            <label class="floatLabel" for="fname">First Name</label>
+                            <input  type="text" id="fname" name="fname" />
+                            <?php  if(isset($errors['fname'])) echo $errors['fname'] ?>
                         </p>
                         <p>
-                            <label class="floatLabel" for="LastName">Last Name</label>
-                            <input  type="text" id="LastName" name="Last Name" />
+                            <label class="floatLabel" for="lname">Last Name</label>
+                            <input  type="text" id="lname" name="lname" />
+                            <?php  if(isset($errors['lname'])) echo $errors['lname'] ?>
                         </p>
                     </div>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" id="yes" for="Gender">Gender</label>
-                            <select name="Gender" id="gender">
+                            <label class="floatLabel" id="yes" for="gender">Gender</label>
+                            <select name="gender" id="gender">
                                 <option value="    ">        </option>
                                 <option value="Male">  Male  </option>
                                 <option value="female">  Female  </option>
@@ -93,32 +153,33 @@ $r = oci_execute($stid);
                             </select>
                         </p>
                         <p>
-                            <label class="floatLabel" for="DOB">Date of Birth</label>
-                            <input  type="date" placeholder="dd/mm/yyyy" id="DOB" name="DOB" style="padding: 21.0285px 10.400px" />
+                            <label class="floatLabel" for="dob">Date of Birth</label>
+                            <input  type="date" placeholder="dd/mm/yyyy" id="dob" name="dob" style="padding: 21.0285px 10.400px" />
                         </p>
                     </div>
                     <p>
-                        <label class="floatLabel" for="Phone">Phone</label>
-                        <input  type="text" placeholder="XXX-XXX-XXXX" id="Phone" name="Phone" />
+                        <label class="floatLabel" for="phone">Phone</label>
+                        <input  type="text" placeholder="XXX-XXX-XXXX" id="phone" name="phone" />
+                        <?php  if(isset($errors['phone'])) echo $errors['phone'] ?>
                     </p>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" for="Country">Country</label>
-                            <input  type="text" id="Country" name="Country" />
+                            <label class="floatLabel" for="country">Country</label>
+                            <input  type="text" id="country" name="country" />
                         </p>
                         <p>
-                            <label class="floatLabel" for="City">City</label>
-                            <input  type="text" id="City" name="City" />
+                            <label class="floatLabel" for="city">City</label>
+                            <input  type="text" id="city" name="city" />
                         </p>
                     </div>
                     <div class="rfdiv">
                         <p>
-                            <label class="floatLabel" for="Address">Address</label>
-                            <input  type="text" id="Address" name="Address" />
+                            <label class="floatLabel" for="address">Address</label>
+                            <input  type="text" id="address" name="address" />
                         </p>
                         <p>
-                            <label class="floatLabel" for="ZIP">ZIP</label>
-                            <input  type="text" id="ZIP" name="ZIP" />
+                            <label class="floatLabel" for="zip">ZIP</label>
+                            <input  type="text" id="zip" name="zip" />
                         </p>
                     </div>
                 </div>
