@@ -1,4 +1,10 @@
-<?php?>
+<?php
+session_start();
+$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
+
+$donation = oci_parse($conn, "insert into donation(d_amount) value ($_POST[amount])");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,12 +16,6 @@
 
 
 <body>
-<?php
-if (isset($_SESSION['msg'])) {
-    echo $_SESSION['msg'];
-    unset($_SESSION['msg']);
-}
-?>
 <?php
 $pageTitle = 'Sign In';
 include('../../Header/header.php'); ?>

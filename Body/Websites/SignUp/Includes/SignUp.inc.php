@@ -47,9 +47,7 @@ if (isset($_POST['signup-submit'])) {
             exit();
         }
         else {
-            $sql1 = "INSERT INTO users (fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES ('$fname','$lname','$dob','$gender','$phone','$address','$email','$username','$password','$country','$city','$zip')";
-            $insert = oci_parse($conn, $sql1);
-            oci_execute($insert);
+            $sql = "INSERT INTO users (fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (GodHelp.nextval,'$fname','$lname','$dob','$gender','$phone','$address','$email','$username','$password','$country','$city','$zip')";
         }
     }
     oci_close($conn);
