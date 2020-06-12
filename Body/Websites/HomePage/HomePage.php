@@ -2,7 +2,7 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = 'SELECT ANIMAL_ID FROM ANIMAL WHERE ANIMAL_ID= "236E" ';
+$query = 'SELECT ANAME FROM ANIMAL WHERE ANIMAL_ID=236E ';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
 ?>
