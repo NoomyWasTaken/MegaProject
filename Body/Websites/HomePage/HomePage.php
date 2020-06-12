@@ -4,7 +4,7 @@ $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
 $query = "SELECT COUNT(*) AS total FROM animal";
 $stid = oci_parse($conn, $query);
-$r = oci_execute($stid);
+oci_execute($stid);
 ?>
 
 <!DOCTYPE html>
