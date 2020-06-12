@@ -1,29 +1,28 @@
 <?php
 session_start();
 if ($_POST) {
-    $conn = oci_connect("phphol", "welcome", "//localhost/orcl");
-    if (!$conn) {
-        $m = oci_error();
-        echo $m['message'], "\n";
-        exit;
+
+    $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
+
+    $hashed=hash('sha256', $password);
+
+    $query = oci_parse($conn, "select * from users where user_name = '{$username}' and password = '{$hashed}'");
+
+    $row = oci_fetch_assoc($query);
+
+    if ($row) {
+
+        $_SESSION['Username'] = $row['USERNAME'];
+        $_SESSION['Password'] = $row['PASSWORD'];
+
+
+        header('Location: ../HomePage/HomePage.php');
+        exit();
+    } else {
+        $_SESSION['msg'] = 'Incorrect username and/or password';
     }
-$hashed=hash('sha256', $password);
-
-$query = i_query($conn, "select * from users where user_name = '{$username}' and password = '{$hashed}'");
-
-$row = mysqli_fetch_assoc($query);
-
-if ($row) {
-$_SESSION['users_id'] = $row['id'];
-$_SESSION['username'] = $row['username'];
-
-
-header('Location: ../HomePage/HomePage.php');
-exit();
-} else {
-$_SESSION['msg'] = 'Incorrect username and/or password';
 }
-}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,7 +51,7 @@ $_SESSION['msg'] = 'Incorrect username and/or password';
 			        <h1>Sign-In</h1>
                     <div class="Input">
                         <p>
-                            <label class="floatLabel" for="Username">Username</label>
+                            <label class="floatLabel" for="Username">Username</label >
                             <input  type="text" id="Username" name="Username" />
                         </p>                    </div>
                     <div class="Input">
@@ -71,7 +70,7 @@ $_SESSION['msg'] = 'Incorrect username and/or password';
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="singin" />
                                     </div>
                                 </div>
                             </button>
