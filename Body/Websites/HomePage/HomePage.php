@@ -83,7 +83,6 @@ include('../../Header/header.php'); ?>
                         <?php
                             $yes = oci_fetch_assoc($stid);
                             echo $yes;
-
                         ?>
                     </div>
                     <br><br>
