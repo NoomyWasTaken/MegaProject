@@ -2,7 +2,7 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = 'SELECT COUNT(animal_id)
+$query = 'SELECT COUNT(*)
           FROM animal
           WHERE is_adopted = 1;';
 $stid = oci_parse($conn, $query);
@@ -82,6 +82,18 @@ include('../../Header/header.php'); ?>
 
                     <div class="Totals">
                         <h2>All adoptions so far:
+<!--                            --><?php
+//                                print '<table border="1">';
+//                                while ($row = oci_fetch_array($stid, OCI_RETURN_NULLS+OCI_ASSOC)) {
+//                                    foreach ($row as $item) {
+//                                    print '<td>'.($item !== null ? htmlentities($item, ENT_QUOTES) : '&nbsp').'</td>';
+//                                    }
+//                                    print '</tr>';
+//                                }
+//                                print '</table>';
+//
+//                            ?>
+
                             <?php
                                 $item = oci_fetch_assoc($stid);
                                 echo $item;
