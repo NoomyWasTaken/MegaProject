@@ -47,8 +47,22 @@ if (isset($_POST['signup-submit'])) {
             exit();
         }
         else {
-            $sql = "INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES ('${username}','${fname}','${lname}','${dob}','${gender}','${phone}','${address}','${email}','${username}','${password}','${country}','${city}','${zip}')";
-            $insert = oci_parse($conn, $sql);
+            $sql1 = 'INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (:uname, :fname, :lname, :dob, :gender, :phone, :address, :email, :uname, :password, :country, :city, :zip)';
+            $insert = oci_parse($conn, $sql1);
+
+            oci_bind_by_name($insert, ':uname', $username);
+            oci_bind_by_name($insert, ':fname', $fname);
+            oci_bind_by_name($insert, ':lname', $lname);
+            oci_bind_by_name($insert, ':dob', $dob);
+            oci_bind_by_name($insert, ':gender', $gender);
+            oci_bind_by_name($insert, ':phone', $phone);
+            oci_bind_by_name($insert, ':address', $address);
+            oci_bind_by_name($insert, ':email', $email);
+            oci_bind_by_name($insert, ':password', $password);
+            oci_bind_by_name($insert, ':country', $country);
+            oci_bind_by_name($insert, ':city', $city);
+            oci_bind_by_name($insert, ':zip', $zip);
+
             oci_execute($insert);
             header("Location: ../SignUp.php?success");
         }
