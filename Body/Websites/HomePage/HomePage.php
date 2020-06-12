@@ -82,7 +82,7 @@ include('../../Header/header.php'); ?>
                         <h2>All adoptions so far: </h2>
                         <?php
                                 $yes = oci_fetch_object($stid);
-                                echo $yes->total;
+                                echo '<h2>'.$yes->total.'</h2>';
                         ?>
                     </div>
                     <br><br>
