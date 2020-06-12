@@ -2,7 +2,7 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = 'SELECT COUNT(*) FROM ANIMAL WHERE IS_ADOPTED = 1';
+$query = 'SELECT ANIMAL_ID FROM ANIMAL WHERE ANIMAL_ID= "236E" ';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
 ?>
@@ -81,9 +81,8 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far: </h2>
                         <?php
-                            while ($yes = oci_fetch_assoc($stid)) {
-                                echo $yes["is_adopted"];
-                            }
+                            $yes = oci_fetch_assoc($stid);
+                            echo $yes;
 
                         ?>
                     </div>
