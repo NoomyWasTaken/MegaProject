@@ -104,7 +104,7 @@ include('../../Header/header.php'); ?>
 
                     <div class="Totals">
                         <h2>All donations so far:
-                            <?php echo ($row2['donation_amount']+100) ?>
+                            <?php echo ($row2['donation_amount']) ?>
                         </h2>
                     </div>
                 </div>
