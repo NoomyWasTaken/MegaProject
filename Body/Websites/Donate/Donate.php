@@ -34,21 +34,10 @@ include('../../Header/header.php'); ?>
                         <option id="ae" value="americanexpress">  American Express  </option>
                     </select>
                 </div>
-                <div id="ifSelectedMC" style="display: none">
-                    <p>Card Number:</p>
-                    <input class="Input2" type="number" placeholder="XXXX XXXX XXXX XXXX" id="cnum" name="cnum" />
-                </div>
-                <div id="ifSelectedV" style="display: none">
-                    <p>Last Name:</p>
-                    <input class="Input2" type="text" placeholder="Last Name" name="lname" id="lname" />
-                </div>
-                <div id="ifSelectedAE" style="display: none">
-                    <p>Last Name:</p>
-                    <input class="Input2" type="text" placeholder="Last Name" name="lname" id="lname" />
-                </div>
-                <div>
-                    <input style="float: right; font-size: 14pt" type="submit" value="Donate" />
-                </div>
+                <p id="Amount">
+                    <label class="floatLabel" for="amount">Amount</label>
+                    <input  type="text" id="amount" name="amount" />
+                </p>
             </form>
 
             <script>
