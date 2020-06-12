@@ -8,6 +8,7 @@ if (isset($_POST['signup-submit'])) {
         trigger_error(htmlentities($e['message']), E_USER_ERROR);
     }
 
+    $users_id = 1;
     $username = $_POST['username'];
     $email = $_POST['e-mail'];
     $password = $_POST['password'];
@@ -47,7 +48,7 @@ if (isset($_POST['signup-submit'])) {
             exit();
         }
         else {
-            $sql = "INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (GodHelp.nextval,'$fname','$lname','$dob','$gender','$phone','$address','$email','$username','$password','$country','$city','$zip')";
+            $sql = "INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES ('$users_id','$fname','$lname','$dob','$gender','$phone','$address','$email','$username','$password','$country','$city','$zip')";
             $insert = oci_parse($conn, $sql);
             oci_execute($insert);
         }
