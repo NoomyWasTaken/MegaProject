@@ -94,12 +94,7 @@ include('../../Header/header.php'); ?>
                         <h2>Donate today!</h2>
                         <br>
                         <p>Any donation is appreciated!</p>
-                        <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ=="
-                           onclick="window.open('//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjNkMmNiYTk1LWRiNGEtNDE3Ny1hNmUzLWI4ZjQyOGViOTEyMCIsIkNoYXJpdHlJZCI6MTg0ODYxLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6Im15cGlwaWlzdHNjaHdlciIsIlR5cGUiOiJEb25hdGUifQ==',
-                         'newwindow',
-                         'width=500,height=470');
-                          return false;"
-                        > <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
+                        <a href="/../MegaProject/Body/Websites/Donate/Donate.php"> <img src='../../../Images/donatewhite.jpg' onmouseover="this.src='../../../Images/donatered.jpg';" onmouseout="this.src='../../../Images/donatewhite.jpg';" /> </a>
                     </div>
 
                     <div class="Totals">
