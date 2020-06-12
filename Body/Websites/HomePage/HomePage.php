@@ -81,7 +81,7 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far:
                             <?php
-                                $data = oci_fetch_assoc($stid);
+                                $data = oci_fetch_assoc($query);
                                 echo $data['total'];
                             ?>
                         </h2>
