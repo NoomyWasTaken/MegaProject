@@ -50,6 +50,10 @@ form {
     margin-bottom: 5px;
 }
 
+#amount {
+    display: flex;
+}
+
 #amount input{
     float: right;
 }
