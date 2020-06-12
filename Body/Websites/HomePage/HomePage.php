@@ -1,3 +1,14 @@
+<?php
+session_start();
+$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
+
+$query = 'SELECT COUNT(animal_id)
+          FROM animal
+          WHERE is_adopted = 1;';
+$stid = oci_parse($conn, $query);
+$r = oci_execute($stid);
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +81,11 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All adoptions so far: </h2>
+                        <h2>All adoptions so far:
+                            <?php
+                                print $stid;
+                            ?>
+                        </h2>
 
                     </div>
                     <br><br>
