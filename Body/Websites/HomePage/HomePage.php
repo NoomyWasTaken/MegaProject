@@ -81,8 +81,8 @@ include('../../Header/header.php'); ?>
                     <div class="Totals">
                         <h2>All adoptions so far: </h2>
                         <?php
-                                $yes = oci_fetch_assoc($stid);
-                                echo $yes["total"];
+                                $yes = oci_fetch_object($stid);
+                                echo $yes->total;
                         ?>
                     </div>
                     <br><br>
