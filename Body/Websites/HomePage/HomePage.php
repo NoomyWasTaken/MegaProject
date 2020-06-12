@@ -6,6 +6,11 @@ $query = 'select count(*) as num_of_adopted from animal where is_adopted = 1';
 $stid = oci_parse($conn, $query);
 $r = oci_execute($stid);
 $row = oci_fetch_assoc($stid);
+
+$query2 = 'select sum(d_amount) as donation_amount from donation';
+$stid2 = oci_parse($conn, $query2);
+$r2 = oci_execute($stid2);
+$row2 = oci_fetch_assoc($stid2);
 ?>
 
 <!DOCTYPE html>
@@ -98,7 +103,9 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All donations so far: </h2>
+                        <h2>All donations so far:
+                            <?php echo ($row2['donation_amount']) ?>
+                        </h2>
                     </div>
                 </div>
             </div>
