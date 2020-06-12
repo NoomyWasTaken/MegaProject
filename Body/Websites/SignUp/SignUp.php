@@ -1,73 +1,3 @@
-<?php
-$fname = $lname = $email = $gender = $phone = $dob = $city = $country = $zip = $address = $password = $passwordconfirm = $username = "";
-
-$errors = array();
-
-
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    if (empty($_POST["fname"])) {
-        if(isset($errors['fname'])) echo $errors['fname'] ;
-        $errors['fname'] = "Name is required";
-    } else {
-        $fname = test_input($_POST["fname"]);
-        // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z ]*$/",$fname)) {
-            $errors['fname'] = "Only letters and white space allowed";
-        }
-    }
-    if (empty($_POST["username"])) {
-        $errors['username'] = "username is required";
-    }
-
-
-
-    if (empty($_POST["e-mail"])) {
-        $errors['e-mail'] = "Email is required";
-    } else {
-        $email = test_input($_POST["e-mail"]);
-        // check if e-mail address is well-formed
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $errors['e-mail']= "Invalid e-mail format";
-        }
-    }
-    if (empty($_POST["password"])) {
-        $password = "";
-    } else if (empty($_POST["conf_password"])) {
-        $passwordconfirm = "";
-    } else {
-        $password = test_input($_POST["password"]);
-    }
-    if ($passwordconfirm != $password) {
-        $errors['conf_password'] = "Not identical passwords";
-    }
-
-    if (empty($_POST["lname"])) {
-        $errors['lname'] = "Last name is required";
-    } else {
-        $lname = test_input($_POST["lname"]);
-        // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z ]*$/",$lname)) {
-            $errors['lname'] = "Only letters and white spaces are allowed";
-        }
-    }
-
-    if (empty($_POST["phone"])) {
-        $errors['phone'] = "Phone is required";
-    }
-    else{
-        $phone=test_input($_POST["phone"]);
-    }
-
-    if (empty($_POST["dob"])) {
-        $dob = "";
-    } else {
-        $dob = test_input($_POST["dob"]);
-    }
-
-}
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="SignUp">
         <section id="content">
             <h1>Sign-Up</h1>
-            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+            <form method="POST" action="Includes/SignUp.inc.php">
 
                 <div class="leftform">
 
@@ -94,12 +24,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p>
                         <label class="floatLabel" for="username">Username</label>
                         <input  type="text" id="username" name="username" />
-                        <?php  if(isset($errors['username'])) echo $errors['username'] ?>
                     </p>
                     <p>
                         <label class="floatLabel" for="e-mail">E-mail</label>
                         <input  type="text" id="e-mail" name="e-mail" />
-                        <?php  if(isset($errors['e-mail'])) echo $errors['e-mail'] ?>
                     </p>
                     <p>
                         <label class="floatLabel" for="password">Password</label>
@@ -108,11 +36,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p>
                         <label class="floatLabel" for="conf_password">Confirm Password</label>
                         <input  type="password" name="conf_password" id="conf_password" />
-                        <?php if(isset($errors['conf_password'])) echo $errors['conf_password'] ?>
                     </p>
                     <div class="whitedogbone">
                         <section>
-                            <button class="bone_btn" id="boooone">
+                            <button class="bone_btn" id="boooone" name="signup-submit">
                                 <div class="c1"></div>
                                 <div class="c2"></div>
                                 <div class="c3"></div>
@@ -134,12 +61,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>
                             <label class="floatLabel" for="fname">First Name</label>
                             <input  type="text" id="fname" name="fname" />
-                            <?php  if(isset($errors['fname'])) echo $errors['fname'] ?>
                         </p>
                         <p>
                             <label class="floatLabel" for="lname">Last Name</label>
                             <input  type="text" id="lname" name="lname" />
-                            <?php  if(isset($errors['lname'])) echo $errors['lname'] ?>
                         </p>
                     </div>
                     <div class="rfdiv">
@@ -160,7 +85,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p>
                         <label class="floatLabel" for="phone">Phone</label>
                         <input  type="text" placeholder="XXX-XXX-XXXX" id="phone" name="phone" />
-                        <?php  if(isset($errors['phone'])) echo $errors['phone'] ?>
                     </p>
                     <div class="rfdiv">
                         <p>
