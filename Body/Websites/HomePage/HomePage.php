@@ -2,7 +2,7 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = "SELECT COUNT(*) AS total FROM animal WHERE is_adopted = 1";
+$query = "SELECT COUNT(*) AS total FROM animal";
 $stid = oci_parse($conn, $query);
 $r = oci_execute($stid);
 ?>
