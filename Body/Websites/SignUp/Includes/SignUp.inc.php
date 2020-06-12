@@ -39,8 +39,11 @@ if (isset($_POST['signup-submit'])) {
         exit();
     }
     else {
-        $sql = "SELECT user_name FROM users WHERE user_name = '".$username."'";
+        $sql = 'SELECT user_name FROM users WHERE user_name = :username';
         $result = oci_parse($conn, $sql);
+
+        oci_bind_by_name($result, ':username', $username);
+
         oci_execute($result);
         if (oci_num_rows($result) > 0) {
             header("Location: ../SignUp.php?error=usernameTaken&e-mail=".$email."&fname=".$fname."&lname=".$lname."&phone=".$phone."&dob=".$dob."&country=".$country."&city=".$city."&address=".$address."&zip=".$zip);
@@ -64,7 +67,7 @@ if (isset($_POST['signup-submit'])) {
             oci_bind_by_name($insert, ':zip', $zip);
 
             oci_execute($insert);
-            header("Location: ../SignUp.php?success");
+            header("Location: ../../SignIn.php");
         }
     }
     oci_close($conn);
