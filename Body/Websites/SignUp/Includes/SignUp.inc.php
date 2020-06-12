@@ -50,17 +50,29 @@ if (isset($_POST['signup-submit'])) {
             $sql1 = 'INSERT INTO users (users_id, fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (:uname, :fname, :lname, :dob, :gender, :phone, :address, :email, :uname, :password, :country, :city, :zip)';
             $insert = oci_parse($conn, $sql1);
 
+            oci_execute($insert);
             oci_bind_by_name($insert, ':uname', $username);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':fname', $fname);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':lname', $lname);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':dob', $dob);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':gender', $gender);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':phone', $phone);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':address', $address);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':email', $email);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':password', $password);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':country', $country);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':city', $city);
+            oci_execute($insert);
             oci_bind_by_name($insert, ':zip', $zip);
 
             oci_execute($insert);
