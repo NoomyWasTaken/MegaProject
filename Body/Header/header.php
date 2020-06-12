@@ -125,6 +125,7 @@
                         }
 
                         window.onclick = function(event) {
+                            console.log(event);
                             if (!event.target.matches('.container .menubtn')) {
                                 var dropdowns = document.getElementsByClassName("dropdown-content");
                                 var i;
