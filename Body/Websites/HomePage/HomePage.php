@@ -2,7 +2,7 @@
 session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
-$query = "SELECT COUNT(*) AS total FROM animal WHERE is_adopted = 1";
+$query = "SELECT COUNT(*) AS total FROM ANIMAL WHERE IS_ADOPTED = 1";
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
 ?>
@@ -82,9 +82,7 @@ include('../../Header/header.php'); ?>
                         <h2>All adoptions so far: </h2>
                         <?php
                             $yes = oci_fetch_object($stid);
-                            echo $yes->total;
-                            oci_free_statement($stid);
-                            oci_close($conn);
+                            echo $yes;
                         ?>
                     </div>
                     <br><br>
