@@ -99,3 +99,7 @@ span{
 .LeftSide {
     margin-top: -15px;
 }
+
+#anchor {
+    display: inline-block;
+}
