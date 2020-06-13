@@ -8,6 +8,11 @@ if (isset($_POST['sign-in'])) {
         trigger_error(htmlentities($e['message']), E_USER_ERROR);
     }
 
+    if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+        header("Location: ../../HomePage/HomePage.php?msg=alreadySignedIn&username=".$_SESSION['username']);
+        exit;
+    }
+
     $username = $_POST['Username'];
     $password = $_POST['Password'];
 
@@ -26,7 +31,10 @@ if (isset($_POST['sign-in'])) {
             }
             else if ($password == $row['PASSWORD']) {
                 session_start();
-                $_SESSION['username'] = $row['USERNAME'];
+
+                $_SESSION['loggedin'] = true;
+                $_SESSION['user_id'] = $row['USERS_ID'];
+                $_SESSION['username'] = $row['USER_NAME'];
                 $_SESSION['fname'] = $row['FNAME'];
                 $_SESSION['lname'] = $row['LNAME'];
 
