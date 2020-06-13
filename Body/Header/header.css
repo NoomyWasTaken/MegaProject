@@ -242,6 +242,10 @@ header {
     text-align: center;
 }
 
+#b3{
+    font-size: smaller;
+}
+
 section {
     display: flex;
     justify-content: space-between;
