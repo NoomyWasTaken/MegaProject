@@ -20,9 +20,9 @@ if (isset($_POST['sign-in'])) {
         oci_bind_by_name($result, ':uname', $username);
         oci_execute($result);
         if ($row = oci_fetch_assoc($result)) {
-            $conf_password = password_verify($password, $row['Password']);
+            $conf_password = password_verify($password, $row['PASSWORD']);
             if ($conf_password == false) {
-                header("Location: ../SignUp.php?error=wrongPassword");
+                header("Location: ../SignIn.php?error=wrongPassword");
                 exit();
             }
             else if ($conf_password == true) {
@@ -35,12 +35,12 @@ if (isset($_POST['sign-in'])) {
                 exit();
             }
             else {
-                header("Location: ../SignUp.php?error=wrongPassword");
+                header("Location: ../SignIn.php?error=wrongPassword");
                 exit();
             }
         }
         else {
-            header("Location: ../SignUp.php?error=noUser");
+            header("Location: ../SignIn.php?error=noUser");
             exit();
         }
     }
