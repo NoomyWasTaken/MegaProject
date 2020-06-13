@@ -16,7 +16,7 @@ include('../../Header/header.php'); ?>
 <main>
     <div class="SignIn">
         <section id="content">
-            <form method="POST" action="Includes/Volunteer.inc.php">
+            <form method="POST" action="Volunteer.inc.php">
                 <h1>Sign-In</h1>
                 <div class="Input">
                     <p>
