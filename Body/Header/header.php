@@ -92,6 +92,42 @@ session_start();
                                     </button>
                                 </section>
 
+                                    <section>
+
+                                        <?php
+                                        if (isset($_SESSION['username'])) {
+                                            echo '<button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
+                                            </div>
+                                        </div>
+                                    </button>';
+                                        }
+                                        ?>
+
+                                        <?php
+                                        if (isset($_SESSION['username'])) {
+                                            echo '<button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/Volunteer/Volunteer.php">Volunteering</a>
+                                            </div>
+                                        </div>
+                                    </button>';
+                                        }
+                                        ?>
+
+                                    </section>
+
                                 <section>
                                     <?php
                                     if (isset($_SESSION['username'])) {
