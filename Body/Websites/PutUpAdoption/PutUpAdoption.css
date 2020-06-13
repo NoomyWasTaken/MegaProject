@@ -97,7 +97,7 @@ form input {
     font-size: 1.6em;
 }
 
-#Species {
+#Species, #Shelter {
     box-sizing: border-box;
     border: 1px solid #000000;
     width: 100%;
