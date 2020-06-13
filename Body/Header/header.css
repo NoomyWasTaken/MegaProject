@@ -2,6 +2,10 @@ header {
     margin-top: 25px;
 }
 
+.headbone{
+    width: 100%;
+}
+
 .bone {
     position: relative;
     top: 20px;

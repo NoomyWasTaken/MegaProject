@@ -6,6 +6,7 @@ session_start();
 <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
 <header>
     <div id="structure">
+        <div class="headbone">
         <div class="bone">
 
             <div class="s1"></div>
@@ -147,6 +148,7 @@ session_start();
                 </div>
             </div>
 
+        </div>
         </div>
     </div>
 </header>
