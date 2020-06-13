@@ -92,11 +92,11 @@ session_start();
                                     </button>
                                 </section>
 
-                                    <section>
-
-                                        <?php
+                                    <?php
+                                    echo '<section>';
                                         if (isset($_SESSION['username'])) {
-                                            echo '<button class="bone_btn">
+
+                                           echo '<button class="bone_btn">
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
@@ -108,22 +108,7 @@ session_start();
                                         </div>
                                     </button>';
                                         }
-                                        else {
-                                            echo '<button class="bone_btn" style="display: none">
-                                        <div class="c1"></div>
-                                        <div class="c2"></div>
-                                        <div class="c3"></div>
-                                        <div class="c4"></div>
-                                        <div class="b1">
-                                            <div class="b2">
-                                               
-                                            </div>
-                                        </div>
-                                    </button>';
-                                        }
-                                        ?>
 
-                                        <?php
                                         if (isset($_SESSION['username'])) {
                                             echo '<button class="bone_btn">
                                         <div class="c1"></div>
@@ -137,22 +122,9 @@ session_start();
                                         </div>
                                     </button>';
                                         }
-                                        else {
-                                            echo '<button class="bone_btn" style="display: none">
-                                        <div class="c1"></div>
-                                        <div class="c2"></div>
-                                        <div class="c3"></div>
-                                        <div class="c4"></div>
-                                        <div class="b1">
-                                            <div class="b2">
-                                               
-                                            </div>
-                                        </div>
-                                    </button>';
-                                        }
-                                        ?>
 
-                                    </section>
+                                   echo' </section>';
+                                    ?>
 
                                 <section>
                                     <?php
