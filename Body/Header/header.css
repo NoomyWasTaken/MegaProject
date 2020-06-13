@@ -269,3 +269,7 @@ section {
 .logo a {
     display: contents;
 }
+
+#hide{
+    padding: 0;
+}

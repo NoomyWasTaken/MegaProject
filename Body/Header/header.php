@@ -109,7 +109,7 @@ session_start();
                                     </button>';
                                         }
                                         else{
-                                        echo '<div style="padding-bottom: 0"></div>';
+                                        echo '<div id="hide"></div>';
                                         }
                                         ?>
 
@@ -128,7 +128,7 @@ session_start();
                                     </button>';
                                         }
                                         else {
-                                        echo '<div style="padding-bottom: 0"></div>';
+                                        echo '<div id="hide"></div>';
                                         }
                                         ?>
 
