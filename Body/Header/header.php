@@ -92,8 +92,10 @@ session_start();
                                     </button>
                                 </section>
 
-                                    <?php
-                                    echo '<section style="padding-bottom: 25px">';
+
+                                    <section>
+
+                                       <?php
                                         if (isset($_SESSION['username'])) {
 
                                            echo '<button class="bone_btn">
@@ -108,9 +110,26 @@ session_start();
                                         </div>
                                     </button>';
                                         }
+                                        else {
+                                            echo '<button class="bone_btn" <div style="display: none">>
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
+                                            </div>
+                                        </div>
+                                    </button> 
+                                    </div>';
+                                        }
+                                       ?>
 
+                                        <?php
                                         if (isset($_SESSION['username'])) {
-                                            echo '<button class="bone_btn">
+                                            echo '
+                                        <button class="bone_btn" >
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
@@ -122,9 +141,25 @@ session_start();
                                         </div>
                                     </button>';
                                         }
+                                        else {
+                                            echo '<div style="display: none">
+                                        <button class="bone_btn" >
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/Volunteer/Volunteer.php">Volunteering</a>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    </div>';
+                                        }
 
-                                   echo' </section>';
+
                                     ?>
+                                    </section>
 
                                 <section>
                                     <?php
