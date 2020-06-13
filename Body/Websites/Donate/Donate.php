@@ -22,7 +22,7 @@ include('../../Header/header.php'); ?>
 <main>
     <div class="Donate">
         <section id="content">
-            <form method="POST" action="Donate.php">
+            <form method="POST" action="Donate.Inc.php">
                 <h1>Donate</h1>
                 <h2>All donations are appreciated :)!</h2>
                 <div class="Input">
@@ -38,6 +38,21 @@ include('../../Header/header.php'); ?>
                     <label class="floatLabel" for="amount">Amount: </label>
                     <input  type="text" id="amount" name="amount" />
                 </p>
+                <div class="whitedogbone">
+                    <section>
+                        <button class="bone_btn" id="boooone">
+                            <div class="c1"></div>
+                            <div class="c2"></div>
+                            <div class="c3"></div>
+                            <div class="c4"></div>
+                            <div class="b1">
+                                <div class="b2">
+                                    <input style="float: right; font-size: 14pt" type="submit" value="Put Up" />
+                                </div>
+                            </div>
+                        </button>
+                    </section>
+                </div>
             </form>
 
             <script>

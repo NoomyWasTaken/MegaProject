@@ -54,3 +54,39 @@ form {
     display: flex;
     justify-content: space-between;
 }
+
+form input[type="submit"] {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 2em 0 0;
+    outline: none;
+    padding: .8em 0;
+}
+
+form input[type="submit"] {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: transparent;
+    /*background: #7f8c8d;*/
+    /*background: -moz-linear-gradient(top, #F4D3C2) 0%, rgba(254,231,154,1) 100%;*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fec151', endColorstr='#fee79a',GradientType=0);*/
+}
+
+#boooone{
+    margin: 0 auto;
+}
+
+form input[type="submit"]:hover {
+    color: #b1561a;
+    font-weight: bolder;
+}
