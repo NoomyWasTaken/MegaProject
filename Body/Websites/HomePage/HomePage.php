@@ -1,5 +1,4 @@
 <?php
-session_start();
 $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
 $query = 'select count(*) as num_of_adopted from animal where is_adopted = 1';
@@ -43,6 +42,12 @@ include('../../Header/header.php'); ?>
                 <img class="elementToFadeInAndOut" src="../../../Images/cycle9.png" alt="image">
                 <img class="elementToFadeInAndOut" src="../../../Images/cycle10.png" alt="image">
             </div>
+            <?php
+            session_start();
+            if (isset($_SESSION)) {
+                print 'whY heLo tHer SekC '.$_SESSION['username'];
+            }
+            ?>
             <script type="text/javascript">
                 var slideIndex = 0;
                 carousel();
