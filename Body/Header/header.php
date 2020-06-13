@@ -131,7 +131,7 @@ session_start();
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Header/LogOut.php">Log-out</a>
+                                                <a href="/../MegaProject/Body/Header/LogOut.php">Sign-out</a>
                                             </div>
                                         </div>
                                     </button>';
