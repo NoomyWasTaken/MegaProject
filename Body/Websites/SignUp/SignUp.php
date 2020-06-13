@@ -79,7 +79,7 @@
                         </p>
                         <p>
                             <label class="floatLabel" for="dob">Date of Birth</label>
-                            <input  type="date" placeholder="yyyy/mm/dd" id="dob" name="dob" style="padding: 21.0285px 10.400px" />
+                            <input  type="date" placeholder="dd/mm/yyyy" id="dob" name="dob" style="padding: 21.0285px 10.400px" />
                         </p>
                     </div>
                     <p>
