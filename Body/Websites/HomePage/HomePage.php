@@ -100,7 +100,7 @@ include('../../Header/header.php'); ?>
 
                         }
                         else {
-                            echo '<a href="/../MegaProject/Body/Websites/Donate/Donate.php"> <img src="../../../Images/donatewhite.jpg" onmouseover=this.src="../../../Images/donatered.jpg"; onmouseout=this.src="../../../Images/donatewhite.jpg"; /> </a>';
+                            echo '<a href="/../MegaProject/Body/Websites/SignIn/SignIn.php"> <img src="../../../Images/donatewhite.jpg" onmouseover=this.src="../../../Images/donatered.jpg"; onmouseout=this.src="../../../Images/donatewhite.jpg"; /> </a>';
 
                         }
                         ?>
