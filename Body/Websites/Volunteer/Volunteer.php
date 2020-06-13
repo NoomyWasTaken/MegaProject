@@ -16,19 +16,19 @@ include('../../Header/header.php'); ?>
 <main>
     <div class="SignIn">
         <section id="content">
-            <form method="POST" action="Includes/SignIn.inc.php">
+            <form method="POST" action="Includes/Volunteer.inc.php">
                 <h1>Sign-In</h1>
                 <div class="Input">
                     <p>
                         <label class="floatLabel" id="yes" for="work-as">Work as</label>
                         <select name="work-as" id="work-as">
                             <option value="    ">        </option>
-                            <option value="Male">  Caretaker  </option>
-                            <option value="female">  Veterinarian  </option>
-                            <option value="Other">  Trainer  </option>
-                            <option value="Other">  Pet Locator  </option>
-                            <option value="Other">  Pet Adoption Counselor  </option>
-                            <option value="Other">  Secretary  </option>
+                            <option value="Caretaker">  Caretaker  </option>
+                            <option value="Veterinarian">  Veterinarian  </option>
+                            <option value="Trainer">  Trainer  </option>
+                            <option value="Pet Locator">  Pet Locator  </option>
+                            <option value="Pet Adoption Counselor">  Pet Adoption Counselor  </option>
+                            <option value="Secretary">  Secretary  </option>
                         </select>
                     </p>
                 </div>

@@ -14,7 +14,7 @@ if (isset($_POST['volunteer'])) {
     $shelter = $_POST['shelter'];
 
     if (empty($workas) || empty($join || empty($shelter))) {
-        header("Location: ../HomePage/HomePage.php?error=emptyfields");
+        header("Location: ../Volunteer/Volunteer.php?error=emptyfields");
         exit();
     }
     else {
@@ -27,6 +27,7 @@ if (isset($_POST['volunteer'])) {
         oci_bind_by_name($result, ':users', $_SESSION['username']);
 
         oci_execute($result);
+        header("Location: ../HomePage/HomePage.php?success=volunteered");
     }
     oci_close($conn);
     exit();
