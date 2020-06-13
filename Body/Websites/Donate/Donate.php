@@ -17,7 +17,7 @@ $donation = oci_parse($conn, "insert into donation(d_amount) value ($_POST[amoun
 
 <body>
 <?php
-$pageTitle = 'Sign In';
+$pageTitle = 'Donation';
 include('../../Header/header.php'); ?>
 <main>
     <div class="Donate">
@@ -38,6 +38,7 @@ include('../../Header/header.php'); ?>
                     <label class="floatLabel" for="amount">Amount: </label>
                     <input  type="text" id="amount" name="amount" />
                 </p>
+
                 <div class="whitedogbone">
                     <section>
                         <button class="bone_btn" id="boooone">
@@ -53,6 +54,7 @@ include('../../Header/header.php'); ?>
                         </button>
                     </section>
                 </div>
+
             </form>
 
             <script>

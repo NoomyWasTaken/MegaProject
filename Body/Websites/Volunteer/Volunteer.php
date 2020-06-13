@@ -29,6 +29,7 @@ include('../../Header/header.php'); ?>
                             <option value="Pet Locator">  Pet Locator  </option>
                             <option value="Pet Adoption Counselor">  Pet Adoption Counselor  </option>
                             <option value="Secretary">  Secretary  </option>
+                            <option value="Foster">  foster  </option>
                         </select>
                     </p>
                 </div>
