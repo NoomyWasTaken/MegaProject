@@ -15,17 +15,16 @@ if (isset($_POST['sign-in'])) {
         header("Location: ../SignIn.php?=emptyfields");
     }
     else {
-        $sql = 'SELECT * FROM users where user_name= :username';
+        $sql = 'SELECT * FROM users where user_name = :username';
         $result = oci_parse($conn, $sql);
         oci_bind_by_name($result, ':username', $username);
         oci_execute($result);
         if ($row = oci_fetch_assoc($result)) {
-            $conf_password = password_verify($password, $row['PASSWORD']);
-            if ($conf_password == false) {
+            if ($password != $row['PASSWORD']) {
                 header("Location: ../SignIn.php?error=wrongPassword");
                 exit();
             }
-            else if ($conf_password == true) {
+            else if ($password == $row['PASSWORD']) {
                 session_start();
                 $_SESSION['username'] = $row['USERNAME'];
                 $_SESSION['fname'] = $row['FNAME'];

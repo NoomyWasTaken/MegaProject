@@ -52,7 +52,7 @@ if (isset($_POST['signup-submit'])) {
         else {
             $sql1 = 'INSERT INTO users (fname, lname, dob, gender, phone, address, email, user_name, password, country, city, zip) VALUES (:fname, :lname, :dob, :gender, :phone, :address, :email, :uname, :password, :country, :city, :zip)';
             $insert = oci_parse($conn, $sql1);
-            $hashedpassword = password_hash($password, PASSWORD_DEFAULT);
+//            $hashedpassword = password_hash($password, PASSWORD_DEFAULT);
             oci_bind_by_name($insert, ':uname', $username);
             oci_bind_by_name($insert, ':fname', $fname);
             oci_bind_by_name($insert, ':lname', $lname);
