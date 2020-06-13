@@ -271,5 +271,5 @@ section {
 }
 
 #hide{
-    padding: 0;
+    display: none;
 }
