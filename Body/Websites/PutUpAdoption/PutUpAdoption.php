@@ -95,10 +95,10 @@ if (isset($_SESSION['msg'])) {
                             <label class="floatLabel" id="yes" for="shelter">Shelter</label>
                             <select name="shelter" id="shelter">
                                 <option value="    ">        </option>
-                                <option value="PAWS(Kashmir)">  PAWS(Kashmir)  </option>
-                                <option value="PAWS(Punjab)">  PAWS(Punjab)  </option>
-                                <option value="PAWS(Sargodha)">  PAWS(Sargodha)  </option>
-                                <option value="PAWS(Islamabad HQ)">  PAWS(Islamabad HQ)  </option>
+                                <option value="236101001000">  PAWS(Kashmir)  </option>
+                                <option value="01">  PAWS(Punjab)  </option>
+                                <option value="01011">  PAWS(Sargodha)  </option>
+                                <option value="922">  PAWS(Islamabad HQ)  </option>
                             </select>
                         </p>
                         <p>
