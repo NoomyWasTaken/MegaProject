@@ -30,8 +30,7 @@ if (isset($_POST['sign-in'])) {
                 $_SESSION['fname'] = $row['FNAME'];
                 $_SESSION['lname'] = $row['LNAME'];
 
-                header("Location: HelloUser.php");
-//                header("Location: ../../HomePage/HomePage.php?success");
+                header("Location: ../../HomePage/HomePage.php?success");
                 exit();
             }
             else {
