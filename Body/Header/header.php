@@ -2,10 +2,12 @@
 session_start();
 ?>
 <title><?php echo $pageTitle; ?></title>
+
 <link rel="stylesheet" type="text/css" href="header.css">
 <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
 <header>
     <div id="structure">
+
         <div class="bone">
 
             <div class="s1"></div>
@@ -91,7 +93,22 @@ session_start();
                                 </section>
 
                                 <section>
-                                    <button class="bone_btn">
+                                    <?php
+                                    if (isset($_SESSION['username'])) {
+                                        echo '<button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/PutUpAdoption/PutUpAdoption.php" id="b3">Set an Adoption</a>
+                                            </div>
+                                        </div>
+                                    </button>';
+                                    }
+                                    else {
+                                       echo '<button class="bone_btn">
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
@@ -101,19 +118,38 @@ session_start();
                                                 <a href="/../MegaProject/Body/Websites/SignIn/SignIn.php">Sign-in</a>
                                             </div>
                                         </div>
-                                    </button>
+                                    </button>';
+                                    }
+                                    ?>
 
-                                    <button class="bone_btn">
+                                    <?php
+                                    if (isset($_SESSION['username'])) {
+                                        echo '<button class="bone_btn">
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php">Sign-up</a>
+                                                <a href="/../MegaProject/Body/Header/LogOut.php">Sign-out</a>
                                             </div>
                                         </div>
-                                    </button>
+                                    </button>';
+                                    }
+                                    else {
+                                        echo '<button class="bone_btn">
+                                        <div class="c1"></div>
+                                        <div class="c2"></div>
+                                        <div class="c3"></div>
+                                        <div class="c4"></div>
+                                        <div class="b1">
+                                            <div class="b2">
+                                                <a href="/../MegaProject/Body/Websites/SignUp/SignUp.php">Sign Up</a>
+                                            </div>
+                                        </div>
+                                    </button>';
+                                    }
+                                    ?>
                                 </section>
                                 </div>
                             </div>
@@ -148,6 +184,7 @@ session_start();
             </div>
 
         </div>
+
     </div>
 </header>
 <div style="clear: both"></div>
