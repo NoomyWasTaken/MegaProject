@@ -42,12 +42,6 @@ include('../../Header/header.php'); ?>
                 <img class="elementToFadeInAndOut" src="../../../Images/cycle9.png" alt="image">
                 <img class="elementToFadeInAndOut" src="../../../Images/cycle10.png" alt="image">
             </div>
-            <?php
-            session_start();
-            if (isset($_SESSION)) {
-                echo "<h1>whY heLo tHer SekC $_SESSION['username']</h1>";
-            }
-            ?>
             <script type="text/javascript">
                 var slideIndex = 0;
                 carousel();
