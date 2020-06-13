@@ -66,12 +66,14 @@ footer {
 }
 
 .logofoot {
-    display: inline-block;
+    display: contents;
     margin-right: 0 ;
 }
 
 .logofoot img{
     display: inline-block;
+    width: 200px;
+    height: 200px;
     margin-top: 40px;
     margin-left: 0;
 }
@@ -98,4 +100,8 @@ span{
 
 .LeftSide {
     margin-top: -15px;
+}
+
+#anchor {
+    display: contents;
 }

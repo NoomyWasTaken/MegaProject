@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <title><?php echo $pageTitle; ?></title>
 <link rel="stylesheet" type="text/css" href="header.css">
 <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">

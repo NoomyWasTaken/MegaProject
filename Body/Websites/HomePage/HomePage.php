@@ -70,8 +70,17 @@ include('../../Header/header.php'); ?>
                         <br>
                         <h2>Award winning organization</h2>
                         <br>
+<!--                        --><?php
+//                        if (isset($_SESSION['username'])) {
+//                            echo '<p class="loginstatus"> You are logged in!</p>';
+//                        }
+//                        else {
+//                            echo '<p class="loginstatus"> You are logged out!</p>';
+//                        }
+//                        ?>
+                        <br>
                         <p>"It was an immense honor receiving the award, one that we still can not believe we got. We just did what we thought was right, and we loved doing it too, but we never expected to get a reward from renowned veterinarian Dr. Javad Akram, and then have the opportunity to show our cause and hard-work in New York's Time Magazine. We've proven to the world that even our humble country Pakistan cares dearly about the well-being of all animals and to find them a new home." - Co-Founder of PAWS, Neuman Alkhalil</p>
-                        <p>PAWs was awarded the Certificate of Animal Appreciation in 2016 for their diligence and care towards the local animal life in Pakistan. In their first year of operation, they were able to successfully save over 1000 animals and find them new lives in Pakistan. They continue to show a head-strong determination for their goal of saving animals, while also presenting their country of Pakistan in a whole new light unto the world.   </p>
+                        <p>PAWS was awarded the Certificate of Animal Appreciation in 2016 for their diligence and care towards the local animal life in Pakistan. In their first year of operation, they were able to successfully save over 1000 animals and find them new lives in Pakistan. They continue to show a head-strong determination for their goal of saving animals, while also presenting their country of Pakistan in a whole new light unto the world.   </p>
                     </div>
                 </div>
 
