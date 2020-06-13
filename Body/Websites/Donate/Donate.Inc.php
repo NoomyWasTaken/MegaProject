@@ -34,12 +34,12 @@ if (isset($_POST['Donate'])) {
         oci_bind_by_name($result, ':users', $_SESSION['username']);
 
         oci_execute($result);
-        header("Location: ../../HomePage/HomePage.php");
+        header("Location: ../../../HomePage/HomePage.php");
     }
     oci_close($conn);
     exit();
 }
 else {
-    header("Location: ../../HomePage/HomePage.php");
+    header("Location: ../../../HomePage/HomePage.php");
     exit();
 }
