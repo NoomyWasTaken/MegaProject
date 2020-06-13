@@ -136,7 +136,7 @@ include('../../Header/header.php'); ?>
             </div>
             <hr id="hrline">
             <div class="UnderLine">
-                <h1>I've never owned a pet, what should I do?</h1>
+                <h1>I want to help, but can't adopt!</h1>
                 <br>
                 <a href="../Volunteer/Volunteer.php"
                 <p>Don't worry. Plenty of people have yet to ever experience what it means to take care of a pet. It is a responsibility, but an earnest one and a fulfilling one. Our caretakers can show you some of the ropes at your nearest shelter! If you want to find out more about what animal would suit you, click <a href="/../MegaProject/Body/Websites/Animals/Animals.php"> HERE </a> to find out more!</p>
