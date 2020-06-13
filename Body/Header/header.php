@@ -38,12 +38,13 @@ session_start();
                                     <script>document.write(document.title)</script>
                                 </h2>
                                 <hr>
+
                                 <?php
                                 if (isset($_SESSION['username'])) {
-                                    echo ' <div class="vl"></div>';
+                                    echo ' <div class="vl" style="height: 60%"></div>';
                                 }
                                 else {
-                                    echo '<div class="vl" style="height: 60%;"></div>';
+                                    echo '<div class="vl"></div>';
                                 }
                                 ?>
 
