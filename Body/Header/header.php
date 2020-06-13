@@ -115,7 +115,7 @@ session_start();
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
+                                                 <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
                                             </div>
                                         </div>
                                     </button> 
@@ -130,7 +130,7 @@ session_start();
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
+                                               <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
                                             </div>
                                         </div>
                                     </button> 
