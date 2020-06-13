@@ -13,7 +13,7 @@ if (isset($_POST['volunteer'])) {
     $join = $_POST['start'];
     $shelter = $_POST['shelter'];
 
-    if (empty($workas) || empty($join || empty($shelter))) {
+    if (empty($workas) || empty($join) || empty($shelter)) {
         header("Location: ../Volunteer/Volunteer.php?error=emptyfields");
         exit();
     }
