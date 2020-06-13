@@ -3,6 +3,6 @@
 
     $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
     session_destroy();
-    $_SESSION = [];
+    $_SESSION = array();
 
 header('Location: /../MegaProject/Body/Websites/HomePage/HomePage.php');
