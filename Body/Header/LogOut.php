@@ -6,5 +6,5 @@ if (isset($_SESSION['username'])) {
     $_SESSION = [];
     session_destroy();
 
-    header('Location: /../MegaProject/Body/Websites/HomePage/HomePage.php');
 }
+header('Location: /../MegaProject/Body/Websites/HomePage/HomePage.php');
