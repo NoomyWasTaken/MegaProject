@@ -54,12 +54,12 @@ if (isset($_POST['put-up-submit'])) {
             $sql = 'INSERT INTO animal (aname, age, height, weight, species, shelter_id, gender, image) VALUES (:aname, :age, :height, :weight, :species, :shelter_id, :gender, :image)';
             $insert = oci_parse($conn, $sql);
 
-            oci_bind_by_name($insert, ':aname', $aname);
+            oci_bind_by_name($insert, ':aname', $name);
             oci_bind_by_name($insert, ':age', $age);
             oci_bind_by_name($insert, ':height', $height);
             oci_bind_by_name($insert, ':weight', $weight);
             oci_bind_by_name($insert, ':species', $species);
-            oci_bind_by_name($insert, ':shelter_id', $shelter_id);
+            oci_bind_by_name($insert, ':shelter_id', $shelter);
             oci_bind_by_name($insert, ':gender', $gender);
             oci_bind_by_name($insert, ':image', $fileNewName);
 
@@ -79,7 +79,7 @@ if (isset($_POST['put-up-submit'])) {
             $sql4 = 'SELECT breed_id FROM breed WHERE breed_name = :breedname';
             $r2 = oci_parse($conn, $sql3);
             $r3 = oci_parse($conn, $sql4);
-            oci_bind_by_name($r2, ':aname', $aname);
+            oci_bind_by_name($r2, ':aname', $name);
             oci_bind_by_name($r3, ':breedname', $breed);
             oci_execute($r2);
             oci_execute($r3);
