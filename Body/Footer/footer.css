@@ -72,6 +72,7 @@ footer {
 
 .logofoot img{
     display: inline-block;
+    object-fit: cover;
     margin-top: 40px;
     margin-left: 0;
 }
