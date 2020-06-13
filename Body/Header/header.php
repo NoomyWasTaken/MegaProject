@@ -38,7 +38,15 @@ session_start();
                                     <script>document.write(document.title)</script>
                                 </h2>
                                 <hr>
-                                <div class="vl"></div>
+                                <?php
+                                if (isset($_SESSION['username'])) {
+                                    echo ' <div class="vl"></div>';
+                                }
+                                else {
+                                    echo '<div class="vl" style="height: 60%;"></div>';
+                                }
+                                ?>
+
                                 <div class="whitedogbone">
                                 <section>
                                     <button class="bone_btn">
