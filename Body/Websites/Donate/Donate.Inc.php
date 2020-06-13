@@ -2,6 +2,8 @@
 
 if (isset($_POST['Donate'])) {
 
+    session_start();
+
     $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 
     if (!$conn) {
