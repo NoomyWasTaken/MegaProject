@@ -67,7 +67,7 @@ if (isset($_POST['signup-submit'])) {
             oci_bind_by_name($insert, ':zip', $zip);
 
             oci_execute($insert);
-            header("Location: ../../SignIn.php");
+            header("Location: ../../SignIn/SignIn.php");
         }
     }
     oci_close($conn);
