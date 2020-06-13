@@ -93,12 +93,13 @@ session_start();
                                 </section>
 
 
-                                    <section>
+                                    <section style="padding-bottom: 0">
 
                                        <?php
                                         if (isset($_SESSION['username'])) {
 
-                                           echo '<button class="bone_btn">
+                                           echo '<div style="padding-bottom: 25px">
+                                        <button class="bone_btn">
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
@@ -108,7 +109,8 @@ session_start();
                                                 <a href="/../MegaProject/Body/Websites/Donate/Donate.php">Donate</a>
                                             </div>
                                         </div>
-                                    </button>';
+                                    </button> 
+                                    </div>';
                                         }
                                         else {
                                             echo '<div style="display: none; padding-bottom: 0">
@@ -130,6 +132,7 @@ session_start();
                                         <?php
                                         if (isset($_SESSION['username'])) {
                                             echo '
+                                        <div style="padding-bottom: 25px">
                                         <button class="bone_btn" >
                                         <div class="c1"></div>
                                         <div class="c2"></div>
@@ -140,7 +143,8 @@ session_start();
                                                 <a href="/../MegaProject/Body/Websites/Volunteer/Volunteer.php">Volunteering</a>
                                             </div>
                                         </div>
-                                    </button>';
+                                    </button>
+                                    </div>';
                                         }
                                         else {
                                             echo '<div style="display: none; padding-bottom: 0" >
