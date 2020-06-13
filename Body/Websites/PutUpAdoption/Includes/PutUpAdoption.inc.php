@@ -8,7 +8,7 @@ if (isset($_POST['put-up-submit'])) {
         trigger_error(htmlentities($e['message']), E_USER_ERROR);
     }
 
-    if(!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] != true){
+    if(!isset($_SESSION['username'])){
         header("Location: ../../SignIn/SignIn.php");
         exit;
     }
