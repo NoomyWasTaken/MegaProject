@@ -20,24 +20,27 @@ $donation = oci_parse($conn, "insert into donation(d_amount) value ($_POST[amoun
 $pageTitle = 'Donation';
 include('../../Header/header.php'); ?>
 <main>
-    <div class="Donate">
+    <div class="SignIn">
         <section id="content">
             <form method="POST" action="Donate.Inc.php">
                 <h1>Donate</h1>
-                <h2>All donations are appreciated :)!</h2>
-                <div class="Input">
-                    <label class="Input2" for="Option">Method:</label>
-                    <select name="creditcare" onchange="method(this);">
+
+                <p>
+                    <label class="floatLabel" id="yes" for="Option">Method:</label>
+                    <select name="creditcare" id="species" onchange="method(this);">
                         <option id="none" value="">             </option>
                         <option id="mc" value="mastercard">  Mastercard  </option>
                         <option id="v" value="visa">  Visa  </option>
                         <option id="ae" value="americanexpress">  American Express  </option>
                     </select>
-                </div>
-                <p id="Amount">
-                    <label class="floatLabel" for="amount">Amount: </label>
-                    <input  type="text" id="amount" name="amount" />
                 </p>
+
+                <div class="Input">
+                    <p>
+                        <label class="floatLabel" for="amount">Amount: </label>
+                        <input  type="text" id="amount" name="amount" />
+                    </p>
+                </div>
 
                 <div class="whitedogbone">
                     <section>
@@ -58,32 +61,33 @@ include('../../Header/header.php'); ?>
             </form>
 
             <script>
-            function method(that) {
-                if (that.value == "mastercard") {
-                    alert("check");
-                    document.getElementById("ifSelectedMC").style.display = "block";
-                    document.getElementById("ifSelectedV").style.display = "none";
-                    document.getElementById("ifSelectedAE").style.display = "none";
-                } else if (that.value == "visa") {
-                    alert("check");
-                    document.getElementById("ifSelectedMC").style.display = "none";
-                    document.getElementById("ifSelectedV").style.display = "block";
-                    document.getElementById("ifSelectedAE").style.display = "none";
-                } else if (that.value == "americanexpress") {
-                    alert("check");
-                    document.getElementById("ifSelectedMC").style.display = "none";
-                    document.getElementById("ifSelectedV").style.display = "none";
-                    document.getElementById("ifSelectedAE").style.display = "block";
-                } else {
-                    document.getElementById("ifSelectedMC").style.display = "none";
-                    document.getElementById("ifSelectedV").style.display = "none";
-                    document.getElementById("ifSelectedAE").style.display = "none";
+                function method(that) {
+                    if (that.value == "mastercard") {
+                        alert("check");
+                        document.getElementById("ifSelectedMC").style.display = "block";
+                        document.getElementById("ifSelectedV").style.display = "none";
+                        document.getElementById("ifSelectedAE").style.display = "none";
+                    } else if (that.value == "visa") {
+                        alert("check");
+                        document.getElementById("ifSelectedMC").style.display = "none";
+                        document.getElementById("ifSelectedV").style.display = "block";
+                        document.getElementById("ifSelectedAE").style.display = "none";
+                    } else if (that.value == "americanexpress") {
+                        alert("check");
+                        document.getElementById("ifSelectedMC").style.display = "none";
+                        document.getElementById("ifSelectedV").style.display = "none";
+                        document.getElementById("ifSelectedAE").style.display = "block";
+                    } else {
+                        document.getElementById("ifSelectedMC").style.display = "none";
+                        document.getElementById("ifSelectedV").style.display = "none";
+                        document.getElementById("ifSelectedAE").style.display = "none";
+                    }
                 }
-            }
             </script>
 
         </section>
     </div>
+
 </main>
 <?php
 include('../../Footer/footer.php'); ?>

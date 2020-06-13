@@ -7,15 +7,6 @@ main {
     margin: 0 auto;
 }
 
-#content {
-    margin: 0 auto;
-    margin-top: 550px;
-    background-image: url("../../../Images/background_nature.png");
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px black;
-    width: 30%;
-    padding-bottom: 20px;
 }
 
 h1 {
