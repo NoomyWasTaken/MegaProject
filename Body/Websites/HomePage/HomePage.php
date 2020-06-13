@@ -45,7 +45,7 @@ include('../../Header/header.php'); ?>
             <?php
             session_start();
             if (isset($_SESSION)) {
-                print 'whY heLo tHer SekC '.$_SESSION['username'];
+                echo "<h1>whY heLo tHer SekC $_SESSION['username']</h1>";
             }
             ?>
             <script type="text/javascript">
