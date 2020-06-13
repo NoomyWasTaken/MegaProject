@@ -93,7 +93,7 @@ session_start();
                                 </section>
 
                                     <?php
-                                    echo '<section>';
+                                    echo '<section style="padding-bottom: 0">';
                                         if (isset($_SESSION['username'])) {
 
                                            echo '<button class="bone_btn">
