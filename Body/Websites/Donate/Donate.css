@@ -73,10 +73,14 @@ form input[type="submit"] {
 }
 
 form input[type="submit"] {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-decoration: none;
     background: transparent;
+}
+
+#btndon{
+  float: none;
 }
 
 #boooone{

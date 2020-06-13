@@ -48,7 +48,7 @@ include('../../Header/header.php'); ?>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="float: right; font-size: 14pt" type="submit" value="Donate" name="Donate" />
+                                    <input id="btndon" style="float: right; font-size: 14pt" type="submit" value="Donate" name="Donate" />
                                 </div>
                             </div>
                         </button>
