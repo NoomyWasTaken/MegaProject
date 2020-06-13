@@ -27,7 +27,7 @@ include('../../Header/header.php'); ?>
                 <h2>All donations are appreciated :)!</h2>
                 <div class="Input">
                     <label class="Input2" for="Option">Method:</label>
-                    <select onchange="method(this);">
+                    <select name="creditcare" onchange="method(this);">
                         <option id="none" value="">             </option>
                         <option id="mc" value="mastercard">  Mastercard  </option>
                         <option id="v" value="visa">  Visa  </option>
@@ -47,7 +47,7 @@ include('../../Header/header.php'); ?>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="float: right; font-size: 14pt" type="submit" value="Put Up" />
+                                    <input style="float: right; font-size: 14pt" type="submit" value="Donate" name="Donate" />
                                 </div>
                             </div>
                         </button>
