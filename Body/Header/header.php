@@ -108,7 +108,7 @@ session_start();
                                     </button>';
                                     }
                                     else {
-                                        '<button class="bone_btn">
+                                       echo '<button class="bone_btn">
                                         <div class="c1"></div>
                                         <div class="c2"></div>
                                         <div class="c3"></div>
