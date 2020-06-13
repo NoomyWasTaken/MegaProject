@@ -5,7 +5,7 @@ header {
 .bone {
     position: relative;
     top: 20px;
-    width: 600px;
+    width: 41.7%;
     z-index: 9999;
 }
 
