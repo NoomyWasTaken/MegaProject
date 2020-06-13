@@ -47,7 +47,7 @@ if ($_POST) {
 <main>
 	    <div class="SignIn">
 	        <section id="content">
-		        <form method="POST" action="SignIn.php">
+		        <form method="POST" action="Includes/SignIn.inc.php">
 			        <h1>Sign-In</h1>
                     <div class="Input">
                         <p>
