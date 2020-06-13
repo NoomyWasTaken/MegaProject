@@ -53,7 +53,8 @@ if ($_POST) {
                         <p>
                             <label class="floatLabel" for="Username">Username</label >
                             <input  type="text" id="Username" name="Username" />
-                        </p>                    </div>
+                        </p>
+                    </div>
                     <div class="Input">
                         <p>
                             <label class="floatLabel" for="Password">Password</label>
@@ -70,7 +71,7 @@ if ($_POST) {
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="singin" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="sign-in" />
                                     </div>
                                 </div>
                             </button>
