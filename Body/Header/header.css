@@ -2,15 +2,10 @@ header {
     margin-top: 25px;
 }
 
-.headbone{
-    width: 100%;
-    margin-right: -58%;
-}
-
 .bone {
     position: relative;
     top: 20px;
-    width: 41.7%;
+    width: 600px;
     z-index: 9999;
 }
 
@@ -25,20 +20,20 @@ header {
 }
 
 .s1 {
-    left: -50%;
+    left: -300px;
 }
 
 .s2 {
-    right: -50%;
+    right: -300px;
 }
 
 .s3 {
     top: 205px;
-    left: -50%;
+    left: -300px;
 }
 
 .s4 {
-    right: -50%;
+    right: -300px;
     top: 205px;
 }
 
@@ -46,21 +41,21 @@ header {
     background-image: url("../../Images/grey_wood.jpg");
     box-shadow: 0 0 0 black;
     height: 300px;
-    width: 40%;
+    width: 238px;
     border: 5px solid rgb(71, 71, 71);
     position: absolute;
-    left: -9%;
+    left: -54px;
     top: 78px;
-    border-width: 5px 259px 5px 210px;
+    border-width: 5px 260px 5px 210px;
 }
 
 .clean {
     background-image: url("../../Images/grey_wood.jpg");
     box-shadow: 0 0 0 black;
-    width: 415%;
+    width: 1000px;
     height: 100%;
     position: absolute;
-    left: -146%;
+    left: -350px;
     border-radius: 1000px;
 }
 
