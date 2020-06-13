@@ -111,7 +111,7 @@ session_start();
                                     </button>';
                                         }
                                         else {
-                                            echo '<div style="display: none">
+                                            echo '<div style="display: none; padding-bottom: 0">
                                         <button class="bone_btn" >
                                         <div class="c1"></div>
                                         <div class="c2"></div>
@@ -143,7 +143,7 @@ session_start();
                                     </button>';
                                         }
                                         else {
-                                            echo '<div style="display: none">
+                                            echo '<div style="display: none; padding-bottom: 0" >
                                         <button class="bone_btn" >
                                         <div class="c1"></div>
                                         <div class="c2"></div>
