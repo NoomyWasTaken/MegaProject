@@ -38,6 +38,17 @@ include('../../Header/header.php'); ?>
                     <input  type="date" placeholder="yyyy/mm/dd" id="start" name="start" style="padding: 21.0285px 10.400px" />
                 </p>
 
+                <p>
+                    <label class="floatLabel" id="yes" for="shelter">Shelter</label>
+                    <select name="shelter" id="shelter">
+                        <option value="    ">        </option>
+                        <option value="236101001000">  PAWS(Kashmir)  </option>
+                        <option value="01">  PAWS(Punjab)  </option>
+                        <option value="01011">  PAWS(Sargodha)  </option>
+                        <option value="922">  PAWS(Islamabad HQ)  </option>
+                    </select>
+                </p>
+
                 <div class="whitedogbone">
                     <section>
                         <button class="bone_btn" id="boooone2">

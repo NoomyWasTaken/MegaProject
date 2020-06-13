@@ -11,17 +11,27 @@ if (isset($_POST['volunteer'])) {
 
     $workas = $_POST['work-as'];
     $join = $_POST['start'];
+    $shelter = $_POST['shelter'];
 
-    if (empty($workas) || empty($join)) {
+    if (empty($workas) || empty($join || empty($shelter))) {
         header("Location: ../HomePage/HomePage.php?error=emptyfields");
         exit();
     }
     else {
-        $sql = 'INSERT INTO MEMBERS';
+        $sql = 'INSERT INTO members(join_date, labor_div, shelter_id, users_id) VALUES (:joindate, :labor, :shelter, :users)';
         $result = oci_parse($conn, $sql);
 
-        oci_bind_by_name($result, ':username', $username);
+        oci_bind_by_name($result, ':joindate', $join);
+        oci_bind_by_name($result, ':labor', $workas);
+        oci_bind_by_name($result, ':shelter', $shelter);
+        oci_bind_by_name($result, ':users', $_SESSION['username']);
 
         oci_execute($result);
     }
+    oci_close($conn);
+    exit();
+}
+else {
+    header("Location: ../SignUp.php");
+    exit();
 }
