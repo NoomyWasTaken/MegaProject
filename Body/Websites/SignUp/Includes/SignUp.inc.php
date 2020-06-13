@@ -61,7 +61,7 @@ if (isset($_POST['signup-submit'])) {
             oci_bind_by_name($insert, ':phone', $phone);
             oci_bind_by_name($insert, ':address', $address);
             oci_bind_by_name($insert, ':email', $email);
-            oci_bind_by_name($insert, ':password', $hashedpassword);
+            oci_bind_by_name($insert, ':password', $password);
             oci_bind_by_name($insert, ':country', $country);
             oci_bind_by_name($insert, ':city', $city);
             oci_bind_by_name($insert, ':zip', $zip);
