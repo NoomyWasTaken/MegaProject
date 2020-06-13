@@ -44,7 +44,7 @@ include('../../Header/header.php'); ?>
 
                 <div class="whitedogbone">
                     <section>
-                        <button class="bone_btn" id="boooone">
+                        <button class="bone_btn" id="boooone3">
                             <div class="c1"></div>
                             <div class="c2"></div>
                             <div class="c3"></div>
