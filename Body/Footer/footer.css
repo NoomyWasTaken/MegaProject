@@ -101,5 +101,5 @@ span{
 }
 
 #anchor {
-    display: inline-block;
+    display: flex;
 }
