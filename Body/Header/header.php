@@ -102,7 +102,7 @@ session_start();
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Websites/PutUpAdoption/PutUpAdoption.php" id="b3">Put up for Adoption</a>
+                                                <a href="/../MegaProject/Body/Websites/PutUpAdoption/PutUpAdoption.php" id="b3">Set an Adoption</a>
                                             </div>
                                         </div>
                                     </button>';
