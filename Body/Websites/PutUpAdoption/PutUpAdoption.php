@@ -23,18 +23,18 @@ if (isset($_SESSION['msg'])) {
         <div class="SignUp">
             <section id="content">
                 <h1>Put up for Adoption</h1>
-                <form method="POST" action="SignUp.php">
+                <form method="POST" action="Includes/PutUpAdoption.inc.php" enctype="multipart/form-data">
 
                     <div class="leftform">
 
                         <h3>Animal details</h3><br>
                         <p>
-                            <label class="floatLabel" for="Name">Name</label>
-                            <input  type="text" id="Name" name="Name" />
+                            <label class="floatLabel" for="name">Name</label>
+                            <input  type="text" id="name" name="name" />
                         </p>
                         <p>
-                            <label class="floatLabel" id="yes" for="Species">Species</label>
-                            <select name="Species" id="Species">
+                            <label class="floatLabel" id="yes" for="species">Species</label>
+                            <select name="species" id="species">
                                 <option value="    ">        </option>
                                 <option value="Dog">  Dog  </option>
                                 <option value="Cat">  Cat  </option>
@@ -44,8 +44,8 @@ if (isset($_SESSION['msg'])) {
                             </select>
                         </p>
                         <p>
-                            <label class="floatLabel" for="Password">Breed</label>
-                            <input  type="password" name="Password" id="Breed" />
+                            <label class="floatLabel" for="breed">Breed</label>
+                            <input  type="text" name="breed" id="breed" />
                         </p>
                         <div class="whitedogbone">
                             <section>
@@ -56,7 +56,7 @@ if (isset($_SESSION['msg'])) {
                                     <div class="c4"></div>
                                     <div class="b1">
                                         <div class="b2">
-                                            <input style="float: right; font-size: 14pt" type="submit" value="Put Up" />
+                                            <input style="float: right; font-size: 14pt" type="submit" value="Put Up" name="put-up-submit"/>
                                         </div>
                                     </div>
                                 </button>
@@ -69,31 +69,31 @@ if (isset($_SESSION['msg'])) {
                         <br>
                         <div class="rfdiv">
                             <p>
-                                <label class="floatLabel" for="Height">Height</label>
-                                <input  type="text" id="Height" name="Height" />
+                                <label class="floatLabel" for="height">Height</label>
+                                <input  type="text" id="height" name="height" placeholder="E.g. 23.00 cm"/>
                             </p>
                             <p>
-                                <label class="floatLabel" for="Weight">Weight</label>
-                                <input  type="text" id="Weight" name="Weight" />
+                                <label class="floatLabel" for="weight">Weight</label>
+                                <input  type="text" id="weight" name="weight" placeholder="E.g. 32.12 kg"/>
                             </p>
                         </div>
                         <div class="rfdiv">
                             <p>
-                                <label class="floatLabel" id="yes" for="Gender">Gender</label>
-                                <select name="Gender" id="gender">
+                                <label class="floatLabel" id="yes" for="gender">Gender</label>
+                                <select name="gender" id="gender">
                                     <option value="    ">        </option>
                                     <option value="Male">  Male  </option>
                                     <option value="female">  Female  </option>
                                 </select>
                             </p>
                             <p>
-                                <label class="floatLabel" for="Age">Age</label>
-                                <input  type="password" name="Age" id="Age" />
+                                <label class="floatLabel" for="age">Age</label>
+                                <input  type="text" name="age" id="age" placeholder="E.g. 14 months"/>
                             </p>
                         </div>
                         <p>
-                            <label class="floatLabel" id="yes" for="Shelter">Shelter</label>
-                            <select name="Shelter" id="Shelter">
+                            <label class="floatLabel" id="yes" for="shelter">Shelter</label>
+                            <select name="shelter" id="shelter">
                                 <option value="    ">        </option>
                                 <option value="PAWS(Kashmir)">  PAWS(Kashmir)  </option>
                                 <option value="PAWS(Punjab)">  PAWS(Punjab)  </option>
@@ -101,12 +101,14 @@ if (isset($_SESSION['msg'])) {
                                 <option value="PAWS(Islamabad HQ)">  PAWS(Islamabad HQ)  </option>
                             </select>
                         </p>
+                        <p>
+                            <input type="file" name="file">
+                        </p>
                     </div>
-                </div>
-                <div class="vl69"></div>
-            </form>
-        </section>
-    </div>
+                    <div class="vl69"></div>
+                </form>
+            </section>
+        </div>
     </div>
 </main>
 <?php
