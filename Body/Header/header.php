@@ -108,6 +108,9 @@ session_start();
                                         </div>
                                     </button>';
                                         }
+                                        else{
+                                        echo '<div style="padding-bottom: 0"></div>';
+                                        }
                                         ?>
 
                                         <?php
@@ -123,6 +126,9 @@ session_start();
                                             </div>
                                         </div>
                                     </button>';
+                                        }
+                                        else {
+                                        echo '<div style="padding-bottom: 0"></div>';
                                         }
                                         ?>
 
