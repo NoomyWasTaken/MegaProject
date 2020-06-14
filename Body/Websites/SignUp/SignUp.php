@@ -53,11 +53,11 @@
                         </section>
                     </div>
 
-                    <script>
-                        function myFunction() {
-                            alert("Hello, now you're registered as a user. you can log in");
-                        }
-                    </script>
+<!--                    <script>-->
+<!--                        function myFunction() {-->
+<!--                            alert("Hello, now you're registered as a user. you can log in");-->
+<!--                        }-->
+<!--                    </script>-->
 
 
 
