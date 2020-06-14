@@ -36,12 +36,7 @@ if (isset($_SESSION['msg'])) {
                             <label class="floatLabel" id="yes" for="species">Species</label>
                             <select name="species" id="species">
                                 <option value="    ">        </option>
-                                <option value="Dog">  Dog  </option>
-                                <option value="Cat">  Cat  </option>
-                                <option value="Bird">  Bird  </option>
-                                <option value="Rodent">  Rodent  </option>
-                                <option value="Other">  Other  </option>
-                            </select>
+                                <op
                         </p>
                         <p>
                             <label class="floatLabel" for="breed">Breed</label>
