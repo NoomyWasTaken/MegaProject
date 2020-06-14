@@ -34,8 +34,16 @@ if (isset($_POST['put-up-submit'])) {
         $age = $_POST['age'];
         $shelter = $_POST['shelter'];
 
-        if (empty($name) || empty($species) || empty($breed) || empty($height) || empty($weight) || empty($gender) || empty($age) || empty($shelter)) {
+        if (empty($name) || empty($species) || empty($breed) || empty($height) || empty($weight) || empty($gender) || empty($age) || empty($shelter) || empty($file)) {
             header("Location: ../PutUpAdoption.php?error=emptyfields&name=".$name."&species=".$species."&breed=".$breed."&height=".$height."&weight=".$weight."&gender=".$gender."&age=".$age."&shelter=".$shelter."&shelter=".$file);
+            exit();
+        }
+        else if (!in_array($fileActualExt, $allowed)) {
+            header("Location: ../PutUpAdoption.php?error=badImgType");
+            exit();
+        }
+        else if ($fileError != 0) {
+            header("Location: ../PutUpAdoption.php?error=imgUploadFailed");
             exit();
         }
         else {
@@ -56,16 +64,19 @@ if (isset($_POST['put-up-submit'])) {
             oci_bind_by_name($insert, ':image', $fileNewName);
 
             oci_execute($insert);
+            oci_commit($conn);
 
             $sql2 = 'SELECT * FROM breed WHERE breed_name = :breedname';
             $r = oci_parse($conn, $sql2);
             oci_bind_by_name($r, ':breedname', $breed);
             oci_execute($r);
+            oci_commit($conn);
             if (oci_num_rows($r)===0) {
                 $sql10 = 'INSERT INTO breed (breed_name) VALUES (:breedname)';
                 $r10 = oci_parse($conn, $sql10);
                 oci_bind_by_name($r10, ':breedname', $breed);
                 oci_execute($r10);
+                oci_commit($conn);
             }
             $sql3 = 'SELECT animal_id FROM animal WHERE aname = :aname, age = :age';
             $sql4 = 'SELECT breed_id FROM breed WHERE breed_name = :breedname';
@@ -74,7 +85,9 @@ if (isset($_POST['put-up-submit'])) {
             oci_bind_by_name($r2, ':aname', $name);
             oci_bind_by_name($r3, ':breedname', $breed);
             oci_execute($r2);
+            oci_commit($conn);
             oci_execute($r3);
+            oci_commit($conn);
             $row = oci_fetch_assoc($r2);
             $row2 = oci_fetch_assoc($r3);
             $aid = $row['ANIMAL_ID'];
@@ -84,6 +97,7 @@ if (isset($_POST['put-up-submit'])) {
             oci_bind_by_name($insert2, ':aid', $aid);
             oci_bind_by_name($insert2, ':bid', $bid);
             oci_execute($insert2);
+            oci_commit($conn);
 
             header("Location: ../../HomePage/HomePage.php?success");
         }
