@@ -68,7 +68,11 @@
 
 /* Hide the images by default */
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
-    /*display: none;*/
+    width: 80%;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 img{
+    width: 100%;
 }
 
 /* Next & previous buttons */

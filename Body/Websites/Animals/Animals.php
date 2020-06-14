@@ -171,7 +171,7 @@ include('../../Header/header.php'); ?>
                 <ul>
                     <li>Likes: Playing, Eating, Singing</li>
                     <li>Dislikes: Isolation, Mishandling</li>
-                    <li>Best for: Introverts/li>
+                    <li>Best for: Introverts </li>
                 </ul>
             </div>
             <div class="mySlides3">
