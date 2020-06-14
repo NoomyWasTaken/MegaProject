@@ -73,10 +73,18 @@ include('../../Header/header.php'); ?>
         </script>
 
         <div id="doge" class="w3-content w3-display-container">
-            <img class="mySlides1" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides1" src="../../../Images/cycle2.png" style="width:100%">
-            <img class="mySlides1" src="../../../Images/cycle3.png" style="width:100%">
-            <img class="mySlides1" src="../../../Images/cycle4.png" style="width:100%">
+            <div>
+                <img class="mySlides1" src="../../../Images/cycle1.png" style="width:100%">
+            </div>
+            <div>
+                <img class="mySlides1" src="../../../Images/cycle1.png" style="width:100%">
+            </div>
+            <div>
+                <img class="mySlides1" src="../../../Images/cycle3.png" style="width:100%">
+            </div>
+            <div>
+                <img class="mySlides1" src="../../../Images/cycle4.png" style="width:100%">
+            </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
         </div>
