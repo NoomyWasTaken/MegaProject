@@ -217,6 +217,11 @@ session_start();
                                                 <a href="/../MegaProject/Body/Header/LogOut.php" onclick="myFunction()">Sign-out</a>
                                             </div>
                                         </div>
+                                        <script>
+                        function myFunction() {
+                            alert("you\'re signed out");
+                        }
+                    </script>
                                     </button>';
 
                                     }
@@ -263,11 +268,7 @@ session_start();
 
                     </script>
 
-                    <script>
-                        function myFunction() {
-                            alert("you're signed out");
-                        }
-                    </script>
+
 
                 </div>
             </div>
