@@ -164,9 +164,33 @@ include('../../Header/header.php'); ?>
         </div>
 
         <div id="birb" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides3" src="../../../Images/Animals/Macaow.jpg" style="width:100%">
-            <img class="mySlides3" src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
-            <img class="mySlides3" src="../../../Images/Animals/budgie.jpg" style="width:100%">
+            <div class="mySlides3">
+                <h1>Budgerigar</h1>
+                <img src="../../../Images/Animals/budgie.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Playing, Eating, Singing</li>
+                    <li>Dislikes: Isolation, Mishandling</li>
+                    <li>Best for: Introverts/li>
+                </ul>
+            </div>
+            <div class="mySlides3">
+                <h1>Lovebirds</h1>
+                <img src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Wandering, Other birds, Socializing</li>
+                    <li>Dislikes: Small cages, Loneliness</li>
+                    <li>Best for: Socialites</li>
+                </ul>
+            </div>
+            <div class="mySlides3">
+                <h1>Macaow</h1>
+                <img src="../../../Images/Animals/Macaow.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Open areas, Toys, Foraging games</li>
+                    <li>Dislikes: Small spaces, silence</li>
+                    <li>Best for: Musicians and owners with large houses</li>
+                </ul>
+            </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>

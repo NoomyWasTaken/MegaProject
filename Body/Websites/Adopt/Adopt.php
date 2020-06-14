@@ -17,7 +17,7 @@ include('../../Header/header.php'); ?>
 
 <main>
     <div id="BigWrapper">
-
+        <?php include("SmallAdopt.php"); ?>
     </div>
 </main>
 
