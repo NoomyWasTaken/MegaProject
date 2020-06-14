@@ -199,7 +199,7 @@ include('../../Header/header.php'); ?>
 
             <div class="mySlides4">
                 <h1>Suger Glider</h1>
-                <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
+                <img src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -208,7 +208,7 @@ include('../../Header/header.php'); ?>
             </div>
             <div class="mySlides4">
                 <h1>Guinea Pig</h1>
-                <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
+                <img src="../../../Images/Animals/guineapig.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -217,7 +217,7 @@ include('../../Header/header.php'); ?>
             </div>
             <div class="mySlides4">
                 <h1>Guinea Pig</h1>
-                <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
+                <img src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -232,7 +232,7 @@ include('../../Header/header.php'); ?>
 
             <div class="mySlides5">
                 <h1>Guinea Pig</h1>
-                <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
+                <img src="../../../Images/Animals/giraffes.gif" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -241,7 +241,7 @@ include('../../Header/header.php'); ?>
             </div>
             <div class="mySlides5">
                 <h1>Guinea Pig</h1>
-                <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
+                <img src="../../../Images/Animals/alpaca.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -250,7 +250,7 @@ include('../../Header/header.php'); ?>
             </div>
             <div class="mySlides5">
                 <h1>Guinea Pig</h1>
-                <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
+                <img src="../../../Images/Animals/clownfish.png" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
