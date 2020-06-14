@@ -1,3 +1,6 @@
 #BigWrapper {
     margin-top: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
