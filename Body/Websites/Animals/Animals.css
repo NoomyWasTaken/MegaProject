@@ -162,10 +162,6 @@
     margin: 0 auto;
 }
 
-#BigDiv img {
-    width: 100%;
-}
-
 #BigDiv h2 {
     font-family: 'Griffy', cursive;
     font-size: 18pt;
@@ -175,3 +171,4 @@
     font-family: Verdana;
     font-size: 14pt;
 }
+
