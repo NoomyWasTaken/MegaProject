@@ -170,7 +170,7 @@ include('../../Header/header.php'); ?>
                 <ul>
                     <li>Likes: Playing, Eating, Singing</li>
                     <li>Dislikes: Isolation, Mishandling</li>
-                    <li>Best for: Introverts/li>
+                    <li>Best for: Introverts </li>
                 </ul>
             </div>
             <div class="mySlides3">
@@ -197,7 +197,7 @@ include('../../Header/header.php'); ?>
 
         <div id="road" class="w3-content w3-display-container" style="display: none">
 
-            <div class="mySlides2">
+            <div class="mySlides4">
                 <h1>Suger Glider</h1>
                 <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
                 <ul>
@@ -206,7 +206,7 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Cuddly Owners</li>
                 </ul>
             </div>
-            <div class="mySlides2">
+            <div class="mySlides4">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
                 <ul>
@@ -215,7 +215,7 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Cuddly Owners</li>
                 </ul>
             </div>
-            <div class="mySlides2">
+            <div class="mySlides4">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <ul>
@@ -230,7 +230,7 @@ include('../../Header/header.php'); ?>
 
         <div id="melman" class="w3-content w3-display-container" style="display: none">
 
-            <div class="mySlides2">
+            <div class="mySlides5">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
                 <ul>
@@ -239,7 +239,7 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Cuddly Owners</li>
                 </ul>
             </div>
-            <div class="mySlides2">
+            <div class="mySlides5">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
                 <ul>
@@ -248,7 +248,7 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Cuddly Owners</li>
                 </ul>
             </div>
-            <div class="mySlides2">
+            <div class="mySlides5">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
                 <ul>
