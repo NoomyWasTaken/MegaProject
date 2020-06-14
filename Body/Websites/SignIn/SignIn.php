@@ -86,7 +86,7 @@ if ($_POST) {
 
             <script>
                 function myFunction() {
-                    alert("welcome, you are signed in");
+                    alert("welcome, you're signed in");
                 }
             </script>
         </div>

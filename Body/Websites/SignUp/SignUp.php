@@ -46,12 +46,21 @@
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" name="signup-submit" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" name="signup-submit" onclick="myFunction()" />
                                     </div>
                                 </div>
                             </button>
                         </section>
                     </div>
+
+                    <script>
+                        function myFunction() {
+                            alert("Hello, now you're registered as a user. you can log in");
+                        }
+                    </script>
+
+
+
                 </div>
 
                 <div class="rightform">
