@@ -172,17 +172,67 @@ include('../../Header/header.php'); ?>
         </div>
 
         <div id="road" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
-            <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
-            <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
+
+            <div class="mySlides2">
+                <h1>Suger Glider</h1>
+                <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Guinea Pig</h1>
+                <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Guinea Pig</h1>
+                <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
 
         <div id="melman" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
-            <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
-            <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
+
+            <div class="mySlides2">
+                <h1>Guinea Pig</h1>
+                <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Guinea Pig</h1>
+                <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Guinea Pig</h1>
+                <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
