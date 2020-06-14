@@ -31,7 +31,7 @@ include('../../Header/header.php'); ?>
         <div id="SmallDivContainer">
             <img src="../../../Images/cycle10.png">
             <h3>Name:
-                <?php echo $row['ANAME']; ?>
+                <?php echo "$row['ANAME']"; ?>
             </h3>
             <div id="SidesWrapper">
                 <div id="LeftSide">
