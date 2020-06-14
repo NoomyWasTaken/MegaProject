@@ -73,17 +73,59 @@ include('../../Header/header.php'); ?>
         </script>
 
         <div id="doge" class="w3-content w3-display-container">
-            <div>
-                <img class="mySlides1" src="../../../Images/cycle1.png" style="width:100%">
+            <div class="ActualSlides">
+                <h1>Golden Retriever</h1>
+                <img class="mySlides1" src="../../../Images/Animals/Golden-Retrievers.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Playing, Fetch, Snuggling</li>
+                    <li>Dislikes: Tight leashes, Boredom</li>
+                    <li>Best for: Outgoing and active people</li>
+                </ul>
             </div>
-            <div>
-                <img class="mySlides1" src="../../../Images/cycle1.png" style="width:100%">
+            <div class="ActualSlides">
+                <h1>Border Collie</h1>
+                <img class="mySlides1" src="../../../Images/Animals/Border-Collie.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Having "work", Order, Herding</li>
+                    <li>Dislikes: Boredom, Not socializing</li>
+                    <li>Best for: Owners who like and can maintain well trained dogs</li>
+                </ul>
             </div>
-            <div>
-                <img class="mySlides1" src="../../../Images/cycle3.png" style="width:100%">
+            <div class="ActualSlides">
+                <h1>Bichon Frise</h1>
+                <img class="mySlides1" src="../../../Images/Animals/Bichon.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Playing, Other dogs, Kids</li>
+                    <li>Dislikes: Being alone, New places</li>
+                    <li>Best for: Apartment owners or families with kids</li>
+                </ul>
             </div>
-            <div>
-                <img class="mySlides1" src="../../../Images/cycle4.png" style="width:100%">
+            <div class="ActualSlides">
+                <h1>American Staffordshire Terrier</h1>
+                <img class="mySlides1" src="../../../Images/Animals/American-Staffordshire-Terrier.png" style="width:100%">
+                <ul>
+                    <li>Likes: Chewing, Protecting, Other people</li>
+                    <li>Dislikes: Staying still, Tight leashes</li>
+                    <li>Best for: Owners with a large backyard or home</li>
+                </ul>
+            </div>
+            <div class="ActualSlides">
+                <h1>Husky</h1>
+                <img class="mySlides1" src="../../../Images/Animals/husky.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Wandering, Cuddling, Howling</li>
+                    <li>Dislikes: Heat, Small spaces</li>
+                    <li>Best for: Experienced owners that often walks</li>
+                </ul>
+            </div>
+            <div class="ActualSlides">
+                <h1>Pug</h1>
+                <img class="mySlides1" src="../../../Images/Animals/pug.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Sleeping, Playing, Eating</li>
+                    <li>Dislikes: Heat, </li>
+                    <li>Best for:</li>
+                </ul>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
