@@ -5,6 +5,7 @@ $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 $query = 'select * from animal where is_adopted = 0';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
+$i = oci_num_rows($stid);
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,7 +25,8 @@ include('../../Header/header.php'); ?>
 
 <main>
     <div id="BigWrapper">
-        <?php while($row=oci_fetch_assoc($stid))
+        <?php for($x=0, $x<=$i, $x++) {
+            $row = oci_fetch_assoc($stid);
             $query2 = 'select * from animal_breed where animal_id = :aid';
             $stid2 = oci_parse($conn, $query2);
             $aid = $row['ANIMAL_ID'];
@@ -40,27 +42,27 @@ include('../../Header/header.php'); ?>
 
             echo "<div id='SmallDivContainer'>";
             echo "<img src='../../../Images/cycle10.png'>";
-            echo "<h3>Name:".$row['ANAME']."</h3>";
+            echo "<h3>Name:" . $row['ANAME'] . "</h3>";
             echo "<div id='SidesWrapper'>";
             echo "<div id='LeftSide'>";
-            echo "<p>Species: ".$row['SPECIES']."</p>";
+            echo "<p>Species: " . $row['SPECIES'] . "</p>";
             echo "<br>";
-            echo "<p>Breed: ".$row3['BREED_NAME']."</p>";
+            echo "<p>Breed: " . $row3['BREED_NAME'] . "</p>";
             echo "<br>";
-            echo "<p>Age: ".$row['AGE']."</p>";
+            echo "<p>Age: " . $row['AGE'] . "</p>";
             echo "</div>";
             echo "<div id='RightSide'>";
-            echo "<p>Gender: ".$row['GENDER']."</p>";
+            echo "<p>Gender: " . $row['GENDER'] . "</p>";
             echo "<br>";
-            echo "<p>Height: ".$row['HEIGHT']."</p>";
+            echo "<p>Height: " . $row['HEIGHT'] . "</p>";
             echo "<br>";
-            echo "<p>Weight: ".$row['WEIGHT']."</p>";
+            echo "<p>Weight: " . $row['WEIGHT'] . "</p>";
             echo "</div>";
             echo "</div>";
             echo "<a href='#'>Adopt now!</a>";
             echo "</div>";
-
-            ?>
+        }
+        ?>
 
 <!--        --><?php //while(($row=oci_fetch_assoc($stid)) != false) ?>
 <!--        <div id="SmallDivContainer">-->
