@@ -71,7 +71,7 @@ if ($_POST) {
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="sign-in" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="sign-in" onclick="myFunction()"/>
                                     </div>
                                 </div>
                             </button>
@@ -83,6 +83,12 @@ if ($_POST) {
 		        </form>
 
 	        </section>
+
+            <script>
+                function myFunction() {
+                    alert("welcome, you are signed in");
+                }
+            </script>
         </div>
 </main>
     <?php
