@@ -42,7 +42,7 @@ include('../../Header/header.php'); ?>
 
             echo "<div id='SmallDivContainer'>";
             echo "<img src='../../../Images/cycle10.png'>";
-            echo "<h3>Name:" . $row['ANAME'] . "</h3>";
+            echo "<h3>Name: " . $row['ANAME'] . "</h3>";
             echo "<div id='SidesWrapper'>";
             echo "<div id='LeftSide'>";
             echo "<p>Species: " . $row['SPECIES'] . "</p>";
