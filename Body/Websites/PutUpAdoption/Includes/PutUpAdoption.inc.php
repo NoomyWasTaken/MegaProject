@@ -70,11 +70,11 @@ if (isset($_POST['put-up-submit'])) {
                 oci_execute($r10);
                 oci_commit($conn);
             }
-            $sql3 = 'SELECT animal_id FROM animal WHERE aname = :aname, age = :age';
+            $sql3 = 'SELECT animal_id FROM animal WHERE image = :image';
             $sql4 = 'SELECT breed_id FROM breed WHERE breed_name = :breedname';
             $r2 = oci_parse($conn, $sql3);
             $r3 = oci_parse($conn, $sql4);
-            oci_bind_by_name($r2, ':aname', $name);
+            oci_bind_by_name($r2, ':image', $fileNewName);
             oci_bind_by_name($r3, ':breedname', $breed);
             oci_execute($r2);
             oci_commit($conn);
