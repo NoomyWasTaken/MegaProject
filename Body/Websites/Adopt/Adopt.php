@@ -1,4 +1,14 @@
-<?php?>
+<?php
+session_start();
+$conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
+
+$query = 'select * from animal where is_adopted = 0';
+$query2 = 'select * from breed';
+$stid = oci_parse($conn, $query);
+$stid2 = oci_parse($conn, $query2);
+oci_execute($stid);
+oci_execute($stid2);
+?>
 <!DOCTYPE html>
 <html>
 <head>
