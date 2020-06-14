@@ -43,7 +43,7 @@ if (isset($_POST['put-up-submit'])) {
             $fileDestination = '../../../../Images/Adopt/'.$fileNewName;
             move_uploaded_file($fileTmpName, $fileDestination);
 
-            $sql = 'INSERT INTO animal (aname, age, height, weight, species, shelter_id, gender) VALUES (:aname, :age, :height, :weight, :species, :shelter_id, :gender)';
+            $sql = 'INSERT INTO animal (aname, age, height, weight, species, shelter_id, is_adopted, gender) VALUES (:aname, :age, :height, :weight, :species, :shelter_id, 0, :gender)';
             $insert = oci_parse($conn, $sql);
 
             oci_bind_by_name($insert, ':aname', $name);
@@ -53,7 +53,7 @@ if (isset($_POST['put-up-submit'])) {
             oci_bind_by_name($insert, ':species', $species);
             oci_bind_by_name($insert, ':shelter_id', $shelter);
             oci_bind_by_name($insert, ':gender', $gender);
-            oci_bind_by_name($insert, ':image', $fileNewName);
+//            oci_bind_by_name($insert, ':image', $fileNewName);
 
             oci_execute($insert);
             oci_commit($conn);
