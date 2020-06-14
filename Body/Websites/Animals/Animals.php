@@ -72,6 +72,7 @@ include('../../Header/header.php'); ?>
             }
         </script>
 
+        <div id="BigDiv">
         <div id="doge" class="w3-content w3-display-container">
             <div class="mySlides1">
                 <h1>Golden Retriever</h1>
@@ -285,6 +286,7 @@ include('../../Header/header.php'); ?>
                 x[slideIndex[no]-1].style.display = "block";
             }
         </script>
+    </div>
     </div>
 </main>
 
