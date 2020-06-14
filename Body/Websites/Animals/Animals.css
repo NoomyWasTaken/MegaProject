@@ -68,7 +68,11 @@
 
 /* Hide the images by default */
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
-    /*display: none;*/
+    width: 80%;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, img{
+    width: 100%;
 }
 
 /* Next & previous buttons */
@@ -162,10 +166,6 @@
     margin: 0 auto;
 }
 
-#BigDiv img {
-    width: 100%;
-}
-
 #BigDiv h2 {
     font-family: 'Griffy', cursive;
     font-size: 18pt;
@@ -175,3 +175,4 @@
     font-family: Verdana;
     font-size: 14pt;
 }
+
