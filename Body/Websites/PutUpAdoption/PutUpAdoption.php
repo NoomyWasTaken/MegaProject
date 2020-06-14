@@ -83,7 +83,7 @@ if (isset($_SESSION['msg'])) {
                                 <select name="gender" id="gender">
                                     <option value="    ">        </option>
                                     <option value="Male">  Male  </option>
-                                    <option value="female">  Female  </option>
+                                    <option value="Female">  Female  </option>
                                 </select>
                             </p>
                             <p>
