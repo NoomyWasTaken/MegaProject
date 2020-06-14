@@ -177,27 +177,27 @@ include('../../Header/header.php'); ?>
                 <h1>Suger Glider</h1>
                 <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
-                    <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Likes: Eating sweets (eg. fresh fruits), gliding, company</li>
+                    <li>Dislikes: Clinginess, Tense situations </li>
+                    <li>Best for: Owners with open space </li>
                 </ul>
             </div>
             <div class="mySlides2">
                 <h1>Guinea Pig</h1>
                 <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Likes: vegitables, Socializing</li>
                     <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Best for: relaxed individuals</li>
                 </ul>
             </div>
             <div class="mySlides2">
-                <h1>Guinea Pig</h1>
+                <h1>Hamster</h1>
                 <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
-                    <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Likes: nuts, small spaces, balls </li>
+                    <li>Dislikes: Sharing, loud noises</li>
+                    <li>Best for: owners with small spaces</li>
                 </ul>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
@@ -207,30 +207,30 @@ include('../../Header/header.php'); ?>
         <div id="melman" class="w3-content w3-display-container" style="display: none">
 
             <div class="mySlides2">
-                <h1>Guinea Pig</h1>
+                <h1>Giraffe</h1>
                 <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
-                    <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Likes: Long walks, tall trees, open fields</li>
+                    <li>Dislikes: riding them</li>
+                    <li>Best for: big back yards with tall trees</li>
                 </ul>
             </div>
             <div class="mySlides2">
-                <h1>Guinea Pig</h1>
+                <h1>Alpaca</h1>
                 <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
-                    <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Likes: A good tussle and grain and watermelon</li>
+                    <li>Dislikes: Being disturbed at meal time</li>
+                    <li>Best for:People who like to get spit on</li>
                 </ul>
             </div>
             <div class="mySlides2">
-                <h1>Guinea Pig</h1>
+                <h1>Clown Fish</h1>
                 <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
                 <ul>
-                    <li>Likes: Cuddling, Socializing, Grooming </li>
-                    <li>Dislikes: Loneliness, Tense situations </li>
-                    <li>Best for: Cuddly Owners</li>
+                    <li>Likes: clean water, dory</li>
+                    <li>Dislikes: Abusive children</li>
+                    <li>Best for: doing the minimal</li>
                 </ul>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
