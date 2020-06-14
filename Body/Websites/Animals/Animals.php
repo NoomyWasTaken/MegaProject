@@ -132,9 +132,33 @@ include('../../Header/header.php'); ?>
         </div>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides2" src="../../../Images/cycle5.png" style="width:100%">
-            <img class="mySlides2" src="../../../Images/cycle6.png" style="width:100%">
-            <img class="mySlides2" src="../../../Images/cycle7.png" style="width:100%">
+            <div class="mySlides2">
+                <h1>Exotic Shorthair</h1>
+                <img src="../../../Images/Animals/Exotic-Shorthair.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Cuddling, Socializing, Grooming </li>
+                    <li>Dislikes: Loneliness, Tense situations </li>
+                    <li>Best for: Cuddly Owners</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Sphinx</h1>
+                <img src="../../../Images/Animals/sphinx.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Tall places, Jumping, Following</li>
+                    <li>Dislikes: Small spaces, Yelling</li>
+                    <li>Best for: Owners with vertical homes</li>
+                </ul>
+            </div>
+            <div class="mySlides2">
+                <h1>Tonkinese</h1>
+                <img src="../../../Images/Animals/tonkinese.jpg" style="width:100%">
+                <ul>
+                    <li>Likes: Playing, Fetch, Snuggling</li>
+                    <li>Dislikes: Tight leashes, Boredom</li>
+                    <li>Best for: Outgoing and active people</li>
+                </ul>
+            </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
