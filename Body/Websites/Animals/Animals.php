@@ -90,25 +90,25 @@ include('../../Header/header.php'); ?>
         </div>
 
         <div id="birb" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides3" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides3" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides3" src="../../../Images/cycle1.png" style="width:100%">
+            <img class="mySlides3" src="../../../Images/Animals/Macaow.jpg" style="width:100%">
+            <img class="mySlides3" src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
+            <img class="mySlides3" src="../../../Images/Animals/budgie.jpg" style="width:100%">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
 
         <div id="road" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides4" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides4" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides4" src="../../../Images/cycle1.png" style="width:100%">
+            <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
+            <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
+            <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
 
         <div id="melman" class="w3-content w3-display-container" style="display: none">
-            <img class="mySlides5" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides5" src="../../../Images/cycle1.png" style="width:100%">
-            <img class="mySlides5" src="../../../Images/cycle1.png" style="width:100%">
+            <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
+            <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
+            <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
         </div>
