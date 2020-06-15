@@ -78,7 +78,7 @@ include('../../Header/header.php'); ?>
                                         <select style='display: none' name='d'><option value='".$d."'></option></select>
                                         <select style='display: none' name='n'><option value='".$n."'></option></select>
                                         <select style='display: none' name='a'><option value='".$a."'></option></select>
-                                        <input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
+                                        <input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
                                     </div>
                                 </div>
                             </button>
@@ -86,7 +86,7 @@ include('../../Header/header.php'); ?>
                     </div></form>";
             }
             else {
-                echo "<div class=\"whitedogbone\">
+                echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
                         <section>
                             <button class=\"bone_btn\" id=\"boooone2\">
                                 <div class=\"c1\"></div>
@@ -95,12 +95,12 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                        <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
+                                            <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
                                     </div>
                                 </div>
                             </button>
                         </section>
-                    </div>";
+                    </div></form>";
             }
             echo "</div>";
             echo "</div>";
