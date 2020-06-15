@@ -89,3 +89,15 @@
     margin-top: -15px;
     display: flex;
 }
+
+.bone_btn {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
