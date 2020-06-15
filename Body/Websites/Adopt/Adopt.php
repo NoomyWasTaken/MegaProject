@@ -106,11 +106,7 @@ include('../../Header/header.php'); ?>
             echo "</div>";
         }
         ?>
-<<<<<<< HEAD
-=======
 
-
->>>>>>> origin/master
     </div>
 </main>
 
