@@ -73,42 +73,7 @@ include('../../Header/header.php'); ?>
         }
         ?>
 
-<!--        --><?php //while(($row=oci_fetch_assoc($stid)) != false) ?>
-<!--        <div id="SmallDivContainer">-->
-<!--            <img src="../../../Images/cycle10.png">-->
-<!--            <h3>Name:-->
-<!--                --><?php //echo $row['ANAME']; ?>
-<!--            </h3>-->
-<!--            <div id="SidesWrapper">-->
-<!--                <div id="LeftSide">-->
-<!--                    <p>Species:-->
-<!--                        --><?php //echo $row['SPECIES']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Breed:-->
-<!--                        --><?php //echo $row2['BREED_NAME']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Age:-->
-<!--                        --><?php //echo $row['AGE']; ?>
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div id="RightSide">-->
-<!--                    <p>Gender:-->
-<!--                        --><?php //echo $row['GENDER']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Height:-->
-<!--                        --><?php //echo $row['HEIGHT']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Weight:-->
-<!--                        --><?php //echo $row['WEIGHT']; ?>
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <a href="#">Adopt now!</a>-->
-<!--        </div>-->
+
     </div>
 </main>
 
