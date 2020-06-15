@@ -85,8 +85,7 @@
 
 #boooone2{
     float: left;
-    margin-left: -115px;
-    margin-top: -15px;
+    margin-left: 30px;
     display: flex;
 }
 
@@ -100,4 +99,31 @@
     display: flex;
     justify-content: center;
     font-size: small;
+}
+form input[type="submit"] {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    line-height: 1.6em;
+    margin: 2em 0 0;
+    outline: none;
+    padding: .8em 0;
+}
+
+form input[type="submit"] {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: transparent;
+}
+form input[type="submit"]:hover {
+    color: #b1561a;
+    font-weight: bolder;
 }
