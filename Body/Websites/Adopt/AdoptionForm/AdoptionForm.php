@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['adopt'])) {
 
-    $d = $_POST['d'];
+    $d = "18/06/2020";
     $n = $_POST['n'];
     $a = $_POST['a'];
 
