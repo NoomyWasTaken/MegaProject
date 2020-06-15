@@ -48,7 +48,7 @@ form {
     margin-bottom: 5px;
 }
 
-form input[type="text"] {
+form input[type="date"] {
     background-image: url("../../../Images/light_brown_wood.jpg");
     border: 1px solid #000000;
     font-size: 1.6em;

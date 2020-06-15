@@ -8,7 +8,7 @@ $donation = oci_parse($conn, "insert into donation(d_amount) value ($_POST[amoun
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sign-In</title>
+    <title>Donate</title>
     <link rel="stylesheet" type="text/css" href="../../Header/header.css">
     <link rel="stylesheet" type="text/css" href="../../BodyLayout/BodyLayout.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/footer.css">
