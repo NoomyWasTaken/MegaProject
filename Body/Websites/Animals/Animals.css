@@ -1,5 +1,5 @@
 #navigation {
-    background-image:linear-gradient(to bottom right,#d4e4e8, #b9ccd0,#d4e4e8) ;
+    background-image:linear-gradient(to bottom right,#d4e4e8, #8ba2ac,#d4e4e8) ;
     position: sticky;
     top: 30px;
     padding-top: 10px;
@@ -22,7 +22,7 @@
 }
 
 #navigation h2:hover {
-    background-color: #b1561a;
+    background-color: rgba(177, 86, 26, 0.8);
 }
 
 #doggy, #catty, #birdy, #rody, #othy {
