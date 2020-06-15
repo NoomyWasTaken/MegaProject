@@ -95,7 +95,7 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                        <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\" onclick=\"geekAlert()\"/></a>
+                                        <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
                                     </div>
                                 </div>
                             </button>
@@ -108,6 +108,13 @@ include('../../Header/header.php'); ?>
         ?>
 
     </div>
+
+    <script>
+        function geekAlert() {
+            alert("You're Adoption request is being reviewed by our members. We will contact you as soon as possible");
+        }
+    </script>
+
 </main>
 
 <?php include('../../Footer/footer.php'); ?>
