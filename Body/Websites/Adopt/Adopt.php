@@ -63,52 +63,49 @@ include('../../Header/header.php'); ?>
             echo "</div>";
             echo "<div id='LinkWrapper'>";
             if (isset($_SESSION['username'])) {
-                echo "<a href='../Adopt/AdoptionForm/AdoptionForm.php'>Adopt now!</a>";
+                $n = $row['ANIMAL_ID'];
+                $a = $_SESSION['user_id'];
+                $timezone = date_default_timezone_get();
+                echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
+                        <section>
+                            <button class=\"bone_btn\" id=\"boooone2\">
+                                <div class=\"c1\"></div>
+                                <div class=\"c2\"></div>
+                                <div class=\"c3\"></div>
+                                <div class=\"c4\"></div>
+                                <div class=\"b1\">
+                                    <div class=\"b2\">
+                                        <input type='text' style='display: none' name='d' value='".$timezone."'>
+                                        <input type='text' style='display: none' name='n' value='".$n."'>
+                                        <input type='text' style='display: none' name='a' value='".$a."'>
+                                        <input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
+                                    </div>
+                                </div>
+                            </button>
+                        </section>
+                    </div></form>";
             }
             else {
-                echo "<a href='../SignIn/SignIn.php'>Adopt now!</a>";
+                echo "<div class=\"whitedogbone\">
+                        <section>
+                            <button class=\"bone_btn\" id=\"boooone2\">
+                                <div class=\"c1\"></div>
+                                <div class=\"c2\"></div>
+                                <div class=\"c3\"></div>
+                                <div class=\"c4\"></div>
+                                <div class=\"b1\">
+                                    <div class=\"b2\">
+                                        <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\" onclick=\"geekAlert()\"/></a>
+                                    </div>
+                                </div>
+                            </button>
+                        </section>
+                    </div>";
             }
             echo "</div>";
             echo "</div>";
         }
         ?>
-
-<!--        --><?php //while(($row=oci_fetch_assoc($stid)) != false) ?>
-<!--        <div id="SmallDivContainer">-->
-<!--            <img src="../../../Images/cycle10.png">-->
-<!--            <h3>Name:-->
-<!--                --><?php //echo $row['ANAME']; ?>
-<!--            </h3>-->
-<!--            <div id="SidesWrapper">-->
-<!--                <div id="LeftSide">-->
-<!--                    <p>Species:-->
-<!--                        --><?php //echo $row['SPECIES']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Breed:-->
-<!--                        --><?php //echo $row2['BREED_NAME']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Age:-->
-<!--                        --><?php //echo $row['AGE']; ?>
-<!--                    </p>-->
-<!--                </div>-->
-<!--                <div id="RightSide">-->
-<!--                    <p>Gender:-->
-<!--                        --><?php //echo $row['GENDER']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Height:-->
-<!--                        --><?php //echo $row['HEIGHT']; ?>
-<!--                    </p>-->
-<!--                    <br>-->
-<!--                    <p>Weight:-->
-<!--                        --><?php //echo $row['WEIGHT']; ?>
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <a href="#">Adopt now!</a>-->
-<!--        </div>-->
     </div>
 </main>
 
