@@ -95,7 +95,7 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                            <a href='../SignIn/SignIn.php'><input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
+                                            <a href='/../MegaProject/Body/Websites/SignIn/SignIn.php'><input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
                                     </div>
                                 </div>
                             </button>
