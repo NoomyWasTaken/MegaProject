@@ -214,7 +214,7 @@ session_start();
                                         <div class="c4"></div>
                                         <div class="b1">
                                             <div class="b2">
-                                                <a href="/../MegaProject/Body/Header/LogOut.php" onclick="myFunction()">Sign-out</a>
+                                                <a href="/../MegaProject/Body/Header/LogOut.php" onclick="geekAlert()">Sign-out</a>
                                             </div>
                                         </div>
                                         
@@ -235,12 +235,6 @@ session_start();
                                     </button>';
                                     }
                                     ?>
-
-                                    <script>
-                                        function myFunction() {
-                                            alert("you're signed out");
-                                        }
-                                    </script>
 
                                 </section>
                                 </div>
@@ -269,6 +263,12 @@ session_start();
                             }
                         }
 
+                    </script>
+
+                    <script>
+                        function geekAlert() {
+                            alert("you're signed out");
+                        }
                     </script>
 
 

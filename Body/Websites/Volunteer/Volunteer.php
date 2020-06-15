@@ -37,7 +37,7 @@ include('../../Header/header.php'); ?>
                 <div class="Input">
                 <p>
                     <label class="floatLabel" for="start">When to start?</label>
-                    <input  type="date" placeholder="yyyy/mm/dd" id="amount" name="start" style="padding: 21.0285px 10.400px" />
+                    <input  type="date" placeholder="dd/mm/yyyy" id="amount" name="start" />
                 </p>
                 </div>
 
@@ -61,7 +61,7 @@ include('../../Header/header.php'); ?>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="font-size: 14pt" type="submit" value="Volunteer" name="volunteer"" />
+                                    <input style="font-size: 14pt" type="submit" value="Request" name="Request"/>
                                 </div>
                             </div>
                         </button>
@@ -70,11 +70,9 @@ include('../../Header/header.php'); ?>
 
             </form>
 
-
         </section>
+
     </div>
-
-
 
 </main>
 
