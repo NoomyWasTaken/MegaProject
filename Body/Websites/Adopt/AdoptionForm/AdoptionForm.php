@@ -18,5 +18,6 @@ if (isset($_POST['adopt'])) {
 //    oci_execute($stid2);
 //    header("Location: ../../HomePage/HomePage.php?successfullyAdopted");
     echo oci_error($stid);
+    echo oci_fetch_assoc($stid);
 }
 ?>
