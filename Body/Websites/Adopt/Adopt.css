@@ -63,5 +63,8 @@ a {
     font-family: 'Griffy', cursive;
     width: 100%;
     text-align: center;
+}
+
+#LinkWrapper {
     display: flex;
 }
