@@ -6,7 +6,7 @@ $query = 'select * from animal where is_adopted = 0';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
 $fetch = oci_fetch_assoc($stid);
-$i = oci_num_rows($fetch);
+$i = oci_num_rows($stid);
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,10 +26,6 @@ include('../../Header/header.php'); ?>
 
 <main>
     <div id="BigWrapper">
-        <?php
-        echo "<p style='width: 500px; height: 500px'>$i</p>";
-        ?>
-
         <?php for($x=0; $x<=$i; $x++) {
             $row = oci_fetch_assoc($stid);
             $query2 = 'select * from animal_breed where animal_id = :aid';
