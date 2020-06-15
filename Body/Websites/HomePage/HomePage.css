@@ -173,7 +173,8 @@
 
 .Totals span{
     font-size: 20pt;
-    font-family: Verdana;
+    color: darkred;
+    margin-top: 5px;
 }
 
 #DonateWindow {
