@@ -1,5 +1,5 @@
 #navigation {
-    background-image:linear-gradient(to bottom right,#d4e4e8, #8ba2ac,#d4e4e8) ;
+    background-image:linear-gradient(to bottom right, rgba(212, 228, 232, 0.8), rgba(139, 162, 172, 0.6), rgba(212, 228, 232, 0.8)) ;
     position: sticky;
     top: 30px;
     padding-top: 10px;
@@ -7,7 +7,7 @@
     float: left;
     border-radius: 10px;
     margin-bottom: 65px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #navigation h2 {
