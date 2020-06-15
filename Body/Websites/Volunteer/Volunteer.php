@@ -61,7 +61,7 @@ include('../../Header/header.php'); ?>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="font-size: 14pt" type="submit" value="Volunteer" name="Request"/>
+                                    <input style="font-size: 14pt" type="submit" value="Request" name="Request"/>
                                 </div>
                             </div>
                         </button>
