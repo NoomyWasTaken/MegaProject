@@ -25,6 +25,10 @@ include('../../Header/header.php'); ?>
 
 <main>
     <div id="BigWrapper">
+        <?php
+        echo $i;
+        ?>
+
         <?php for($x=0; $x<=$i; $x++) {
             $row = oci_fetch_assoc($stid);
             $query2 = 'select * from animal_breed where animal_id = :aid';
