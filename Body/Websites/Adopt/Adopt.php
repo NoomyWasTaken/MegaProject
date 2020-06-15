@@ -86,7 +86,8 @@ include('../../Header/header.php'); ?>
                     </div></form>";
             }
             else {
-                echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
+                echo "
+                        <div class=\"whitedogbone\">
                         <section>
                             <button class=\"bone_btn\" id=\"boooone2\">
                                 <div class=\"c1\"></div>
@@ -100,7 +101,7 @@ include('../../Header/header.php'); ?>
                                 </div>
                             </button>
                         </section>
-                    </div></form>";
+                    </div>";
             }
             echo "</div>";
             echo "</div>";
