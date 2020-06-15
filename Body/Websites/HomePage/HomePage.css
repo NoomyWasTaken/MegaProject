@@ -164,10 +164,21 @@
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     font-family: 'Griffy', cursive;
+
+}
+
+.Totals h2{
+    display: inline-block;
+}
+
+.Totals span{
+    font-size: 25pt;
+    color: darkred;
+    margin-top: 5px;
 }
 
 #DonateWindow {
-    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
+    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88, #9dc183);
     display: inline-block;
     width: 100%;
     box-shadow: 0 0 5px black;
