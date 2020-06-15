@@ -1,6 +1,7 @@
 <?php
 if (isset($_POST['adopt'])) {
 
+    $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
     $d = "18/06/2020";
     $n = $_POST['n'];
     $a = $_POST['a'];
