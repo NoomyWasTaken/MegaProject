@@ -37,7 +37,7 @@ include('../../Header/header.php'); ?>
                 <div class="Input">
                 <p>
                     <label class="floatLabel" for="start">When to start?</label>
-                    <input  type="date" placeholder="yyyy/mm/dd" id="start" name="start" style="padding: 21.0285px 10.400px" />
+                    <input  type="date" placeholder="yyyy/mm/dd" id="amount" name="start" style="padding: 21.0285px 10.400px" />
                 </p>
                 </div>
 
