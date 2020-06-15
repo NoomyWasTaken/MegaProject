@@ -27,7 +27,7 @@ include('../../Header/header.php'); ?>
 <main>
     <div id="BigWrapper">
         <?php
-        echo '<p style="width: 500px; height: 500px">'.$i.'</p>';
+        echo "<p style='width: 500px; height: 500px'>".$i."</p>";
         ?>
 
         <?php for($x=0; $x<=$i; $x++) {
