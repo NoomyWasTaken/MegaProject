@@ -75,7 +75,7 @@ include('../../Header/header.php'); ?>
     </div>
     <script>
         function geekAlert() {
-            alert("You're volunteering request is being reviewed by our members. we will contact you as soon as possible");
+            alert("You're volunteering request is being reviewed by our members. We will contact you as soon as possible");
         }
     </script>
 
