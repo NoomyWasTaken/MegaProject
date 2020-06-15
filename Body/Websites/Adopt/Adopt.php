@@ -65,7 +65,7 @@ include('../../Header/header.php'); ?>
             if (isset($_SESSION['username'])) {
                 $n = $row['ANIMAL_ID'];
                 $a = $_SESSION['user_id'];
-                $d = date_default_timezone_get();
+                $timezone = date_default_timezone_get();
                 echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
                         <section>
                             <button class=\"bone_btn\" id=\"boooone2\">
@@ -75,7 +75,7 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                        <input type='text' style='display: none' name='d' value='".$d."'>
+                                        <input type='text' style='display: none' name='d' value='".$timezone."'>
                                         <input type='text' style='display: none' name='n' value='".$n."'>
                                         <input type='text' style='display: none' name='a' value='".$a."'>
                                         <input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
