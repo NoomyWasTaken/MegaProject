@@ -40,7 +40,7 @@ include('../../Header/header.php'); ?>
 
             echo "<div id='SmallDivContainer'>";
             if ($row['IMAGE'] != NULL) {
-                echo "<img src='".$row['IMAGE']."'>";
+                echo "<img src='../../../Images/Adopt/".$row['IMAGE']."'>";
             } else {
                 echo "<img src='../../../Images/cycle10.png'>";
             }
