@@ -184,3 +184,8 @@
     bottom: 362.86px;
     width: 100%;
 }
+
+.btnContainer .w3-button {
+    border-radius: 50%;
+    background: darkgrey;
+}
