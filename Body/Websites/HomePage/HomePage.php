@@ -140,7 +140,7 @@ include('../../Header/header.php'); ?>
             <div class="UnderLine">
                 <h1>I want to help, but can't adopt!</h1>
                 <br>
-                <p>Don't worry. Plenty of people have yet to ever experience what it means to take care of a pet. It is a responsibility, but an earnest one and a fulfilling one. Our caretakers can show you some of the ropes at your nearest shelter! If you want to find out more about what animal would suit you, click <a href="../Volunteer/Volunteer.php"> HERE </a> to find out more!</p>
+                <p><a href="../Volunteer/Volunteer.php"> HERE </a> to find out how!</p>
             </div>
             <hr id="hrline">
 
