@@ -66,7 +66,7 @@ include('../../Header/header.php'); ?>
                 $n = $row['ANIMAL_ID'];
                 $a = $_SESSION['user_id'];
                 $timezone = date_default_timezone_get();
-                echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
+                echo "<form method='POST' action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
                         <section>
                             <button class=\"bone_btn\" id=\"boooone2\">
                                 <div class=\"c1\"></div>
