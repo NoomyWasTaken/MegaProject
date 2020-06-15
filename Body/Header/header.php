@@ -26,7 +26,7 @@ session_start();
 
                         <div class="container" onclick="myFunction(this)">
 
-                            <button class="menubtn">
+                            <button class="menubtn" onclick="myFunction(this)">
                                 <div class="bar1"></div>
                                 <div class="bar2"></div>
                                 <div class="bar3"></div>
