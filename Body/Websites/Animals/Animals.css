@@ -180,3 +180,7 @@
     width: 700px;
     height: 400px;
 }
+
+.animal{
+    background-image:linear-gradient(to bottom right,#d4e4e8, #b9ccd0,#d4e4e8) ;
+}
