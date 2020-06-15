@@ -132,15 +132,17 @@ include('../../Header/header.php'); ?>
                 <img src="../../../Images/Animals/pug.jpg" >
                 <div class="animal">
                 <h1>Pug</h1>
-                <ul>
-                    <li>Likes: Sleeping, Playing, Eating</li>
-                    <li>Dislikes: Heat, Loneliness</li>
-                    <li>Best for: Caring Apartment owners</li>
-                </ul>
+                    <ul>
+                        <li>Likes: Sleeping, Playing, Eating</li>
+                        <li>Dislikes: Heat, Loneliness</li>
+                        <li>Best for: Caring Apartment owners</li>
+                    </ul>
+                </div>
             </div>
+            <div class="btnContainer">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
             </div>
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
         </div>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">

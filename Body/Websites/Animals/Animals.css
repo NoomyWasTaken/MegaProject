@@ -201,3 +201,11 @@
 #BigDiv button{
     margin-top: -15px;
 }
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
