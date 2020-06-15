@@ -17,9 +17,11 @@
 
 #SmallDivContainer img {
     background-image: url("../../../Images/background_nature2.png");
-    width: 100%;
-    padding: 20px;
+    width: 90%;
     border: 5px solid white;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 #LeftSide p {
