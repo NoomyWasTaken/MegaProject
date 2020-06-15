@@ -16,6 +16,7 @@ if (isset($_POST['adopt'])) {
 //    oci_bind_by_name($stid2, ':aid2', $a);
     oci_execute($stid);
 //    oci_execute($stid2);
-    header("Location: ../../HomePage/HomePage.php?successfullyAdopted");
+//    header("Location: ../../HomePage/HomePage.php?successfullyAdopted");
+    echo oci_error($stid);
 }
 ?>
