@@ -7,7 +7,7 @@
 
 #SmallDivContainer {
     width: 30%;
-    display: flex;
+    display: inline-block;
     box-shadow: 0 0 5px black;
     background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
     float: left;
@@ -49,13 +49,11 @@
 #LeftSide {
     width: 45%;
     margin: 0 auto;
-    display: inline-block;
 }
 
 #RightSide {
     width: 45%;
     margin: 0 auto;
-    display: inline-block;
 }
 
 a {
