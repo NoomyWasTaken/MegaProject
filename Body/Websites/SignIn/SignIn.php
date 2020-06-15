@@ -71,7 +71,7 @@ if ($_POST) {
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="sign-in" onclick="geekAlert()"/>
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign in" name="sign-in"/>
                                     </div>
                                 </div>
                             </button>
