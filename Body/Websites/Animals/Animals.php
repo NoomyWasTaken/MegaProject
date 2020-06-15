@@ -216,7 +216,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides4">
-                <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
+                <img src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <h1>Hamster</h1>
                 <ul>
                     <li>Likes: nuts, small spaces, balls </li>
