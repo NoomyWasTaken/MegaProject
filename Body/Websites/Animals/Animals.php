@@ -74,7 +74,7 @@ include('../../Header/header.php'); ?>
 <div id="BigDiv">
         <div id="doge" class="w3-content w3-display-container">
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Golden-Retrievers.jpg" style="width:100%">
+                <img src="../../../Images/Animals/Golden-Retrievers.jpg" >
                 <h1>Golden Retriever</h1>
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
@@ -83,7 +83,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Border-Collie.jpg" style="width:100%">
+                <img src="../../../Images/Animals/Border-Collie.jpg" >
                 <h1>Border Collie</h1>
                 <ul>
                     <li>Likes: Having "work", Order, Herding</li>
@@ -92,7 +92,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Bichon.jpg" style="width:100%">
+                <img src="../../../Images/Animals/Bichon.jpg" >
                 <h1>Bichon Frise</h1>
                 <ul>
                     <li>Likes: Playing, Other dogs, Kids</li>
@@ -101,7 +101,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/American-Staffordshire-Terrier.png" style="width:100%">
+                <img src="../../../Images/Animals/American-Staffordshire-Terrier.png" >
                 <h1>American Staffordshire Terrier</h1>
                 <ul>
                     <li>Likes: Chewing, Protecting, Other people</li>
@@ -110,7 +110,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/husky.jpg" style="width:100%">
+                <img src="../../../Images/Animals/husky.jpg" >
                 <h1>Husky</h1>
                 <ul>
                     <li>Likes: Wandering, Cuddling, Howling</li>
@@ -119,7 +119,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/pug.jpg" style="width:100%">
+                <img src="../../../Images/Animals/pug.jpg" >
                 <h1>Pug</h1>
                 <ul>
                     <li>Likes: Sleeping, Playing, Eating</li>
@@ -133,7 +133,7 @@ include('../../Header/header.php'); ?>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides2">
-                <img src="../../../Images/Animals/Exotic-Shorthair.jpg" style="width:100%">
+                <img src="../../../Images/Animals/Exotic-Shorthair.jpg" >
                 <h1>Exotic Shorthair</h1>
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
@@ -142,7 +142,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img src="../../../Images/Animals/sphinx.jpg" style="width:100%">
+                <img src="../../../Images/Animals/sphinx.jpg" >
                 <h1>Sphinx</h1>
                 <ul>
                     <li>Likes: Tall places, Jumping, Following</li>
@@ -151,7 +151,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img src="../../../Images/Animals/tonkinese.jpg" style="width:100%">
+                <img src="../../../Images/Animals/tonkinese.jpg" >
                 <h1>Tonkinese</h1>
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
@@ -165,7 +165,7 @@ include('../../Header/header.php'); ?>
 
         <div id="birb" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides3">
-                <img src="../../../Images/Animals/budgie.jpg" style="width:100%">
+                <img src="../../../Images/Animals/budgie.jpg" >
                 <h1>Budgerigar</h1>
                 <ul>
                     <li>Likes: Playing, Eating, Singing</li>
@@ -174,7 +174,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides3">
-                <img src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
+                <img src="../../../Images/Animals/lovebirds.jpg" >
                 <h1>Lovebirds</h1>
                 <ul>
                     <li>Likes: Wandering, Other birds, Socializing</li>
@@ -183,7 +183,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides3">
-                <img src="../../../Images/Animals/Macaow.jpg" style="width:100%">
+                <img src="../../../Images/Animals/Macaow.jpg" >
                 <h1>Macaow</h1>
                 <ul>
                     <li>Likes: Open areas, Toys, Foraging games</li>
@@ -198,7 +198,7 @@ include('../../Header/header.php'); ?>
         <div id="road" class="w3-content w3-display-container" style="display: none">
 
             <div class="mySlides4">
-                <img src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
+                <img src="../../../Images/Animals/sugerglider.jpg" >
                 <h1>Suger Glider</h1>
                 <ul>
                     <li>Likes: Eating sweets (eg. fresh fruits), gliding, company</li>
@@ -207,7 +207,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides4">
-                <img src="../../../Images/Animals/guineapig.jpg" style="width:100%">
+                <img src="../../../Images/Animals/guineapig.jpg" >
                 <h1>Guinea Pig</h1>
                 <ul>
                     <li>Likes: vegitables, Socializing</li>
@@ -216,7 +216,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides4">
-                <img src="../../../Images/Animals/hamster.jpg" style="width:100%">
+                <img src="../../../Images/Animals/hamster.jpg" >
                 <h1>Hamster</h1>
                 <ul>
                     <li>Likes: nuts, small spaces, balls </li>
@@ -231,7 +231,7 @@ include('../../Header/header.php'); ?>
         <div id="melman" class="w3-content w3-display-container" style="display: none">
 
             <div class="mySlides5">
-                <img src="../../../Images/Animals/giraffes.gif" style="width:100%">
+                <img src="../../../Images/Animals/giraffes.gif" >
                 <h1>Giraffe</h1>
                 <ul>
                     <li>Likes: Long walks, tall trees, open fields</li>
@@ -240,7 +240,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div  class="mySlides5">
-                <img src="../../../Images/Animals/alpaca.jpg" style="width:100%">
+                <img src="../../../Images/Animals/alpaca.jpg" >
                 <h1>Alpaca</h1>
                 <ul>
                     <li>Likes: A good tussle and grain and watermelon</li>
@@ -249,7 +249,7 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div  class="mySlides5">
-                <img src="../../../Images/Animals/clownfish.png" style="width:100%">
+                <img src="../../../Images/Animals/clownfish.png" >
                 <h1>Clown Fish</h1>
                 <ul>
                     <li>Likes: clean water, dory</li>
