@@ -30,7 +30,7 @@ if (isset($_POST['sign-in'])) {
                 exit();
             }
             else if ($password == $row['PASSWORD']) {
-                echo "<script> geekAlert(); </script>";
+                echo "<script> alert(\"welcome, you're signed in\"); </script>";
                 session_start();
 
                 $_SESSION['loggedin'] = true;
