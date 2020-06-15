@@ -51,7 +51,7 @@ include('../../Header/header.php'); ?>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="font-size: 14pt" type="submit" value="Donate" name="Donate" />
+                                    <input style="font-size: 14pt" type="submit" value="Donate" name="Donate" onclick="geekAlert()"/>
                                 </div>
                             </div>
                         </button>
@@ -82,6 +82,12 @@ include('../../Header/header.php'); ?>
                         document.getElementById("ifSelectedV").style.display = "none";
                         document.getElementById("ifSelectedAE").style.display = "none";
                     }
+                }
+            </script>
+
+            <script>
+                function geekAlert() {
+                    alert("Thank you for your donation");
                 }
             </script>
 
