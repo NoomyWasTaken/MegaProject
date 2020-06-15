@@ -85,7 +85,7 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All adoptions so far:</h2>
+                        <h2>All adoptions so far: </h2>
                        <span><b><?php echo ($row['NUM_OF_ADOPTED']+1256) ?></b></span>
 
                     </div>
@@ -107,9 +107,9 @@ include('../../Header/header.php'); ?>
                     </div>
 
                     <div class="Totals">
-                        <h2>All donations so far:</h2>
-                           <span><b><?php echo ($row2['DONATION_AMOUNT']) ?></b></span>
-                            $
+                        <h2>All donations so far: </h2>
+                           <span><b><?php echo ($row2['DONATION_AMOUNT']) ?>$</b></span>
+
 
                     </div>
                 </div>
