@@ -46,18 +46,18 @@
                                 <div class="c4"></div>
                                 <div class="b1">
                                     <div class="b2">
-                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" name="signup-submit" onclick="myFunction()" />
+                                        <input style="float: right; font-size: 14pt" type="submit" value="Sign up" name="signup-submit" onclick="geekAlert()" />
                                     </div>
                                 </div>
                             </button>
                         </section>
                     </div>
 
-<!--                    <script>-->
-<!--                        function myFunction() {-->
-<!--                            alert("Hello, now you're registered as a user. you can log in");-->
-<!--                        }-->
-<!--                    </script>-->
+                    <script>
+                        function geekAlert() {
+                            alert("Hello, now you're registered as a user. you can log in");
+                        }
+                    </script>
 
 
 
