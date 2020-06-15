@@ -84,11 +84,11 @@ if ($_POST) {
 
 	        </section>
 
-            <script>
-                function myFunction() {
-                    alert("welcome, you're signed in");
-                }
-            </script>
+<!--            <script>-->
+<!--                function myFunction() {-->
+<!--                    alert("welcome, you're signed in");-->
+<!--                }-->
+<!--            </script>-->
         </div>
 </main>
     <?php
