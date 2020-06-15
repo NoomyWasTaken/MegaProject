@@ -5,7 +5,8 @@ $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
 $query = 'select * from animal where is_adopted = 0';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
-$i = oci_num_rows($stid);
+$fetch = oci_fetch_assoc($stid);
+$i = oci_num_rows($fetch);
 ?>
 <!DOCTYPE html>
 <html>
