@@ -59,9 +59,5 @@
     text-decoration: none;
     font-size: 14pt;
     margin: 0 auto;
-}
-
-#SidesWrapper a {
-    margin: 0 auto;
-    text-decoration: none;
+    width: 80%;
 }
