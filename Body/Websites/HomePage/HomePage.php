@@ -10,10 +10,6 @@ $query2 = 'select sum(d_amount) as donation_amount from donation';
 $stid2 = oci_parse($conn, $query2);
 $r2 = oci_execute($stid2);
 $row2 = oci_fetch_assoc($stid2);
-
-if (isset($_POST['sign-in'])) {
-    echo "<script> alert(\"welcome, you're signed in\"); </script>";
-}
 ?>
 
 <!DOCTYPE html>
