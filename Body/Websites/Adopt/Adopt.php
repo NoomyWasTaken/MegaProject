@@ -111,20 +111,6 @@ include('../../Header/header.php'); ?>
     <script>
         function geekAlert() {
             alert("You're Adoption request is being reviewed by our members. We will contact you as soon as possible");
-            <?php
-                $d = "18/06/2020";
-            $sql = 'INSERT INTO adoption_form (doa, users_id, animal_id) values (:doa, :uid, :aid)';
-            $sql2 = 'UPDATE animal SET is_adopted = 1 WHERE animal_id = :aid2';
-            $stid = oci_parse($conn, $sql);
-            $stid2 = oci_parse($conn, $sql2);
-            oci_bind_by_name($stid, ':doa', $d);
-            oci_bind_by_name($stid, ':uid', $n);
-            oci_bind_by_name($stid, ':aid', $a);
-            oci_bind_by_name($stid2, ':aid2', $a);
-            oci_execute($stid);
-            oci_execute($stid2);
-            header("Location: ../../HomePage/HomePage.php?successfullyAdopted");
-            ?>
         }
     </script>
 
