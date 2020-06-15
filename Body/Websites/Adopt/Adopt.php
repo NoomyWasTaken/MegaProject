@@ -6,7 +6,7 @@ $query = 'select * from animal where is_adopted = 0';
 $stid = oci_parse($conn, $query);
 oci_execute($stid);
 $fetch = oci_fetch_assoc($stid);
-$i = oci_num_rows($fetch);
+$i = oci_num_rows($stid);
 ?>
 <!DOCTYPE html>
 <html>
