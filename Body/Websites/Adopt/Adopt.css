@@ -100,7 +100,7 @@
     justify-content: center;
     font-size: small;
 }
-form input[type="submit"] {
+ input[type="submit"] {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -117,13 +117,13 @@ form input[type="submit"] {
     padding: .8em 0;
 }
 
-form input[type="submit"] {
+ input[type="submit"] {
     margin: 0 auto;
     padding: 0;
     text-decoration: none;
     background: transparent;
 }
-form input[type="submit"]:hover {
+ input[type="submit"]:hover {
     color: #b1561a;
     font-weight: bolder;
 }
