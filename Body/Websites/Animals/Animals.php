@@ -139,10 +139,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             </div>
-            <div class="animal">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
-            </div>
         </div>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
@@ -179,10 +177,8 @@ include('../../Header/header.php'); ?>
                 </ul>
                 </div>
             </div>
-            <div class="animal">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
-            </div>
         </div>
 
         <div id="birb" class="w3-content w3-display-container" style="display: none">
@@ -219,10 +215,8 @@ include('../../Header/header.php'); ?>
                 </ul>
                 </div>
             </div>
-            <div class="animal">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
-            </div>
         </div>
 
         <div id="road" class="w3-content w3-display-container" style="display: none">
@@ -260,10 +254,8 @@ include('../../Header/header.php'); ?>
                 </ul>
                 </div>
             </div>
-            <div class="animal">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
-            </div>
         </div>
 
         <div id="melman" class="w3-content w3-display-container" style="display: none">
@@ -301,10 +293,8 @@ include('../../Header/header.php'); ?>
                 </ul>
                 </div>
             </div>
-            <div class="animal">
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
-            </div>
         </div>
 
         <script>

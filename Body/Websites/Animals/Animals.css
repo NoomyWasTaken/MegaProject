@@ -179,8 +179,12 @@
 #BigDiv img{
     width: 700px;
     height: 400px;
+    margin-bottom: -25px;
+    border-radius: 15px 15px 0 0;
 }
 
 .animal{
     background-image:linear-gradient(to bottom right,#d4e4e8, #b9ccd0,#d4e4e8) ;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
