@@ -78,7 +78,7 @@ include('../../Header/header.php'); ?>
                                         <select style='display: none' name='d'><option value='".$d."'></option></select>
                                         <select style='display: none' name='n'><option value='".$n."'></option></select>
                                         <select style='display: none' name='a'><option value='".$a."'></option></select>
-                                        <input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
+                                        <input style=\" font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
                                     </div>
                                 </div>
                             </button>
@@ -96,7 +96,7 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                            <a href='/../MegaProject/Body/Websites/SignIn/SignIn.php'><input style=\"float: right; font-size: 12pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
+                                            <a href='/../MegaProject/Body/Websites/SignIn/SignIn.php'><input style=\" font-size: 14pt\" type=\"submit\" value=\"Sign in\" name=\"sign-in\"/></a>
                                     </div>
                                 </div>
                             </button>
