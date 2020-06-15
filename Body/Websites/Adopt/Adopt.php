@@ -63,8 +63,8 @@ include('../../Header/header.php'); ?>
             echo "</div>";
             echo "<div id='LinkWrapper'>";
             if (isset($_SESSION['username'])) {
-                $n = $row['ANIMAL_ID'];
-                $a = $_SESSION['user_id'];
+                $a = $row['ANIMAL_ID'];
+                $n = $_SESSION['user_id'];
                 $d = date_default_timezone_get();
                 echo "<form method='POST' action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
                         <section>
