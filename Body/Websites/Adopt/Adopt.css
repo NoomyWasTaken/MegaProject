@@ -61,4 +61,6 @@
     margin: 0 auto;
     padding: 10px;
     font-family: 'Griffy', cursive;
+    width: 100%;
+    text-align: center;
 }
