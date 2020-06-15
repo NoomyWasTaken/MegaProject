@@ -39,12 +39,12 @@ include('../../Header/header.php'); ?>
             $row3 = oci_fetch_assoc($stid3);
 
             echo "<div id='SmallDivContainer'>";
+            echo "<h3>Name: " . $row['ANAME'] . "</h3>";
             if ($row['IMAGE'] != NULL) {
                 echo "<img src='../../../Images/Adopt/".$row['IMAGE']."'>";
             } else {
-                echo "<img src='../../../Images/cycle10.png'>";
+                echo "<img src='../../../Images/logo-test2.png'>";
             }
-            echo "<h3>Name: " . $row['ANAME'] . "</h3>";
             echo "<div id='SidesWrapper'>";
             echo "<div id='LeftSide'>";
             echo "<p><b>Species:</b> " . $row['SPECIES'] . "</p>";

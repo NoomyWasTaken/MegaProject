@@ -9,15 +9,17 @@
     width: 30%;
     display: inline-block;
     box-shadow: 0 0 5px black;
-    background-image:linear-gradient(to bottom right,#9dc183,#B2AC88,#9dc183);
+    background-image:linear-gradient(to bottom right,#d4e4e8, #b9ccd0,#d4e4e8) ;
     float: left;
     margin-bottom: 45px;
     border-radius: 10px;
 }
 
 #SmallDivContainer img {
+    background-image: url("../../../Images/background_nature2.png");
     width: 100%;
     padding: 20px;
+    border: 5px solid white;
 }
 
 #LeftSide p {
@@ -40,6 +42,7 @@
     font-family: 'Griffy', cursive;
     font-size: 16pt;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #SidesWrapper {
@@ -58,12 +61,19 @@
 
 #SmallDivContainer a {
     text-decoration: none;
+    color: #2b323b;
     font-size: 14pt;
     margin: 0 auto;
     padding: 10px;
-    font-family: 'Griffy', cursive;
     width: 100%;
     text-align: center;
+    font-weight: bold;
+}
+
+#SmallDivContainer a:hover {
+    color: #0a4e9a;
+    font-family: 'Griffy', cursive;
+    font-weight: bolder;
 }
 
 #LinkWrapper {
