@@ -267,7 +267,7 @@ session_start();
 
                     <script>
                         function geekAlert() {
-                            alert("you're signed out");
+                            alert("You're signed out");
                         }
                     </script>
 
