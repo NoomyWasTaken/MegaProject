@@ -78,7 +78,7 @@ include('../../Header/header.php'); ?>
                                         <select style='display: none' name='d'><option value='".$d."'></option></select>
                                         <select style='display: none' name='n'><option value='".$n."'></option></select>
                                         <select style='display: none' name='a'><option value='".$a."'></option></select>
-                                        <input style=\" font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
+                                        <input style=\" font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\" onclick=\"geekAlert()\"/>
                                     </div>
                                 </div>
                             </button>
