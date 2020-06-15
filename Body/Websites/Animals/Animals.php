@@ -74,8 +74,8 @@ include('../../Header/header.php'); ?>
 
         <div id="doge" class="w3-content w3-display-container">
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Golden-Retrievers.jpg" style="width:100%">
                 <h1>Golden Retriever</h1>
+                <img src="../../../Images/Animals/Golden-Retrievers.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
                     <li>Dislikes: Tight leashes, Boredom</li>
@@ -83,8 +83,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Border-Collie.jpg" style="width:100%">
                 <h1>Border Collie</h1>
+                <img src="../../../Images/Animals/Border-Collie.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Having "work", Order, Herding</li>
                     <li>Dislikes: Boredom, Not socializing</li>
@@ -92,8 +92,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/Bichon.jpg" style="width:100%">
                 <h1>Bichon Frise</h1>
+                <img src="../../../Images/Animals/Bichon.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Playing, Other dogs, Kids</li>
                     <li>Dislikes: Being alone, New places</li>
@@ -101,8 +101,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/American-Staffordshire-Terrier.png" style="width:100%">
                 <h1>American Staffordshire Terrier</h1>
+                <img src="../../../Images/Animals/American-Staffordshire-Terrier.png" style="width:100%">
                 <ul>
                     <li>Likes: Chewing, Protecting, Other people</li>
                     <li>Dislikes: Staying still, Tight leashes</li>
@@ -110,8 +110,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/husky.jpg" style="width:100%">
                 <h1>Husky</h1>
+                <img src="../../../Images/Animals/husky.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Wandering, Cuddling, Howling</li>
                     <li>Dislikes: Heat, Small spaces</li>
@@ -119,8 +119,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides1">
-                <img src="../../../Images/Animals/pug.jpg" style="width:100%">
                 <h1>Pug</h1>
+                <img src="../../../Images/Animals/pug.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Sleeping, Playing, Eating</li>
                     <li>Dislikes: Heat, Loneliness</li>
@@ -133,8 +133,8 @@ include('../../Header/header.php'); ?>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides2">
-                <img src="../../../Images/Animals/Exotic-Shorthair.jpg" style="width:100%">
                 <h1>Exotic Shorthair</h1>
+                <img src="../../../Images/Animals/Exotic-Shorthair.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -142,8 +142,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img src="../../../Images/Animals/sphinx.jpg" style="width:100%">
                 <h1>Sphinx</h1>
+                <img src="../../../Images/Animals/sphinx.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Tall places, Jumping, Following</li>
                     <li>Dislikes: Small spaces, Yelling</li>
@@ -151,8 +151,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img src="../../../Images/Animals/tonkinese.jpg" style="width:100%">
                 <h1>Tonkinese</h1>
+                <img src="../../../Images/Animals/tonkinese.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
                     <li>Dislikes: Tight leashes, Boredom</li>
@@ -165,8 +165,8 @@ include('../../Header/header.php'); ?>
 
         <div id="birb" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides3">
-                <img src="../../../Images/Animals/budgie.jpg" style="width:100%">
                 <h1>Budgerigar</h1>
+                <img src="../../../Images/Animals/budgie.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Playing, Eating, Singing</li>
                     <li>Dislikes: Isolation, Mishandling</li>
@@ -174,8 +174,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides3">
-                <img src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
                 <h1>Lovebirds</h1>
+                <img src="../../../Images/Animals/lovebirds.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Wandering, Other birds, Socializing</li>
                     <li>Dislikes: Small cages, Loneliness</li>
@@ -183,8 +183,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides3">
-                <img src="../../../Images/Animals/Macaow.jpg" style="width:100%">
                 <h1>Macaow</h1>
+                <img src="../../../Images/Animals/Macaow.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Open areas, Toys, Foraging games</li>
                     <li>Dislikes: Small spaces, silence</li>
@@ -198,8 +198,8 @@ include('../../Header/header.php'); ?>
         <div id="road" class="w3-content w3-display-container" style="display: none">
 
             <div class="mySlides2">
-                <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
                 <h1>Suger Glider</h1>
+                <img class="mySlides4" src="../../../Images/Animals/sugerglider.jpg" style="width:100%">
                 <ul>
                     <li>Likes: Eating sweets (eg. fresh fruits), gliding, company</li>
                     <li>Dislikes: Clinginess, Tense situations </li>
@@ -207,8 +207,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
                 <h1>Guinea Pig</h1>
+                <img class="mySlides4" src="../../../Images/Animals/guineapig.jpg" style="width:100%">
                 <ul>
                     <li>Likes: vegitables, Socializing</li>
                     <li>Dislikes: Loneliness, Tense situations </li>
@@ -216,8 +216,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <h1>Hamster</h1>
+                <img class="mySlides4" src="../../../Images/Animals/hamster.jpg" style="width:100%">
                 <ul>
                     <li>Likes: nuts, small spaces, balls </li>
                     <li>Dislikes: Sharing, loud noises</li>
@@ -231,8 +231,8 @@ include('../../Header/header.php'); ?>
         <div id="melman" class="w3-content w3-display-container" style="display: none">
 
             <div class="mySlides2">
-                <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
                 <h1>Giraffe</h1>
+                <img class="mySlides5" src="../../../Images/Animals/giraffes.gif" style="width:100%">
                 <ul>
                     <li>Likes: Long walks, tall trees, open fields</li>
                     <li>Dislikes: riding them</li>
@@ -240,8 +240,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
                 <h1>Alpaca</h1>
+                <img class="mySlides5" src="../../../Images/Animals/alpaca.jpg" style="width:100%">
                 <ul>
                     <li>Likes: A good tussle and grain and watermelon</li>
                     <li>Dislikes: Being disturbed at meal time</li>
@@ -249,8 +249,8 @@ include('../../Header/header.php'); ?>
                 </ul>
             </div>
             <div class="mySlides2">
-                <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
                 <h1>Clown Fish</h1>
+                <img class="mySlides5" src="../../../Images/Animals/clownfish.png" style="width:100%">
                 <ul>
                     <li>Likes: clean water, dory</li>
                     <li>Dislikes: Abusive children</li>

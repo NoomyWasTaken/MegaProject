@@ -68,7 +68,11 @@
 
 /* Hide the images by default */
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
-    /*display: none;*/
+    width: 80%;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, img{
+    width: 100%;
 }
 
 /* Next & previous buttons */
@@ -155,3 +159,20 @@
     from {opacity: .4}
     to {opacity: 1}
 }
+
+#BigDiv {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#BigDiv h2 {
+    font-family: 'Griffy', cursive;
+    font-size: 18pt;
+}
+
+#BigDiv p {
+    font-family: Verdana;
+    font-size: 14pt;
+}
+
