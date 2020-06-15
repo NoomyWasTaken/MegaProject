@@ -127,8 +127,10 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Caring Apartment owners</li>
                 </ul>
             </div>
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+            <div class="btnContainer">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+            </div>
         </div>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
@@ -263,7 +265,7 @@ include('../../Header/header.php'); ?>
 
         <script>
             var slideIndex = [1,1,1,1,1];
-            var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5"]
+            var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5"];
             showDivs(1, 0);
             showDivs(1, 1);
             showDivs(1, 2);

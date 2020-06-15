@@ -176,7 +176,15 @@
     font-size: 14pt;
 }
 
-#BigDiv img{
+#BigDiv img {
     width: 700px;
     height: 400px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 50px;
 }
