@@ -17,9 +17,8 @@ include('../../Header/header.php'); ?>
 
     <div class="SignIn">
         <section id="content">
-            <h1>Volunteering Form</h1>
             <form method="POST" action="Volunteer.inc.php">
-
+                <h1>Volunteering Form</h1>
 
                 <p>
                     <label class="floatLabel" id="yes" for="work-as">Work as</label>
