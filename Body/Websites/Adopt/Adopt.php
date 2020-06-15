@@ -61,8 +61,8 @@ include('../../Header/header.php'); ?>
             echo "<p><b>Weight:</b> " . $row['WEIGHT'] . "</p>";
             echo "</div>";
             echo "</div>";
-            echo "</div>";
             echo "<a href='#'>Adopt now!</a>";
+            echo "</div>";
         }
         ?>
 

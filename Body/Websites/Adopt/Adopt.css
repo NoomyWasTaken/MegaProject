@@ -63,4 +63,5 @@ a {
     font-family: 'Griffy', cursive;
     width: 100%;
     text-align: center;
+    display: flex;
 }
