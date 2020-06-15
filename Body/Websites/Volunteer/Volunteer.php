@@ -14,30 +14,32 @@ $pageTitle = 'Volunteer';
 include('../../Header/header.php'); ?>
 <body>
 <main>
+
     <div class="SignIn">
         <section id="content">
             <form method="POST" action="Volunteer.inc.php">
-                <h1>Sign-In</h1>
-                <div class="Input">
-                    <p>
-                        <label class="floatLabel" id="yes" for="work-as">Work as</label>
-                        <select name="work-as" id="work-as">
-                            <option value="    ">        </option>
-                            <option value="Caretaker">  Caretaker  </option>
-                            <option value="Veterinarian">  Veterinarian  </option>
-                            <option value="Trainer">  Trainer  </option>
-                            <option value="Pet Locator">  Pet Locator  </option>
-                            <option value="Pet Adoption Counselor">  Pet Adoption Counselor  </option>
-                            <option value="Secretary">  Secretary  </option>
-                            <option value="Foster">  foster  </option>
-                        </select>
-                    </p>
-                </div>
+                <h1>Volunteering Form</h1>
 
+                <p>
+                    <label class="floatLabel" id="yes" for="work-as">Work as</label>
+                    <select name="work-as" id="species">
+                        <option value="    ">        </option>
+                        <option value="Caretaker">  Caretaker  </option>
+                        <option value="Veterinarian">  Veterinarian  </option>
+                        <option value="Trainer">  Trainer  </option>
+                        <option value="Pet Locator">  Pet Locator  </option>
+                        <option value="Pet Adoption Counselor">  Pet Adoption Counselor  </option>
+                        <option value="Secretary">  Secretary  </option>
+                        <option value="Foster">  foster  </option>
+                    </select>
+                </p>
+
+                <div class="Input">
                 <p>
                     <label class="floatLabel" for="start">When to start?</label>
                     <input  type="date" placeholder="yyyy/mm/dd" id="start" name="start" style="padding: 21.0285px 10.400px" />
                 </p>
+                </div>
 
                 <p>
                     <label class="floatLabel" id="yes" for="shelter">Shelter</label>
@@ -52,22 +54,28 @@ include('../../Header/header.php'); ?>
 
                 <div class="whitedogbone">
                     <section>
-                        <button class="bone_btn" id="boooone2">
+                        <button class="bone_btn" id="boooone3">
                             <div class="c1"></div>
                             <div class="c2"></div>
                             <div class="c3"></div>
                             <div class="c4"></div>
                             <div class="b1">
                                 <div class="b2">
-                                    <input style="float: right; font-size: 14pt" type="submit" value="Volunteer" name="volunteer" />
+                                    <input style="font-size: 14pt" type="submit" value="Volunteer" name="volunteer"" />
                                 </div>
                             </div>
                         </button>
                     </section>
                 </div>
+
             </form>
+
+
         </section>
     </div>
+
+
+
 </main>
 
 
