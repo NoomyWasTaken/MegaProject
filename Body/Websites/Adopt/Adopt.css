@@ -23,7 +23,7 @@
     font-family: Verdana;
     font-size: 12pt;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: -10px;
 }
 
@@ -31,7 +31,7 @@
     font-family: Verdana;
     font-size: 12pt;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: -10px;
 }
 
@@ -55,9 +55,13 @@
     margin: 0 auto;
 }
 
-#SmallDivContainer a {
+a {
     text-decoration: none;
     font-size: 14pt;
     margin: 0 auto;
-    width: 80%;
+    padding: 10px;
+    font-family: 'Griffy', cursive;
+    width: 100%;
+    text-align: center;
+    display: flex;
 }
