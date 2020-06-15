@@ -164,6 +164,15 @@
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     font-family: 'Griffy', cursive;
+
+}
+
+.Totals h2{
+    display: inline-block;
+}
+
+.Totals span{
+    font-size: 20pt;
 }
 
 #DonateWindow {
