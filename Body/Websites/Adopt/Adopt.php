@@ -62,7 +62,12 @@ include('../../Header/header.php'); ?>
             echo "</div>";
             echo "</div>";
             echo "<div id='LinkWrapper'>";
-            echo "<a href='#'>Adopt now!</a>";
+            if (isset($_SESSION['username'])) {
+                echo "<a href='../Adopt/AdoptionForm/AdoptionForm.php'>Adopt now!</a>";
+            }
+            else {
+                echo "<a href='../SignIn/SignIn.php'>Adopt now!</a>";
+            }
             echo "</div>";
             echo "</div>";
         }
