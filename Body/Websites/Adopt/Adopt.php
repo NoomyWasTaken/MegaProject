@@ -39,7 +39,7 @@ include('../../Header/header.php'); ?>
             $row3 = oci_fetch_assoc($stid3);
 
             echo "<div id='SmallDivContainer'>";
-            echo "<h3>Name: " . $row['ANAME'] . "</h3>";
+            echo "<h2><b>" . $row['ANAME'] . "</b></h2>";
             if ($row['IMAGE'] != NULL) {
                 echo "<img src='../../../Images/Adopt/".$row['IMAGE']."'>";
             } else {
@@ -47,25 +47,25 @@ include('../../Header/header.php'); ?>
             }
             echo "<div id='SidesWrapper'>";
             echo "<div id='LeftSide'>";
-            echo "<p><b>Species:</b> " . $row['SPECIES'] . "</p>";
+            echo "<p><b>Species:</b></p><p> " . $row['SPECIES'] . "</p>";
             echo "<br>";
-            echo "<p><b>Breed:</b> " . $row3['BREED_NAME'] . "</p>";
+            echo "<p><b>Breed:</b> </p> <p>" . $row3['BREED_NAME'] . "</p>";
             echo "<br>";
-            echo "<p><b>Age:</b> " . $row['AGE'] . "</p>";
+            echo "<p><b>Age:</b> </p> <p>  " . $row['AGE'] . "</p>";
             echo "</div>";
             echo "<div id='RightSide'>";
-            echo "<p><b>Gender:</b> " . $row['GENDER'] . "</p>";
+            echo "<p><b>Gender:</b> </p> <p>" . $row['GENDER'] . "</p>";
             echo "<br>";
-            echo "<p><b>Height:</b> " . $row['HEIGHT'] . "</p>";
+            echo "<p><b>Height:</b> </p> <p> " . $row['HEIGHT'] . "</p>";
             echo "<br>";
-            echo "<p><b>Weight:</b> " . $row['WEIGHT'] . "</p>";
+            echo "<p><b>Weight:</b> </p> <p> " . $row['WEIGHT'] . "</p>";
             echo "</div>";
             echo "</div>";
             echo "<div id='LinkWrapper'>";
             if (isset($_SESSION['username'])) {
                 $n = $row['ANIMAL_ID'];
                 $a = $_SESSION['user_id'];
-                $d = date_default_timezone_get();
+                $timezone = date_default_timezone_get();
                 echo "<form action='AdoptionForm/AdoptionForm.php'><div class=\"whitedogbone\">
                         <section>
                             <button class=\"bone_btn\" id=\"boooone2\">
@@ -75,7 +75,7 @@ include('../../Header/header.php'); ?>
                                 <div class=\"c4\"></div>
                                 <div class=\"b1\">
                                     <div class=\"b2\">
-                                        <input type='text' style='display: none' name='d' value='".$d."'>
+                                        <input type='text' style='display: none' name='d' value='".$timezone."'>
                                         <input type='text' style='display: none' name='n' value='".$n."'>
                                         <input type='text' style='display: none' name='a' value='".$a."'>
                                         <input style=\"float: right; font-size: 14pt\" type=\"submit\" value=\"Adopt Now\" name=\"adopt\"/>
@@ -106,6 +106,7 @@ include('../../Header/header.php'); ?>
             echo "</div>";
         }
         ?>
+
     </div>
 </main>
 
