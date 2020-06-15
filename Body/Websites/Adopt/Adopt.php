@@ -39,7 +39,7 @@ include('../../Header/header.php'); ?>
             $row3 = oci_fetch_assoc($stid3);
 
             echo "<div id='SmallDivContainer'>";
-            echo "<h3><b>Name: </b></h3><h3 class='grif'>" . $row['ANAME'] . "</h3>";
+            echo "<h3>" . $row['ANAME'] . "</h3>";
             if ($row['IMAGE'] != NULL) {
                 echo "<img src='../../../Images/Adopt/".$row['IMAGE']."'>";
             } else {

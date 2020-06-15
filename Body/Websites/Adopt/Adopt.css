@@ -40,13 +40,7 @@
     margin-top: -10px;
 }
 
-#SmallDivContainer h3 {
-    font-size: 16pt;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-#SmallDivContainer .grif h3{
+#SmallDivContainer h3{
     font-family: 'Griffy', cursive;
     font-size: 16pt;
     text-align: center;
