@@ -75,6 +75,7 @@ include('../../Header/header.php'); ?>
         <div id="doge" class="w3-content w3-display-container">
             <div class="mySlides1">
                 <img src="../../../Images/Animals/Golden-Retrievers.jpg" >
+                <div class="animal">
                 <h1>Golden Retriever</h1>
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
@@ -82,44 +83,54 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Outgoing and active people</li>
                 </ul>
             </div>
+            </div>
             <div class="mySlides1">
                 <img src="../../../Images/Animals/Border-Collie.jpg" >
+                <div class="animal">
                 <h1>Border Collie</h1>
                 <ul>
                     <li>Likes: Having "work", Order, Herding</li>
                     <li>Dislikes: Boredom, Not socializing</li>
                     <li>Best for: Owners who like and can maintain well trained dogs</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides1">
                 <img src="../../../Images/Animals/Bichon.jpg" >
+                <div class="animal">
                 <h1>Bichon Frise</h1>
                 <ul>
                     <li>Likes: Playing, Other dogs, Kids</li>
                     <li>Dislikes: Being alone, New places</li>
                     <li>Best for: Apartment owners or families with kids</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides1">
                 <img src="../../../Images/Animals/American-Staffordshire-Terrier.png" >
+                <div class="animal">
                 <h1>American Staffordshire Terrier</h1>
                 <ul>
                     <li>Likes: Chewing, Protecting, Other people</li>
                     <li>Dislikes: Staying still, Tight leashes</li>
                     <li>Best for: Owners with a large backyard or home</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides1">
                 <img src="../../../Images/Animals/husky.jpg" >
+                <div class="animal">
                 <h1>Husky</h1>
                 <ul>
                     <li>Likes: Wandering, Cuddling, Howling</li>
                     <li>Dislikes: Heat, Small spaces</li>
                     <li>Best for: Experienced owners that often walks</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides1">
                 <img src="../../../Images/Animals/pug.jpg" >
+                <div class="animal">
                 <h1>Pug</h1>
                 <ul>
                     <li>Likes: Sleeping, Playing, Eating</li>
@@ -127,24 +138,26 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Caring Apartment owners</li>
                 </ul>
             </div>
-            <div class="btnContainer">
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
             </div>
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
         </div>
 
         <div id="pus" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides2">
                 <img src="../../../Images/Animals/Exotic-Shorthair.jpg" >
+                <div class="animal">
                 <h1>Exotic Shorthair</h1>
                 <ul>
                     <li>Likes: Cuddling, Socializing, Grooming </li>
                     <li>Dislikes: Loneliness, Tense situations </li>
                     <li>Best for: Cuddly Owners</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides2">
                 <img src="../../../Images/Animals/sphinx.jpg" >
+                <div class="animal">
                 <h1>Sphinx</h1>
                 <ul>
                     <li>Likes: Tall places, Jumping, Following</li>
@@ -152,14 +165,17 @@ include('../../Header/header.php'); ?>
                     <li>Best for: Owners with vertical homes</li>
                 </ul>
             </div>
+            </div>
             <div class="mySlides2">
                 <img src="../../../Images/Animals/tonkinese.jpg" >
+                <div class="animal">
                 <h1>Tonkinese</h1>
                 <ul>
                     <li>Likes: Playing, Fetch, Snuggling</li>
                     <li>Dislikes: Tight leashes, Boredom</li>
                     <li>Best for: Outgoing and active people</li>
                 </ul>
+                </div>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
@@ -168,30 +184,36 @@ include('../../Header/header.php'); ?>
         <div id="birb" class="w3-content w3-display-container" style="display: none">
             <div class="mySlides3">
                 <img src="../../../Images/Animals/budgie.jpg" >
+                <div class="animal">
                 <h1>Budgerigar</h1>
                 <ul>
                     <li>Likes: Playing, Eating, Singing</li>
                     <li>Dislikes: Isolation, Mishandling</li>
                     <li>Best for: Introverts</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides3">
                 <img src="../../../Images/Animals/lovebirds.jpg" >
+                <div class="animal">
                 <h1>Lovebirds</h1>
                 <ul>
                     <li>Likes: Wandering, Other birds, Socializing</li>
                     <li>Dislikes: Small cages, Loneliness</li>
                     <li>Best for: Socialites</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides3">
                 <img src="../../../Images/Animals/Macaow.jpg" >
+                <div class="animal">
                 <h1>Macaow</h1>
                 <ul>
                     <li>Likes: Open areas, Toys, Foraging games</li>
                     <li>Dislikes: Small spaces, silence</li>
                     <li>Best for: Musicians and owners with large houses</li>
                 </ul>
+                </div>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
@@ -201,30 +223,36 @@ include('../../Header/header.php'); ?>
 
             <div class="mySlides4">
                 <img src="../../../Images/Animals/sugerglider.jpg" >
+                <div class="animal">
                 <h1>Suger Glider</h1>
                 <ul>
                     <li>Likes: Eating sweets (eg. fresh fruits), gliding, company</li>
                     <li>Dislikes: Clinginess, Tense situations </li>
                     <li>Best for: Owners with open space </li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides4">
                 <img src="../../../Images/Animals/guineapig.jpg" >
+                <div class="animal">
                 <h1>Guinea Pig</h1>
                 <ul>
                     <li>Likes: vegitables, Socializing</li>
                     <li>Dislikes: Loneliness, Tense situations </li>
                     <li>Best for: relaxed individuals</li>
                 </ul>
+                </div>
             </div>
             <div class="mySlides4">
                 <img src="../../../Images/Animals/hamster.jpg" >
+                <div class="animal">
                 <h1>Hamster</h1>
                 <ul>
                     <li>Likes: nuts, small spaces, balls </li>
                     <li>Dislikes: Sharing, loud noises</li>
                     <li>Best for: owners with small spaces</li>
                 </ul>
+                </div>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
@@ -234,30 +262,36 @@ include('../../Header/header.php'); ?>
 
             <div class="mySlides5">
                 <img src="../../../Images/Animals/giraffes.gif" >
+                <div class="animal">
                 <h1>Giraffe</h1>
                 <ul>
                     <li>Likes: Long walks, tall trees, open fields</li>
                     <li>Dislikes: riding them</li>
                     <li>Best for: big back yards with tall trees</li>
                 </ul>
+                </div>
             </div>
             <div  class="mySlides5">
                 <img src="../../../Images/Animals/alpaca.jpg" >
+                <div class="animal">
                 <h1>Alpaca</h1>
                 <ul>
                     <li>Likes: A good tussle and grain and watermelon</li>
                     <li>Dislikes: Being disturbed at meal time</li>
                     <li>Best for:People who like to get spit on</li>
                 </ul>
+                </div>
             </div>
             <div  class="mySlides5">
                 <img src="../../../Images/Animals/clownfish.png" >
+                <div class="animal">
                 <h1>Clown Fish</h1>
                 <ul>
                     <li>Likes: clean water, dory</li>
                     <li>Dislikes: Abusive children</li>
                     <li>Best for: doing the minimal</li>
                 </ul>
+                </div>
             </div>
             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
@@ -265,7 +299,7 @@ include('../../Header/header.php'); ?>
 
         <script>
             var slideIndex = [1,1,1,1,1];
-            var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5"];
+            var slideId = ["mySlides1", "mySlides2","mySlides3", "mySlides4","mySlides5"]
             showDivs(1, 0);
             showDivs(1, 1);
             showDivs(1, 2);
