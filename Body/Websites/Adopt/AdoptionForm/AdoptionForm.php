@@ -2,7 +2,7 @@
 if (isset($_POST['adopt'])) {
     session_start();
     $conn = oci_connect('admin', 'Mimiplays23610', 'megaproject_high');
-    $d = date("yyyy/mm/dd");
+    $d = date("yy/m/d");
     $n = $_POST['n'];
     $a = $_POST['a'];
 
