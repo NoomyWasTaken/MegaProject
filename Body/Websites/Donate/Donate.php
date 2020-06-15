@@ -26,7 +26,7 @@ include('../../Header/header.php'); ?>
                 <h1>Donate</h1>
 
                 <p>
-                    <label class="floatLabel" id="yes" for="Option">Method:</label>
+                    <label class="floatLabel" id="yes" for="Option">Method</label>
                     <select name="creditcare" id="species" onchange="method(this);">
                         <option id="none" value="">             </option>
                         <option id="mc" value="mastercard">  Mastercard  </option>
@@ -37,7 +37,7 @@ include('../../Header/header.php'); ?>
 
                 <div class="Input">
                     <p>
-                        <label class="floatLabel" for="amount">Amount: </label>
+                        <label class="floatLabel" for="amount">Amount</label>
                         <input  type="text" id="amount" name="amount" />
                     </p>
                 </div>
