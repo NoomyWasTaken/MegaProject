@@ -140,7 +140,7 @@ include('../../Header/header.php'); ?>
             <div class="UnderLine">
                 <h1>I want to help, but can't adopt!</h1>
                 <br>
-                <p><a href="../Volunteer/Volunteer.php"> HERE </a> to find out how!</p>
+                <p>No problems there either! You might already have a pet, or don't have the circumstances to adopt, but there is a way. Volunteer at one of our shelters and become a part of our family! Click <a href="../Volunteer/Volunteer.php"> HERE </a> to find out how!</p>
             </div>
             <hr id="hrline">
 
