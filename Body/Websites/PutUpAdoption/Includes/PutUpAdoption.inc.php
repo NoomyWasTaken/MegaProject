@@ -34,7 +34,7 @@ if (isset($_POST['put-up-submit'])) {
         $age = $_POST['age'];
         $shelter = $_POST['shelter'];
 
-        if (empty($name) || empty($species) || empty($breed) || empty($height) || empty($weight) || empty($gender) || empty($age) || empty($shelter)) {
+        if (empty($name) || empty($species) || empty($breed) || empty($height) || empty($weight) || empty($gender) || empty($age) || empty($shelter) || empty($file)) {
             header("Location: ../PutUpAdoption.php?error=emptyfields&name=".$name."&species=".$species."&breed=".$breed."&height=".$height."&weight=".$weight."&gender=".$gender."&age=".$age."&shelter=".$shelter."&shelter=".$file);
             exit();
         }
