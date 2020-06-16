@@ -40,7 +40,7 @@ if (isset($_POST['put-up-submit'])) {
         }
         else {
             $fileNewName = uniqid('', true).".".$fileActualExt;
-            $fileDestination = '../../../../Images/Adopt/'.$fileNewName;
+            $fileDestination = '../MegaProject/Images/Adopt/'.$fileNewName;
             move_uploaded_file($fileTmpName, $fileDestination);
 
             $sql = 'INSERT INTO animal (aname, age, height, weight, species, shelter_id, is_adopted, gender, image) VALUES (:aname, :age, :height, :weight, :species, :shelter_id, 0, :gender, :image)';
